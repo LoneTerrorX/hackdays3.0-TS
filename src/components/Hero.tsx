@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 import { Trophy, Code, Binary ,ChevronDown,Zap} from 'lucide-react';
-
+import {  NavigateFunction, useNavigate } from "react-router-dom";
 const BackgroundAnimation = () => (
+  
   <div className="absolute inset-0 overflow-hidden">
     {[...Array(20)].map((_, i) => (
       <motion.div
@@ -38,6 +39,11 @@ const titleVariants = {
 };
 
 export default function Hero() {
+  const navigate :  NavigateFunction = useNavigate();
+  const handleRoute = (route:string)=>{
+      navigate(route);
+  }
+  
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#1a1c4b] via-[#162454] to-[#0a0f2c] overflow-hidden">
       <BackgroundAnimation />
@@ -86,11 +92,11 @@ export default function Hero() {
         >
           <div className="flex items-center gap-2 text-yellow-400 text-2xl md:text-4xl font-bold">
             <Trophy className="w-8 h-8 md:w-12 md:h-12" />
-            <span className="animate-pulse">₹50,000 Prize Pool</span>
+            <span className="animate-pulse">₹40,000 Prize Pool</span>
           </div>
           
           <p className="text-blue-200 text-lg md:text-xl max-w-2xl">
-            Join us for an epic 24-hour hackathon, thrilling coding challenges, 
+            Join us for an epic 3 day hackathon, thrilling coding challenges, 
             and innovative tech competitions!
           </p>
           <br />
@@ -100,8 +106,8 @@ export default function Hero() {
             className="bg-gradient-to-r flex from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-xl font-bold shadow-lg hover:shadow-2xl transition-all duration-300 hover:from-blue-700 hover:to-purple-700 space"
           >
               <button
-              className=" text-white rounded-lg font-semibold  transition-all duration-300 hover:shadow-lg hover:shadow-indigo-500/50 animate-pulse-slow flex items-center gap-2"
-              
+              className="  animate-pulse-slow flex items-center gap-2"
+              onClick={()=>handleRoute('/register')}
             >
               Register Now  <Zap size={20} className="animate-bounce" />
             </button>
