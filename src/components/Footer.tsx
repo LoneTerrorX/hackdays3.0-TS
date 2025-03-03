@@ -86,8 +86,7 @@ const Footer = () => {
 
         {/* IT Department on a New Line */}
         <p className="text-blue-400 text-sm text-center w-full mt-2">
-          IT Department, <br />
-          Gauhati University
+          IT Department, Gauhati University
         </p>
       </div>
     </footer>
