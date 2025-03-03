@@ -7,7 +7,6 @@ export default function Sponsors() {
     threshold: 0.1
   });
 
-  // Example sponsor logos (replace with actual sponsor URLs)
   const sponsors = [
     'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/1200px-Indian_Oil_Logo.svg.png',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUexPimqS_r1hyj8LqtmbpXFfXYfeT7lcmBA&s',
@@ -18,7 +17,6 @@ export default function Sponsors() {
     'https://upload.wikimedia.org/wikipedia/en/7/78/Gauhati_University_Logo.jpeg',
     'https://cdn.discordapp.com/attachments/1007366113883078726/1346140270529351743/GRECS_logo.png?ex=67c71a52&is=67c5c8d2&hm=c565149d59dc5f98315a93f14f04bf8cdc887b15527ed5ea974b3ec89d60ff89&'
   ];
-    
 
   return (
     <div className="py-16 bg-gray-800" id="sponsors">
@@ -30,12 +28,21 @@ export default function Sponsors() {
           className="text-4xl font-bold text-center text-white mb-12"
         >
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
-          Our Sponsors
+            Our Sponsors
           </span>
         </motion.h2>
 
         <div className="relative overflow-hidden">
-          <div className="flex animate-scroll">
+          <motion.div
+            className="flex"
+            initial={{ x: "100%" }}
+            animate={{ x: "-100%" }}
+            transition={{
+              ease: "linear",
+              duration: 20,
+              repeat: Infinity
+            }}
+          >
             {[...sponsors, ...sponsors].map((logo, index) => (
               <div
                 key={index}
@@ -48,7 +55,7 @@ export default function Sponsors() {
                 />
               </div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
