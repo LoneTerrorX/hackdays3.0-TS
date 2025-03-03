@@ -20,7 +20,7 @@ const Landing = () => {
         <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div className="max-w-7xl mx-auto relative z-10">
           <h2 className="text-4xl font-bold text-center mb-16 animate-text-glow">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-800 to-purple-500">
               Official Merchandise
             </span>
           </h2>

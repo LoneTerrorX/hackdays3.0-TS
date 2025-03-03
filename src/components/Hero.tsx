@@ -65,7 +65,7 @@ export default function Hero() {
           <motion.h1 
             className="text-6xl md:text-7xl font-brick bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 mb-4"
             animate={{ 
-              backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
+              backgroundPosition: ["0% 50%", "300% 50%", "100% 50%"],
             }}
             transition={{ 
               duration: 5,
