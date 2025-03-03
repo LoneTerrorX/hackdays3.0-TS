@@ -62,9 +62,12 @@ export default function Feedback() {
               transition={{ delay: index * 0.1 }}
               className="bg-[#162454] p-6 rounded-xl shadow-lg"
             >
-              <div className="flex gap-2 mb-2">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+              <div className="flex gap-1 mb-2">
+                {[...Array(5)].map((_, i) => (
+                  <Star
+                    key={i}
+                    className={`w-5 h-5 ${i < testimonial.rating ? "text-yellow-400 fill-current" : "text-gray-500"}`}
+                  />
                 ))}
               </div>
               <p className="text-blue-200 mb-4">{testimonial.message}</p>

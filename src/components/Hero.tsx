@@ -105,8 +105,8 @@ export default function Hero() {
                     </div>
 
                     <p className="text-blue-200 text-lg md:text-xl max-w-2xl">
-                        Join us for an epic 3 day hackathon, thrilling coding
-                        challenges, and innovative tech competitions!
+                        Join us for an epic 3 day adventure including hackathon, 
+                        thrilling coding challenges alongwith innovative tech competitions!
                     </p>
                     <br />
                     <motion.button

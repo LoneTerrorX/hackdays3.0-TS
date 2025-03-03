@@ -32,9 +32,9 @@ const events = [
     color: "from-green-600 to-emerald-600",
   },
   {
-    title: "Forza Racing",
+    title: "Valorant Tournament",
     icon: Car,
-    description: "Race to victory in high-stakes Forza competitions",
+    description: "Are you really an e-sports champion? \u00A0\u00A0\u00A0 Let's Find Out!",
     color: "from-blue-600 to-cyan-600",
   },
   {
