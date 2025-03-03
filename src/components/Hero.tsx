@@ -98,7 +98,7 @@ export default function Hero() {
                     className="flex flex-col items-center gap-6"
                 >
                     <div className="flex items-center gap-2 text-yellow-400 text-2xl md:text-4xl font-bold">
-                        <Trophy className="w-8 h-8 md:w-12 md:h-12" />
+                        <Trophy className="w-8 h-8 md:w-12 md:h-8" />
                         <span className="animate-pulse">
                         Prize Pool: ??? (Decrypting Soon...)
 
