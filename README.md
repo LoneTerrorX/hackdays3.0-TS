@@ -1,4 +1,4 @@
-# A React-Vite Webapp for HackDays 3.0
+# React-Vite Webapp for HackDays 3.0
 
 
 Made with :sparkling_heart: by: 
