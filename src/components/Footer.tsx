@@ -67,12 +67,12 @@ export default function Footer() {
               <a href="https://github.com/Shubrajit22">  <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
               Shubrajit Deb ,
           </span></a>
-              <a href=""> <a href="https://github.com/">  <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
+              <a href=""> <a href="https://github.com/midankalahon786">  <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
               Midanka Lahon
           </span></a></a>
           Maintained by
-          <a href="https://github.com/">  <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
-             Prasun Chakroborty
+          <a href="https://github.com/LoneTerror">  <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
+             Prasun Chakraborty
           </span></a>
           <div>
           IT Department, 

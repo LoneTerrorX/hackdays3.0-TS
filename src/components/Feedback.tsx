@@ -5,33 +5,33 @@ import { MessageSquare, Star } from 'lucide-react';
 const testimonials = [
   {
     name: "Shubrajit Deb",
-    year: "2021-22",
+    year: "2023-24",
     message: "An amazing experience that helped me grow as a developer!",
     rating: 5
   },
   {
     name: "Midanka Lahon",
-    year: "2022",
+    year: "2023-24",
     message: "The challenges were tough but incredibly rewarding.",
-    rating: 5
+    rating: 4
   },
   {
-    name: "Prasun Chakroborty",
-    year: "2021",
+    name: "Prasun Chakraborty",
+    year: "2023-24",
     message: "Great organization and learning opportunities.",
     rating: 4
   },
   {
     name: "Arijit Banik",
-    year: "2021",
+    year: "2023-24",
     message: "Made great connections and learned new technologies.",
     rating: 5
   },
   {
     name: "Subarna Saikia",
-    year: "2021-22",
+    year: "2023-24",
     message: "Made great connections and learned new technologies.",
-    rating: 5
+    rating: 4
   }
 ];
 

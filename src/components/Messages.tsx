@@ -33,16 +33,16 @@ export default function Messages() {
             <Quote className="absolute text-white/10 w-24 h-24 -top-4 -left-4" />
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200"
-                alt="Director"
+                src="https://gauhati.ac.in/media/people/1658995408.jpg"
+                alt="Head of Dept."
                 className="w-24 h-24 rounded-full object-cover border-4 border-purple-400 mb-6"
               />
               <blockquote className="text-white text-lg mb-6">
                 "Hackdays 3.0 represents our commitment to fostering innovation and technical excellence. This event brings together the brightest minds to create, compete, and collaborate."
               </blockquote>
               <div>
-                <h3 className="text-white font-bold text-xl">Dr. Shikhar Sharma</h3>
-                <p className="text-purple-300">Director</p>
+                <h3 className="text-white font-bold text-xl">Prof. Shikhar Sharma</h3>
+                <p className="text-purple-300">Head of Dept.</p>
               </div>
             </div>
           </motion.div>
@@ -56,7 +56,7 @@ export default function Messages() {
             <Quote className="absolute text-white/10 w-24 h-24 -top-4 -left-4" />
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200"
+                src="https://gauhati.ac.in/media/people/1715582992.jpg"
                 alt="Faculty Advisor"
                 className="w-24 h-24 rounded-full object-cover border-4 border-blue-400 mb-6"
               />

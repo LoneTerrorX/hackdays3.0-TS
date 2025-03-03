@@ -8,7 +8,15 @@ export default function Sponsors() {
   });
 
   // Example sponsor logos (replace with actual sponsor URLs)
-  const sponsors = Array(8).fill('https://images.unsplash.com/photo-1563986768609-322da13575f3?w=300');
+  const sponsors = [
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/1200px-Indian_Oil_Logo.svg.png',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUexPimqS_r1hyj8LqtmbpXFfXYfeT7lcmBA&s',
+    'https://upload.wikimedia.org/wikipedia/en/7/78/Gauhati_University_Logo.jpeg',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/1200px-Indian_Oil_Logo.svg.png',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUexPimqS_r1hyj8LqtmbpXFfXYfeT7lcmBA&s',
+    'https://upload.wikimedia.org/wikipedia/en/7/78/Gauhati_University_Logo.jpeg'
+  ];
+    
 
   return (
     <div className="py-16 bg-gray-800" id="sponsors">
