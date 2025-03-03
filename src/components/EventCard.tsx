@@ -12,49 +12,49 @@ export const eventsData = {
     icon: <Code2 className="h-8 w-8" />,
     description: "48-hour coding marathon to build innovative solutions. Showcase your coding skills and creativity.",
     formLink: "https://forms.google.com/hackathon",
-    prizePool: "₹5,000"
+    prizePool: "TBA"
   },
   "CodeGem": {
     title: "CodeGem",
     icon: <Trophy className="h-8 w-8" />,
     description: "Competitive programming contest to solve complex algorithmic challenges within time constraints.",
     formLink: "https://forms.google.com/codegem",
-    prizePool: "₹5,000"
+    prizePool: "TBA"
   },
   "FIFA": {
     title: "FIFA",
     icon: <Gamepad2 className="h-8 w-8" />,
     description: "Show off your virtual football skills in this exciting FIFA tournament.",
     formLink: "https://forms.google.com/fifa",
-    prizePool: "₹5,000"
+    prizePool: "TBA"
   },
   "Valorant": {
     title: "Valorant",
     icon: <Swords className="h-8 w-8" />,
     description: "Team-based tactical FPS competition. Coordinate with your squad and outplay opponents.",
     formLink: "https://forms.google.com/valorant",
-    prizePool: "₹5,000"
+    prizePool: "TBA"
   },
   "BGMI": {
     title: "BGMI",
     icon: <Smartphone className="h-8 w-8" />,
     description: "Battle Royale mobile gaming tournament. Survive and become the last team standing.",
     formLink: "https://forms.google.com/bgmi",
-    prizePool: "₹5,000"
+    prizePool: "TBA"
   },
   "Chess": {
     title: "Chess",
     icon: <ChevronRight className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
     formLink: "https://forms.google.com/chess",
-    prizePool: "₹5,000"
+    prizePool: "TBA"
   },
   "Graphics Designing": {
     title: "Graphics Designing",
     icon: <PenTool className="h-8 w-8" />,
     description: "Showcase your creative design skills and artistic vision in this design competition.",
     formLink: "https://forms.google.com/graphics",
-    prizePool: "₹5,000"
+    prizePool: "TBA"
   }
 };
 
