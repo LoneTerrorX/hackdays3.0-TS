@@ -100,7 +100,7 @@ export default function Hero() {
                     <div className="flex items-center gap-2 text-yellow-400 text-2xl md:text-4xl font-bold">
                         <Trophy className="w-8 h-8 md:w-12 md:h-12" />
                         <span className="animate-pulse">
-                        Prize Pool: Launching into Orbit... Stay Tuned!
+                        Prize Pool: ??? (Decrypting Soon...)
 
                         </span>
                     </div>
