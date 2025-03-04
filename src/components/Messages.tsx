@@ -41,7 +41,7 @@ export default function Messages() {
                 "Hackdays 3.0 represents our commitment to fostering innovation and technical excellence. This event brings together the brightest minds to create, compete, and collaborate."
               </blockquote>
               <div>
-                <h3 className="text-white font-bold text-xl">Prof. Shikhar Sharma</h3>
+                <h3 className="text-white font-bold text-xl">Prof. Shikhar Kumar Sarma</h3>
                 <p className="text-purple-300">Head of Dept.</p>
               </div>
             </div>
