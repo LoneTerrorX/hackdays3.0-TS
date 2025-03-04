@@ -33,7 +33,7 @@ const events = [
   },
   {
     title: "Valorant Tournament",
-    icon: Car,
+    icon: Gamepad2,
     description: "Are you really an e-sports champion? \u00A0\u00A0\u00A0 Let's Find Out!",
     color: "from-blue-600 to-cyan-600",
   },
