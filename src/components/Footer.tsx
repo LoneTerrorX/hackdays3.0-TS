@@ -1,23 +1,24 @@
 import { motion } from "framer-motion";
-import { Instagram, Twitter, Facebook, Heart } from "lucide-react";
+import { Instagram, Heart, Linkedin } from "lucide-react";
+import XLogo from "/icons/x.svg";
 
 const socialLinks = [
   {
     name: "Instagram",
     icon: Instagram,
-    url: "https://instagram.com/it_gauhati_university",
+    url: "https://www.instagram.com/_hackdays_?igsh=MTFrdm5rb29lOWs5dg==",
     color: "hover:text-pink-500",
   },
   {
-    name: "Twitter",
-    icon: Twitter,
-    url: "https://twitter.com/GauhatiUniv",
-    color: "hover:text-blue-400",
+    name: "X",
+    icon: XLogo,
+    url: "https://x.com/_HackDays_?t=PTs5CHJUMF5BQtvVQP7VOA&s=09",
+    color: "hover:text-white",
   },
   {
-    name: "Facebook",
-    icon: Facebook,
-    url: "https://facebook.com/GauhatiUniversity",
+    name: "LinkedIn",
+    icon: Linkedin,
+    url: "https://www.linkedin.com/company/hack-days-2-0/",
     color: "hover:text-blue-600",
   },
 ];
@@ -38,8 +39,6 @@ const Footer = () => {
   return (
     <footer className="w-full bg-gray-900 text-white py-6 mt-10">
       <div className="container mx-auto px-4 text-center">
-        
-        {/* Social Media Icons with Animations */}
         <div className="flex justify-center space-x-6 mb-4">
           {socialLinks.map((social) => (
             <motion.a
@@ -47,11 +46,21 @@ const Footer = () => {
               href={social.url}
               target="_blank"
               rel="noopener noreferrer"
-              className={`text-blue-400 ${social.color} transition-colors duration-300`}
+              className={`text-blue-400 transition-colors duration-300 ${
+                social.name === "X" ? "group hover:text-white" : social.color
+              }`}
               whileHover="hover"
               variants={iconVariants}
             >
-              <social.icon className="w-8 h-8" />
+              {social.name === "X" ? (
+                <img
+                  src={social.icon}
+                  alt="X Logo"
+                  className="w-8 h-8 transition-colors duration-300 group-hover:brightness-0 group-hover:invert"
+                />
+              ) : (
+                <social.icon className="w-8 h-8" />
+              )}
             </motion.a>
           ))}
         </div>
@@ -60,7 +69,6 @@ const Footer = () => {
           Follow us for updates and announcements
         </p>
 
-        {/* Developer Credits */}
         <motion.p
           className="text-blue-400 text-sm flex flex-wrap items-center justify-center gap-2 text-center max-w-full px-4"
           whileHover={{ scale: 1.05 }}
@@ -84,7 +92,6 @@ const Footer = () => {
           </a>
         </motion.p>
 
-        {/* IT Department on a New Line */}
         <p className="text-blue-400 text-sm text-center w-full mt-2">
           IT Department, Gauhati University
         </p>
