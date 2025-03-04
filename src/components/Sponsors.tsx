@@ -11,11 +11,11 @@ export default function Sponsors() {
     'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/1200px-Indian_Oil_Logo.svg.png',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUexPimqS_r1hyj8LqtmbpXFfXYfeT7lcmBA&s',
     'https://upload.wikimedia.org/wikipedia/en/7/78/Gauhati_University_Logo.jpeg',
-    'https://cdn.discordapp.com/attachments/1007366113883078726/1346140270529351743/GRECS_logo.png?ex=67c71a52&is=67c5c8d2&hm=c565149d59dc5f98315a93f14f04bf8cdc887b15527ed5ea974b3ec89d60ff89&',
+    'https://images.unsplash.com/vector-1741113755107-5fa5aa1b8da0?q=80&w=2440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/1200px-Indian_Oil_Logo.svg.png',
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUexPimqS_r1hyj8LqtmbpXFfXYfeT7lcmBA&s',
     'https://upload.wikimedia.org/wikipedia/en/7/78/Gauhati_University_Logo.jpeg',
-    'https://cdn.discordapp.com/attachments/1007366113883078726/1346140270529351743/GRECS_logo.png?ex=67c71a52&is=67c5c8d2&hm=c565149d59dc5f98315a93f14f04bf8cdc887b15527ed5ea974b3ec89d60ff89&'
+    'https://images.unsplash.com/vector-1741113755107-5fa5aa1b8da0?q=80&w=2440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
   ];
 
   return (
