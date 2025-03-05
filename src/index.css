@@ -37,8 +37,8 @@ body {
 
 @font-face {
   font-family: 'NT Brick Sans';
-  src: url('../public/fonts/NTBrickSans.otf') format('opentype'),
-       url('../public/fonts/NTBrickSans.ttf') format('truetype');
+  src: url('../fonts/NTBrickSans.otf') format('opentype'),
+       url('../fonts/NTBrickSans.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

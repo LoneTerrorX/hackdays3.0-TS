@@ -1,7 +1,6 @@
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { BrowserRouter, Route, Routes,  } from "react-router-dom";
 import Landing from "./components/Landing";
-import EventShowcase from "./components/EventCard";
+import EventCard from "./components/EventCard";
 import Events from "./components/Events";
 import Hackathon from "./components/Hackathon";
 import BugBounty from "./components/BugBounty";
@@ -11,19 +10,7 @@ import ValorantTournament from "./components/ValorantTournament";
 import BGMITournament from "./components/BGMITournament";
 import FIFATournament from "./components/FIFATournament";
 import Brochure from "./components/Brochure";
-
-/**
- * Component to handle Google Analytics page tracking on route changes
- */
-const AnalyticsHandler = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    sendPageView(location.pathname);
-  }, [location]);
-
-  return null; // This component doesn't render anything
-};
+import Gallery from "./components/Gallery";
 
 
 
@@ -33,8 +20,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/register" element={<EventShowcase />} />
+        <Route path="/register" element={<EventCard title="Event Title" description="Event Description" color="blue" Icon="SomeIcon" path="/register" index={0} inView={true} />} />
         <Route path="/brochure" element={<Brochure />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/events" element={<Events />} />
         <Route path="/events/hackathon" element={<Hackathon />} />
         <Route path="/events/bug-bounty" element={<BugBounty />} />

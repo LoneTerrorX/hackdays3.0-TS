@@ -1,4 +1,4 @@
-// components/Events/EventCard.tsx
+
 import { motion } from "framer-motion";
 import { FC } from "react";
 import { useNavigate } from "react-router-dom";
