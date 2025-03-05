@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import { Trophy, Binary, ChevronDown, Zap, Menu } from "lucide-react";
+import { Trophy, Code, Binary, ChevronDown, Zap, Menu } from "lucide-react";
 import { NavigateFunction, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const navLinks = [
     { name: "Hackdays", path: "/" },
     { name: "Merch", path: "/merch" },
-    { name: "Brochure", path: "/brochure" },
+    { name: "Brochure", path: "/events" },
     { name: "Gallery", path: "/gallery" },
     { name: "About Us", path: "/about" },
 ];
@@ -16,9 +16,14 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 w-full bg-black/40 backdrop-blur-md z-50 shadow-md px-12 py-4 flex justify-between items-center">
-            <h1 className="text-white text-2xl font-bold cursor-pointer" onClick={() => navigate("/")}>Hackdays 3.0</h1>
-            <div className="hidden md:flex space-x-16">
+        <nav className="fixed top-0 left-0 w-full bg-black/40 backdrop-blur-md z-50 shadow-md px-6 py-4 flex justify-between items-center">
+            <img
+                src="\HACKDAYS_3.0_1-Photoroom.png"
+                alt="Hackdays Logo"
+                className="h-12 scale-150 cursor-pointer transform transition-transform duration-300"
+                onClick={() => navigate("/")}
+            />
+            <div className="hidden md:flex space-x-6">
                 {navLinks.map((link) => (
                     <button
                         key={link.name}

@@ -1,5 +1,7 @@
+"use client";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useNavigate } from "react-router-dom";
 import {
   Gamepad2,
   Timer,
@@ -12,54 +14,61 @@ import {
 
 const events = [
   {
-    title: "24Hr Hackathon",
+    title: "Hackathon",
     icon: Timer,
-    description:
-    "Code your way to glory in this intense 24-hour coding marathon",
+    description: "Hack your ideas into reality in this competitive hackathon",
     color: "from-purple-600 to-pink-600",
+    link: "/events/hackathon",
   },
   {
     title: "Bug Bounty Hunt",
     icon: Search,
     description: "Find the bugs, solve the puzzles, claim the bounty",
     color: "from-yellow-600 to-amber-600",
+    link: "/events/bug-bounty",
   },
   {
     title: "Quiz",
     icon: Lightbulb,
     description: "Connect, collaborate, and create in this unique event",
     color: "from-teal-600 to-green-600",
+    link: "/events/quiz",
   },
   {
     title: "Typing Speed",
     icon: Keyboard,
-    description: "Test your typing speed and flex your accuracy ",
+    description: "Test your typing speed and flex your accuracy",
     color: "from-indigo-600 to-violet-600",
+    link: "/events/typing-speed",
   },
   {
     title: "Chess Masters",
     icon: ChessKnight,
     description: "Strategic battles on the chessboard be the IT chess GM",
-    color: "from-gray-600 to-slate-600",
+    color: "from-blue-600 to-cyan-600",
+    link: "/events/chess",
   },
   {
     title: "Valorant Tournament",
     icon: Gamepad2,
-    description: "Are you really an e-sports champion? \u00A0\u00A0\u00A0 Let's Find Out!",
-    color: "from-blue-600 to-cyan-600",
+    description: "Are you really an e-sports champion? Let's Find Out!",
+    color: "from-red-600 to-rose-600",
+    link: "/events/valorant-tournament",
   },
   {
-    title: "BGMI Tournament",
-    icon: Gamepad2,
+    title: "BGMI Tounament",
+    icon: Trophy,
     description: "Battle it out in BGMI for ultimate gaming supremacy",
-    color: "from-orange-600 to-red-600",
+    color: "from-purple-600 to-pink-600",
+    link: "/events/bgmi-tournament",
   },
   {
     title: "FIFA Championship",
-    icon: Trophy,
-    description: "Show off your football skills in our FIFA tournament",
-    color: "from-green-600 to-emerald-600",
-  },
+    icon: Gamepad2,
+    description: "Show off your FIFA skills and win exciting prizes",
+    color: "from-yellow-600 to-amber-600",
+    link: "/events/fifa-tournament",
+  }
 ];
 
 const cardVariants = {
@@ -75,23 +84,13 @@ const cardVariants = {
   }),
 };
 
-const iconVariants = {
-  hidden: { scale: 0 },
-  visible: {
-    scale: 1,
-    transition: {
-      type: "spring",
-      stiffness: 200,
-      damping: 10,
-    },
-  },
-};
-
 export default function Events() {
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
+  const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
+  const navigate = useNavigate();
+
+  const handleCardClick = (link: string) => {
+    navigate(link);
+  };
 
   return (
     <div className="py-20 bg-gray-900" id="events">
@@ -115,30 +114,19 @@ export default function Events() {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
               variants={cardVariants}
-              whileHover={{
-                scale: 1.05,
-                transition: { duration: 0.2 },
-              }}
+              whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
               className="relative group cursor-pointer"
+              onClick={() => handleCardClick(event.link)}
             >
-              <div
-                className={`h-full bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300`}
-              >
+              <div className="h-full bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
                 <div
                   className={`p-6 bg-gradient-to-r ${event.color} transform transition-transform duration-300 group-hover:scale-105`}
                 >
-                  <motion.div variants={iconVariants} className="relative z-10">
-                    <event.icon className="w-12 h-12 text-white mb-4" />
-                  </motion.div>
+                  <event.icon className="w-12 h-12 text-white mb-4" />
                   <h3 className="text-xl font-bold text-white mb-2">
                     {event.title}
                   </h3>
                   <p className="text-gray-200">{event.description}</p>
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    initial={false}
-                    whileHover={{ opacity: 1 }}
-                  />
                 </div>
               </div>
             </motion.div>
