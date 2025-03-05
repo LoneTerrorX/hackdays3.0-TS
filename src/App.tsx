@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Landing from "./components/Landing";
-import EventShowcase from "./components/EventCard";
+import EventCard from "./components/EventCard";
 import Brochure from "./components/brochure";
 
 
@@ -10,7 +10,7 @@ const App: React.FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/register" element={<EventShowcase />} />
+        <Route path="/register" element={<EventCard />} />
         <Route path="/brochure" element={<Brochure />} />
       </Routes>
     </BrowserRouter>
