@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Landing from "./components/Landing";
 import EventShowcase from "./components/EventCard";
+import Brochure from "./components/brochure";
 
 /**
  * Component to handle Google Analytics page tracking on route changes
@@ -13,7 +14,7 @@ const AnalyticsHandler = () => {
     sendPageView(location.pathname);
   }, [location]);
 
-  return null; // This component doesn't render anything
+  return null;
 };
 
 const App: React.FC = () => {
@@ -22,6 +23,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/register" element={<EventShowcase />} />
+        <Route path="/brochure" element={<Brochure />} />
       </Routes>
     </BrowserRouter>
   );
