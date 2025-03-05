@@ -20,12 +20,6 @@ const events = [
     color: "from-purple-600 to-pink-600",
   },
   {
-    title: "BGMI Tournament",
-    icon: Gamepad2,
-    description: "Battle it out in BGMI for ultimate gaming supremacy",
-    color: "from-orange-600 to-red-600",
-  },
-  {
     title: "FIFA Championship",
     icon: Trophy,
     description: "Show off your football skills in our FIFA tournament",
@@ -36,6 +30,12 @@ const events = [
     icon: Gamepad2,
     description: "Are you really an e-sports champion? \u00A0\u00A0\u00A0 Let's Find Out!",
     color: "from-blue-600 to-cyan-600",
+  },
+  {
+    title: "BGMI Tournament",
+    icon: Gamepad2,
+    description: "Battle it out in BGMI for ultimate gaming supremacy",
+    color: "from-orange-600 to-red-600",
   },
   {
     title: "Chess Masters",

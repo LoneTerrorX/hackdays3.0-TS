@@ -64,7 +64,7 @@ export default function Messages() {
                 "Our goal is to provide a platform where students can showcase their skills, learn from peers, and push the boundaries of what's possible in technology."
               </blockquote>
               <div>
-                <h3 className="text-white font-bold text-xl">Dr. Rupam Bhattacharyya</h3>
+                <h3 className="text-white font-bold text-xl"><br />Dr. Rupam Bhattacharyya</h3>
                 <p className="text-blue-300">Faculty Advisor</p>
               </div>
             </div>
