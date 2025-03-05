@@ -5,10 +5,10 @@ import { useState } from "react";
 
 const navLinks = [
     { name: "Hackdays", path: "/" },
-    { name: "Events", path: "/events" },
+    { name: "Merch", path: "/merch" },
+    { name: "Brochure", path: "/events" },
     { name: "Gallery", path: "/gallery" },
     { name: "About Us", path: "/about" },
-    { name: "Merch", path: "/merch" },
 ];
 
 const Navbar = () => {

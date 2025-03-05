@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Code2, Trophy, Gamepad2, Swords, Smartphone, ChevronRight, PenTool } from 'lucide-react';
+import { Code2, Trophy, Gamepad2, Smartphone, ChevronRight, PenTool, Keyboard, BugPlay, Lightbulb, Glasses, Palette} from 'lucide-react';
 
 interface EventCardProps {
   eventType: keyof typeof eventsData;
@@ -30,7 +30,7 @@ export const eventsData = {
   },
   "Valorant": {
     title: "Valorant",
-    icon: <Swords className="h-8 w-8" />,
+    icon: <Gamepad2 className="h-8 w-8" />,
     description: "Team-based tactical FPS competition. Coordinate with your squad and outplay opponents.",
     formLink: "https://forms.google.com/valorant",
     prizePool: "TBA"
@@ -53,6 +53,41 @@ export const eventsData = {
     title: "Graphics Designing",
     icon: <PenTool className="h-8 w-8" />,
     description: "Showcase your creative design skills and artistic vision in this design competition.",
+    formLink: "https://forms.google.com/graphics",
+    prizePool: "TBA"
+  },
+  "Bug Bounty": {
+    title: "Bug Bounty",
+    icon: <BugPlay className="h-8 w-8" />,
+    description: "Find The Bugs, Debug it & claim the bounty.",
+    formLink: "https://forms.google.com/graphics",
+    prizePool: "TBA"
+  },
+  "Kala-Kriti": {
+    title: "Kala-Kriti",
+    icon: <Palette className="h-8 w-8" />,
+    description: "Do you have the artist in you? Combine it with your creativity skills & build something new!",
+    formLink: "https://forms.google.com/graphics",
+    prizePool: "TBA"
+  },
+  "Cypher": {
+    title: "Cypher",
+    icon: <Glasses className="h-8 w-8" />,
+    description: "Decrypt the puzzles to become modern age Mr. Robot, f-society :)",
+    formLink: "https://forms.google.com/graphics",
+    prizePool: "TBA"
+  },
+  "Quiz": {
+    title: "Quiz",
+    icon: <Lightbulb className="h-8 w-8" />,
+    description: "Revv up your Nervous Engine to outperform & win amazing knowledge with prizes!",
+    formLink: "https://forms.google.com/graphics",
+    prizePool: "TBA"
+  },
+  "Typing Speed": {
+    title: "Typing Speed",
+    icon: <Keyboard className="h-8 w-8" />,
+    description: "Can you type with keyboard as a Stenographer, if yes then this is the perfect oppurtunity for you!",
     formLink: "https://forms.google.com/graphics",
     prizePool: "TBA"
   }

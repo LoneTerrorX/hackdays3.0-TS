@@ -5,7 +5,6 @@ import {
   Timer,
   ChevronRight as ChessKnight,
   Trophy,
-  Car,
   Keyboard,
   Search,
   Users,
