@@ -25,7 +25,7 @@ export const eventsData = {
     title: "FIFA",
     icon: <Gamepad2 className="h-8 w-8" />,
     description: "Show off your virtual football skills in this exciting FIFA tournament.",
-    formLink: "https://forms.google.com/fifa",
+    formLink: "https://forms.google.com/",
     prizePool: "TBA"
   },
   "Valorant": {

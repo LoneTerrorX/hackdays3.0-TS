@@ -7,7 +7,7 @@ import {
   Trophy,
   Keyboard,
   Search,
-  Users,
+  Lightbulb,
 } from "lucide-react";
 
 const events = [
@@ -15,14 +15,32 @@ const events = [
     title: "24Hr Hackathon",
     icon: Timer,
     description:
-      "Code your way to glory in this intense 24-hour coding marathon",
+    "Code your way to glory in this intense 24-hour coding marathon",
     color: "from-purple-600 to-pink-600",
   },
   {
-    title: "FIFA Championship",
-    icon: Trophy,
-    description: "Show off your football skills in our FIFA tournament",
-    color: "from-green-600 to-emerald-600",
+    title: "Bug Bounty Hunt",
+    icon: Search,
+    description: "Find the bugs, solve the puzzles, claim the bounty",
+    color: "from-yellow-600 to-amber-600",
+  },
+  {
+    title: "Quiz",
+    icon: Lightbulb,
+    description: "Connect, collaborate, and create in this unique event",
+    color: "from-teal-600 to-green-600",
+  },
+  {
+    title: "Typing Speed",
+    icon: Keyboard,
+    description: "Test your typing speed and flex your accuracy ",
+    color: "from-indigo-600 to-violet-600",
+  },
+  {
+    title: "Chess Masters",
+    icon: ChessKnight,
+    description: "Strategic battles on the chessboard be the IT chess GM",
+    color: "from-gray-600 to-slate-600",
   },
   {
     title: "Valorant Tournament",
@@ -37,28 +55,10 @@ const events = [
     color: "from-orange-600 to-red-600",
   },
   {
-    title: "Chess Masters",
-    icon: ChessKnight,
-    description: "Strategic battles on the chessboard be the IT chess GM",
-    color: "from-gray-600 to-slate-600",
-  },
-  {
-    title: "Bug Bounty Hunt",
-    icon: Search,
-    description: "Find the bugs, solve the puzzles, claim the bounty",
-    color: "from-yellow-600 to-amber-600",
-  },
-  {
-    title: "Typing Speed",
-    icon: Keyboard,
-    description: "Test your typing speed and flex your accuracy ",
-    color: "from-indigo-600 to-violet-600",
-  },
-  {
-    title: "Floran",
-    icon: Users,
-    description: "Connect, collaborate, and create in this unique event",
-    color: "from-teal-600 to-green-600",
+    title: "FIFA Championship",
+    icon: Trophy,
+    description: "Show off your football skills in our FIFA tournament",
+    color: "from-green-600 to-emerald-600",
   },
 ];
 
