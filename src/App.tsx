@@ -24,7 +24,10 @@ const AnalyticsHandler = () => {
   return null; // This component doesn't render anything
 };
 
-const App: React.FC = () => {
+
+
+
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -41,6 +44,6 @@ const App: React.FC = () => {
       </Routes>
     </BrowserRouter>
   );
-};
+}
 
 export default App;
