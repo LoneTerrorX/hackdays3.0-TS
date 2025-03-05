@@ -1,21 +1,7 @@
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Landing from "./components/Landing";
 import EventShowcase from "./components/EventCard";
 import Brochure from "./components/brochure";
-
-/**
- * Component to handle Google Analytics page tracking on route changes
- */
-const AnalyticsHandler = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    sendPageView(location.pathname);
-  }, [location]);
-
-  return null;
-};
 
 const App: React.FC = () => {
   return (
