@@ -10,6 +10,7 @@ import TypingSpeed from "./components/TypingSpeed";
 import ValorantTournament from "./components/ValorantTournament";
 import BGMITournament from "./components/BGMITournament";
 import FIFATournament from "./components/FIFATournament";
+import Brochure from "./components/Brochure";
 
 /**
  * Component to handle Google Analytics page tracking on route changes
@@ -33,6 +34,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/register" element={<EventShowcase />} />
+        <Route path="/brochure" element={<Brochure />} />
         <Route path="/events" element={<Events />} />
         <Route path="/events/hackathon" element={<Hackathon />} />
         <Route path="/events/bug-bounty" element={<BugBounty />} />

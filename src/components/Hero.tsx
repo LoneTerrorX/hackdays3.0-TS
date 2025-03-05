@@ -6,7 +6,7 @@ import { useState } from "react";
 const navLinks = [
     { name: "Hackdays", path: "/" },
     { name: "Merch", path: "/merch" },
-    { name: "Brochure", path: "/events" },
+    { name: "Brochure", path: "/brochure" },
     { name: "Gallery", path: "/gallery" },
     { name: "About Us", path: "/about" },
 ];
