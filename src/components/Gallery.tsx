@@ -2,15 +2,16 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
+import Navbar from './Navbar';
 
 // Sample gallery images - replace with your actual images
 const galleryImages = [
-  { id: 1, src: '/public/P1.jpg', alt: 'Gallery Image 1' },
-  { id: 2, src: '/public/P2.jpg', alt: 'Gallery Image 2' },
-  { id: 3, src: '/public/P3.jpg', alt: 'Gallery Image 3' },
-  { id: 4, src: '/public/P4.jpg', alt: 'Gallery Image 4' },
-  { id: 5, src: '/public/P5.jpg', alt: 'Gallery Image 5' },
-  { id: 6, src: '/public/P6.jpg', alt: 'Gallery Image 6' },
+  { id: 1, src: '/P1.jpg', alt: 'Gallery Image 1' },
+  { id: 2, src: '/P2.jpg', alt: 'Gallery Image 2' },
+  { id: 3, src: '/P3.jpg', alt: 'Gallery Image 3' },
+  { id: 4, src: '/P4.jpg', alt: 'Gallery Image 4' },
+  { id: 5, src: '/P5.jpg', alt: 'Gallery Image 5' },
+  { id: 6, src: '/P6.jpg', alt: 'Gallery Image 6' },
 ];
 
 const Gallery: React.FC = () => {
@@ -26,6 +27,7 @@ const Gallery: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#000000] to-[#0a0f2c] py-12 px-4 sm:px-6 lg:px-8">
+      <Navbar />
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-indigo-300 sm:text-6xl">

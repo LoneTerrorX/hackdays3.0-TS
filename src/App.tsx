@@ -11,7 +11,8 @@ import BGMITournament from "./components/BGMITournament";
 import FIFATournament from "./components/FIFATournament";
 import Brochure from "./components/Brochure";
 import Gallery from "./components/Gallery";
-
+import AboutUs from "./components/AboutUS";
+import Merch from "./components/Merch";
 
 
 
@@ -23,6 +24,8 @@ function App() {
         <Route path="/register" element={<EventCard title="Event Title" description="Event Description" color="blue" Icon="SomeIcon" path="/register" index={0} inView={true} />} />
         <Route path="/brochure" element={<Brochure />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/merch" element={<Merch />} />
         <Route path="/events" element={<Events />} />
         <Route path="/events/hackathon" element={<Hackathon />} />
         <Route path="/events/bug-bounty" element={<BugBounty />} />
