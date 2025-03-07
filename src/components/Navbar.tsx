@@ -16,7 +16,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 w-full bg-black/20 backdrop-blur-md z-50 shadow-md px-12 py-1 flex justify-between items-center">
+        <nav className="fixed top-0 left-0 w-full font-silkscreenregular bg-black/20 backdrop-blur-md z-50 shadow-md px-12 py-1 flex justify-between items-center">
             {/* Logo */}
             <div className="cursor-pointer" onClick={() => navigate("/")}>
                 <img src="/hackdays-logo.png" alt="Hackdays Logo" className="h-16 w-auto" />

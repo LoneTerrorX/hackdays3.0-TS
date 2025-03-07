@@ -63,6 +63,14 @@ export default function ValorantTournament() {
           >
             Back to Events
           </button>
+          <a
+            href="https://forms.gle/sJNidmKKYmwLauQs7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition"
+          >
+            Register Now 🚀
+          </a>
         </div>
       </div>
     </div>

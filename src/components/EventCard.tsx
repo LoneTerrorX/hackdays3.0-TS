@@ -32,7 +32,7 @@ export const eventsData = {
     title: "Valorant",
     icon: <Gamepad2 className="h-8 w-8" />,
     description: "Team-based tactical FPS competition. Coordinate with your squad and outplay opponents.",
-    formLink: "https://forms.google.com/valorant",
+    formLink: "https://forms.gle/sJNidmKKYmwLauQs7",
     prizePool: "TBA"
   },
   "BGMI": {

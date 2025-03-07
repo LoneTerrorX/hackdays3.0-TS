@@ -71,7 +71,7 @@ const ContactUs: React.FC = () => {
 
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500));
-    
+
     setSubmitStatus({
       success: true,
       message: "Thank you! Your message has been sent successfully.",
@@ -84,8 +84,8 @@ const ContactUs: React.FC = () => {
   };
 
   return (
-      <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c]">
-        <Navbar />
+    <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c]">
+      <Navbar />
       <div className="container mx-auto px-4 py-16">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -106,7 +106,7 @@ const ContactUs: React.FC = () => {
         <div
           ref={ref}
           className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-6xl mx-auto "
-          
+
         >
           {/* Contact Information */}
           <motion.div
@@ -126,7 +126,9 @@ const ContactUs: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Email</h3>
-                  <p className="text-gray-400">contact@hackdays.tech</p>
+                  <a href="mailto:contact@hackdays.tech" className="text-blue-400 hover:underline">
+                    contact@hackdays.tech
+                  </a>
                 </div>
               </div>
 
@@ -146,14 +148,20 @@ const ContactUs: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Location</h3>
-                  <p className="text-gray-400">
-                   Dept. Of Information Technology, Gauhati University, Jalukbari, Guwahati, Assam, India - 781014
-                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/EL7MNA8ETE7X8Mqd7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-400 hover:underline"
+                  >
+                    Dept. Of Information Technology, Gauhati University, Jalukbari, Guwahati, Assam, India - 781014
+                  </a>
                 </div>
+
               </div>
             </div>
 
-            
+
           </motion.div>
 
           {/* Contact Form */}
