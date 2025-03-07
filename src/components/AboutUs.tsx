@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
@@ -48,7 +49,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({
                             rel="noopener noreferrer"
                             className="text-gray-400 hover:text-white transition-colors"
                         >
-                            <Github size={20} />
+                            <FaGithub size={20} />
                         </a>
                     )}
                     {linkedin && (
@@ -81,7 +82,7 @@ const AboutUs: React.FC = () => {
             name: "Shubrajit Deb",
             role: "Event Management Lead",
             image: "",
-            github: "",
+            github: "https://github.com/Shubrajit22",
             linkedin: "",
             email: "shubrajit@example.com",
         },
