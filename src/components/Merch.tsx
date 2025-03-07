@@ -28,8 +28,9 @@ const merchandise = [
   },
   {
         name: "Limited Oversized T-Shirt",
-        price: "₹549",
-        image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+        price: "₹449",
+        image: "/Oversizedf.png",
+        backImage: "/Oversizedb.png",
         description: "Limited edition Hedge's 3.0 t-shirt with event logo"
       },
 ];
@@ -41,9 +42,9 @@ const Merch: React.FC = () => {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#000000] to-[#0a0f2c]">
+    <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c]">
       <Navbar />
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-28">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -127,7 +128,7 @@ const Merch: React.FC = () => {
             <li>Complete the payment through the available options</li>
             <li>Receive your awesome HackDays merchandise!</li>
           </ol>
-          <div className="text-center mt-6">
+          {/* <div className="text-center mt-6">
             <motion.a
               href="https://docs.google.com/forms/d/e/1FAIpQLScDY-kWldzG_o17gvyvojfgihdgMK69ksC6FMaXc64VZ-8y1w/viewform"
               target="_blank"
@@ -138,7 +139,7 @@ const Merch: React.FC = () => {
             >
               Order Form
             </motion.a>
-          </div>
+          </div> */}
         </motion.div>
       </div>
       <Footer />

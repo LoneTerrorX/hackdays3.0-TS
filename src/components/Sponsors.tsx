@@ -8,14 +8,15 @@ export default function Sponsors() {
   });
 
   const sponsors = [
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/1200px-Indian_Oil_Logo.svg.png',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUexPimqS_r1hyj8LqtmbpXFfXYfeT7lcmBA&s',
     'https://upload.wikimedia.org/wikipedia/en/7/78/Gauhati_University_Logo.jpeg',
     'https://images.unsplash.com/vector-1741113755107-5fa5aa1b8da0?q=80&w=2440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Indian_Oil_Logo.svg/1200px-Indian_Oil_Logo.svg.png',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUexPimqS_r1hyj8LqtmbpXFfXYfeT7lcmBA&s',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMrZoyifOevihovOxvJY-oF0meg0LC-oOtg&s',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh0t_MVuJUkDmYRIHdFALAzd_spGi72DUmsQ&s',
     'https://upload.wikimedia.org/wikipedia/en/7/78/Gauhati_University_Logo.jpeg',
-    'https://images.unsplash.com/vector-1741113755107-5fa5aa1b8da0?q=80&w=2440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    'https://images.unsplash.com/vector-1741113755107-5fa5aa1b8da0?q=80&w=2440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMrZoyifOevihovOxvJY-oF0meg0LC-oOtg&s',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh0t_MVuJUkDmYRIHdFALAzd_spGi72DUmsQ&s',
+
   ];
 
   return (

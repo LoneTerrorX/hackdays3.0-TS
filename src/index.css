@@ -42,3 +42,44 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "NT Brick Sans";
+  src: url("/fonts/NTBrickSans.otf") format("opentype"),
+       url("/fonts/NTBrickSans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LilitaOne";
+  src: url("/fonts/LilitaOne.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Monoton";
+  src: url("/fonts/Monoton.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NewAmsterdam";
+  src: url("/fonts/NewAmsterdam.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RockSalt";
+  src: url("/fonts/RockSalt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Sigmar";
+  src: url("/fonts/Sigmar.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SilkscreenBold";
+  src: url("/fonts/SilkscreenBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SilkscreenRegular";
+  src: url("/fonts/SilkscreenRegular.ttf") format("truetype");
+}

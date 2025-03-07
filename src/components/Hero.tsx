@@ -1,61 +1,7 @@
 import { motion } from "framer-motion";
-import { Trophy, Code, Binary, ChevronDown, Zap, Menu } from "lucide-react";
+import { ChevronDown, Zap } from "lucide-react";
 import { NavigateFunction, useNavigate } from "react-router-dom";
-import { useState } from "react";
-
-const navLinks = [
-    { name: "Hackdays", path: "/" },
-    { name: "Merch", path: "/merch" },
-    { name: "Brochure", path: "/brochure" },
-    { name: "Gallery", path: "/gallery" },
-    { name: "About Us", path: "/about" },
-];
-
-const Navbar = () => {
-    const navigate: NavigateFunction = useNavigate();
-    const [menuOpen, setMenuOpen] = useState(false);
-
-    return (
-        <nav className="fixed top-0 left-0 w-full bg-black/40 backdrop-blur-md z-50 shadow-md px-6 py-4 flex justify-between items-center">
-            <img
-                src="\HACKDAYS_3.0_1-Photoroom.png"
-                alt="Hackdays Logo"
-                className="h-12 scale-150 cursor-pointer transform transition-transform duration-300"
-                onClick={() => navigate("/")}
-            />
-            <div className="hidden md:flex space-x-6">
-                {navLinks.map((link) => (
-                    <button
-                        key={link.name}
-                        className="text-white text-lg hover:text-blue-400 transition"
-                        onClick={() => navigate(link.path)}
-                    >
-                        {link.name}
-                    </button>
-                ))}
-            </div>
-            <button className="md:hidden text-white" onClick={() => setMenuOpen(!menuOpen)}>
-                <Menu size={28} />
-            </button>
-            {menuOpen && (
-                <div className="absolute top-16 right-6 bg-black/80 rounded-md shadow-lg p-4 flex flex-col space-y-3 md:hidden">
-                    {navLinks.map((link) => (
-                        <button
-                            key={link.name}
-                            className="text-white text-lg hover:text-blue-400 transition"
-                            onClick={() => {
-                                navigate(link.path);
-                                setMenuOpen(false);
-                            }}
-                        >
-                            {link.name}
-                        </button>
-                    ))}
-                </div>
-            )}
-        </nav>
-    );
-};
+import Navbar from "./Navbar";
 
 const BackgroundAnimation = () => (
     <div className="absolute inset-0 overflow-hidden">
@@ -67,7 +13,7 @@ const BackgroundAnimation = () => (
                 animate={{ y: window.innerHeight + 100, opacity: [0.1, 0.5, 0.1] }}
                 transition={{ duration: Math.random() * 10 + 10, repeat: Infinity, ease: "linear" }}
             >
-                <Binary />
+                0
             </motion.div>
         ))}
     </div>
@@ -77,7 +23,7 @@ export default function Hero() {
     const navigate: NavigateFunction = useNavigate();
 
     return (
-        <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#1a1c4b] via-[#162454] to-[#0a0f2c] overflow-hidden">
+        <div className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c] overflow-hidden">
             <Navbar />
             <BackgroundAnimation />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/40" />
@@ -99,14 +45,14 @@ export default function Hero() {
                 <motion.p className="text-xl md:text-2xl text-blue-200 font-semibold">Department of Information Technology</motion.p>
                 <motion.p className="text-lg md:text-xl text-blue-300">Gauhati University</motion.p>
                 <motion.div className="flex flex-col items-center gap-6 mt-6">
-                    <div className="flex items-center gap-2 text-yellow-400 text-2xl md:text-4xl font-bold">
+                    {/* <div className="flex items-center gap-2 text-yellow-400 text-2xl md:text-4xl font-bold">
                         <Trophy className="w-8 h-8 md:w-12 md:h-10" />
                         <span className="animate-pulse">Prize Pool: ???</span>
-                    </div>
+                    </div> */}
                     <div className="flex items-center gap-0 text-yellow-400 text-2xl md:text-2xl font-bold">
-                        <span className="animate-pulse">(Decrypting Soon...)</span>
-                    </div>
-                    <p className="text-blue-200 text-lg md:text-xl max-w-2xl">
+                        <span className="animate-pulse">Registrations are Live!</span>
+                    </div> 
+                    <p className="text-blue-200 text-lg md:text-xl max-w-2xl py-8">
                         Join us for an epic 3-day adventure including hackathons, thrilling coding challenges, and innovative tech competitions!
                     </p>
                     <motion.button

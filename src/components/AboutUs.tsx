@@ -1,7 +1,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -105,7 +105,7 @@ const AboutUs: React.FC = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#000000] to-[#0a0f2c]">
+        <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c]">
             <Navbar />
             <div className="container mx-auto px-4 py-16">
                 <motion.div
@@ -114,7 +114,7 @@ const AboutUs: React.FC = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center mb-16"
                 >
-                    <h3 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-indigo-300 sm:text-5xl mb-6 pt-4">
+                    <h3 className="text-5xl font-extrabold pt-14 text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-indigo-300 sm:text-5xl mb-6">
                         About Gauhati University
                     </h3>
                     <div className="max-w-3xl mx-auto">
@@ -169,7 +169,7 @@ const AboutUs: React.FC = () => {
                         viewport={{ once: true }}
                         className="text-3xl font-bold text-center text-white mb-12"
                     >
-                        Our <span className="text-indigo-400">Team</span>
+                        Our <span className="text-indigo-400">Web-Team</span>
                     </motion.h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {teamMembers.map((member, index) => (

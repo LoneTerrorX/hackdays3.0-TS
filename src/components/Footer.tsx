@@ -54,7 +54,7 @@ const Footer = () => {
             >
               {social.name === "X" ? (
                 <img
-                  src={social.icon}
+                  src="/icons/x.svg"
                   alt="X Logo"
                   className="w-8 h-8 transition-colors duration-300 group-hover:brightness-0 group-hover:invert"
                 />

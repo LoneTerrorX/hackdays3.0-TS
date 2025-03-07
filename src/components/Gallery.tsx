@@ -1,8 +1,8 @@
-
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 // Sample gallery images - replace with your actual images
 const galleryImages = [
@@ -26,11 +26,13 @@ const Gallery: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#000000] to-[#0a0f2c] py-14 px-4 sm:px-6 lg:px-8">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c]">
       <Navbar />
-      <div className="max-w-7xl mx-auto leading-tight py-4">
+      
+      {/* Main Content Wrapper */}
+      <div className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-indigo-300 sm:text-6xl">
+          <h1 className="text-5xl font-extrabold pt-6 pb-3 text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-indigo-300 sm:text-6xl">
             <span className="block">Gallery</span>
           </h1>
           <p className="mt-4 text-xl text-gray-300">
@@ -38,6 +40,7 @@ const Gallery: React.FC = () => {
           </p>
         </div>
 
+        {/* Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {galleryImages.map((image) => (
             <motion.div
@@ -62,31 +65,35 @@ const Gallery: React.FC = () => {
             </motion.div>
           ))}
         </div>
-
-        {selectedImage && (
-          <motion.div
-            className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          >
-            <div className="relative max-w-4xl mx-auto">
-              <motion.button
-                className="absolute top-4 right-4 text-white bg-black/50 p-2 rounded-full"
-                onClick={closeModal}
-                whileHover={{ scale: 1.1 }}
-              >
-                <X size={24} />
-              </motion.button>
-              <img
-                src={galleryImages.find(img => img.id === selectedImage)?.src}
-                alt={`Full size image ${selectedImage}`}
-                className="max-h-[80vh] max-w-full"
-              />
-            </div>
-          </motion.div>
-        )}
       </div>
+
+      {/* Image Modal */}
+      {selectedImage && (
+        <motion.div
+          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
+          <div className="relative max-w-4xl mx-auto">
+            <motion.button
+              className="absolute top-4 right-4 text-white bg-black/50 p-2 rounded-full"
+              onClick={closeModal}
+              whileHover={{ scale: 1.1 }}
+            >
+              <X size={24} />
+            </motion.button>
+            <img
+              src={galleryImages.find(img => img.id === selectedImage)?.src}
+              alt={`Full size image ${selectedImage}`}
+              className="max-h-[80vh] max-w-full"
+            />
+          </div>
+        </motion.div>
+      )}
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { Menu } from "lucide-react";
 
 const navLinks = [
-    { name: "Hackdays", path: "/" },
+    { name: "Home", path: "/" },
     { name: "Merch", path: "/merch" },
-    { name: "Brochure", path: "/brochure" },
     { name: "Gallery", path: "/gallery" },
     { name: "About Us", path: "/about" },
+    { name: "Contact Us", path: "/contact" },
 ];
 
 const Navbar = () => {
@@ -16,11 +16,11 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="fixed top-0 left-0 w-full bg-black/40 backdrop-blur-md z-50 shadow-md px-12 py-4 flex justify-between items-center">
+        <nav className="fixed top-0 left-0 w-full bg-black/20 backdrop-blur-md z-50 shadow-md px-12 py-1 flex justify-between items-center">
             {/* Logo */}
-            <h1 className="text-white text-2xl font-bold cursor-pointer" onClick={() => navigate("/")}>
-                Hackdays 3.0
-            </h1>
+            <div className="cursor-pointer" onClick={() => navigate("/")}>
+                <img src="/hackdays-logo.png" alt="Hackdays Logo" className="h-16 w-auto" />
+            </div>
 
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-16">

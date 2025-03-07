@@ -9,10 +9,11 @@ import TypingSpeed from "./components/TypingSpeed";
 import ValorantTournament from "./components/ValorantTournament";
 import BGMITournament from "./components/BGMITournament";
 import FIFATournament from "./components/FIFATournament";
-import Brochure from "./components/Brochure";
 import Gallery from "./components/Gallery";
-import AboutUs from "./components/AboutUS";
+import AboutUs from "./components/AboutUs";
 import Merch from "./components/Merch";
+import ContactUs from "./components/ContactUs";
+
 
 
 
@@ -21,11 +22,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/register" element={<EventCard title="Event Title" description="Event Description" color="blue" Icon="SomeIcon" path="/register" index={0} inView={true} />} />
-        <Route path="/brochure" element={<Brochure />} />
+        <Route path="/register" element={<EventCard />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/merch" element={<Merch />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="/events" element={<Events />} />
         <Route path="/events/hackathon" element={<Hackathon />} />
         <Route path="/events/bug-bounty" element={<BugBounty />} />
