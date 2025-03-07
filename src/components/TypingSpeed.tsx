@@ -14,7 +14,7 @@ export default function TypingSpeed() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-5xl font-extrabold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-violet-500"
+          className="text-5xl font-extrabold text-center mb-12 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-violet-500"
         >
           Typing Speed Challenge
         </motion.h1>

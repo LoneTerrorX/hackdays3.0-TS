@@ -43,7 +43,7 @@ export default function Hackathon() {
             ← Back to Events
           </Link>
           <a
-            href="https://hackathon-registration.com"
+            href="https://forms.gle/g7bqPKJiuT2XXCw16"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition"

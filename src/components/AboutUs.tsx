@@ -81,26 +81,26 @@ const AboutUs: React.FC = () => {
         {
             name: "Shubrajit Deb",
             role: "Event Management Lead",
-            image: "",
+            image: "https://media.licdn.com/dms/image/v2/D5603AQFY0wmmngFH7g/profile-displayphoto-shrink_200_200/B56ZVc0ZzVGQAc-/0/1741018996588?e=1746662400&v=beta&t=tUfYbZuCimEVYUm2mgoibsetd1ODx-kwbR8bVMalLMY",
             github: "https://github.com/Shubrajit22",
-            linkedin: "",
+            linkedin: "https://www.linkedin.com/in/shubrajit-deb-034467272/",
             email: "shubrajit@example.com",
         },
         {
             name: "Midanka Lahon",
             role: "Frontend Developer",
-            image: "",
-            github: "",
-            linkedin: "",
-            email: "midanka@example.com",
+            image: "https://media.licdn.com/dms/image/v2/D5603AQGR77LdVksyxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726764793093?e=1746662400&v=beta&t=rnqVe-oNvG7FSmmXwdGLaPHXG0eb9UeXrB5IzpgIRpA",
+            github: "https://github.com/midankalahon786",
+            linkedin: "https://www.linkedin.com/in/midanka-lahon-1946b8255/",
+            email: "midankalahon@gmail.com",
         },
         {
             name: "Prasun Chakraborty",
             role: "Backend Developer",
-            image: "",
-            github: "",
-            linkedin: "",
-            email: "prasun@example.com",
+            image: "https://media.licdn.com/dms/image/v2/D5603AQHxWxuz-GZKBQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680690377994?e=1746662400&v=beta&t=znrXCPzXSjLXZoHG1EZ2LUeNqfj1j4D6g-9ZTYxs0w4",
+            github: "https://github.com/LoneTerror",
+            linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
+            email: "nothingshere21@gmail.com",
         },
     ];
 
@@ -114,7 +114,7 @@ const AboutUs: React.FC = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center mb-16"
                 >
-                    <h3 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-indigo-300 sm:text-5xl mb-6">
+                    <h3 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-indigo-300 sm:text-5xl mb-6 pt-4">
                         About Gauhati University
                     </h3>
                     <div className="max-w-3xl mx-auto">

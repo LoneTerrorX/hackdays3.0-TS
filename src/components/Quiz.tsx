@@ -14,7 +14,7 @@ export default function Quiz() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-5xl font-extrabold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-green-500"
+          className="text-5xl font-extrabold text-center mb-12 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-green-500"
         >
           The Ultimate Quiz Challenge
         </motion.h1>

@@ -14,7 +14,7 @@ export default function BGMITournament() {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-5xl font-extrabold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600"
+          className="text-5xl font-extrabold text-center mb-12 leading-text bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-red-600"
         >
           BGMI Tournament
         </motion.h1>

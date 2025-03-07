@@ -81,10 +81,10 @@ const Footer = () => {
           </a>
           <a href="https://github.com/midankalahon786">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
-              Midanka Lahon
+              Midanka Lahon,
             </span>
           </a>
-          Maintained by
+
           <a href="https://github.com/LoneTerror">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
               Prasun Chakraborty

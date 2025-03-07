@@ -26,9 +26,9 @@ const Gallery: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#000000] to-[#0a0f2c] py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#000000] to-[#0a0f2c] py-14 px-4 sm:px-6 lg:px-8">
       <Navbar />
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto leading-tight py-4">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 via-purple-200 to-indigo-300 sm:text-6xl">
             <span className="block">Gallery</span>
@@ -43,7 +43,7 @@ const Gallery: React.FC = () => {
             <motion.div
               key={image.id}
               className="relative overflow-hidden rounded-lg aspect-square cursor-pointer"
-              whileHover={{ scale: 1.03 }}
+              whileHover={{ scale: 1.07 }}
               onClick={() => openModal(image.id)}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}

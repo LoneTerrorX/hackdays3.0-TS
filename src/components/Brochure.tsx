@@ -5,11 +5,10 @@ const Brochure: React.FC = () => {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-[rgb(10,20,50)] to-[rgb(3,7,18)] text-white">
             <Navbar />
-            <div className="relative w-80 p-4 bg-gray-100 text-black rounded-2xl shadow-2xl transform transition-transform hover:scale-105 mt-20">
+            <div className="relative w-80 p-4 bg-gray-100 text-black rounded-2xl shadow-2xl transform transition-transform hover:scale-105 mt-15">
                 {/* University Logo */}
                 <div className="flex justify-between items-center">
-                    <h1 className="text-xl font-bold">G</h1>
-                    <h1 className="text-xl font-bold">AUHATI UNIVERSITY</h1>
+                    <h1 className="text-xl font-bold">GAUHATI UNIVERSITY</h1>
                     <img src="https://upload.wikimedia.org/wikipedia/en/7/78/Gauhati_University_Logo.jpeg" alt="University Logo" className="w-10 h-10" />
                 </div>
                 
