@@ -56,7 +56,7 @@ const events = [
     link: "/events/valorant-tournament",
   },
   {
-    title: "BGMI Tounament",
+    title: "BGMI Tournament",
     icon: Trophy,
     description: "Battle it out in BGMI for ultimate gaming supremacy",
     color: "from-purple-600 to-pink-600",

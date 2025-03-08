@@ -9,16 +9,21 @@ const BackgroundAnimation = () => (
         {[...Array(20)].map((_, i) => (
             <motion.div
                 key={i}
-                className="absolute text-blue-500/10 text-6xl font-mono"
-                initial={{ y: -100, x: Math.random() * window.innerWidth }}
-                animate={{ y: window.innerHeight + 100, opacity: [0.1, 0.5, 0.1] }}
-                transition={{ duration: Math.random() * 10 + 10, repeat: Infinity, ease: "linear" }}
+                className="absolute text-blue-500/5 text-6xl font-mono"
+                initial={{ y: -100, x: Math.random() * window.innerWidth, opacity: 0 }}
+                animate={{ 
+                    y: window.innerHeight + 100, 
+                    opacity: [0.05, 0.1, 0.05], 
+                    filter: "blur(3px)" 
+                }}
+                transition={{ duration: Math.random() * 10 + 15, repeat: Infinity, ease: "linear" }}
             >
                 0
             </motion.div>
         ))}
     </div>
 );
+
 
 const calculateTimeLeft = (targetDate: string) => {
     const difference = new Date(targetDate).getTime() - new Date().getTime();
@@ -68,7 +73,7 @@ export default function Hero() {
                     <img
                         src="/hackdays_horizontalfull.png"
                         alt="HackDays 3.0"
-                        className="w-auto max-w-[400px] h-auto"
+                        className="w-auto max-w-[350px] h-auto"
                     />
                 </motion.div>
 

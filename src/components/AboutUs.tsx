@@ -1,4 +1,3 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import { Linkedin, Mail } from "lucide-react";
@@ -208,8 +207,12 @@ const AboutUs: React.FC = () => {
                         whileTap={{ scale: 0.95 }}
                         className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full text-xl font-bold shadow-lg hover:shadow-2xl transition-all duration-300"
                     >
-                        Contact Us
+                        <a href="/contact" className="w-full h-full block">
+                            Contact Us
+                        </a>
                     </motion.button>
+
+
                 </motion.div>
             </div>
             <Footer />

@@ -87,6 +87,8 @@ const ContactUs: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c]">
       <Navbar />
       <div className="container mx-auto px-4 py-16">
+        
+        
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -105,7 +107,7 @@ const ContactUs: React.FC = () => {
 
         <div
           ref={ref}
-          className="grid grid-cols-1 lg:grid-cols-2 gap-10 max-w-6xl mx-auto "
+          className="flex justify-center gap-10 max-w-6xl mx-auto "
 
         >
           {/* Contact Information */}
