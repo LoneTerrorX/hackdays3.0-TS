@@ -58,15 +58,15 @@ export default function Hero() {
                 transition={{ duration: 1 }}
                 className="text-center z-10 px-4"
             >
-                <motion.p className="text-xl pt-16 md:text-3xl text-blue-200 font-semibold">
+                <motion.p className="text-xl pt-16 md:text-3xl text-blue-200 font-monoton">
                     Department of Information Technology
                 </motion.p>
-                <motion.p className="text-lg md:text-2xl text-blue-300">Gauhati University</motion.p>
-                <motion.p className="text-lg md:text-2xl text-blue-400">Presents</motion.p>
+                <motion.p className="text-lg md:text-2xl pt-2 text-blue-300 font-lilita">Gauhati University</motion.p>
+                <motion.p className="text-lg md:text-2xl text-blue-400 font-lilita">Presents</motion.p>
 
                 {/* Replacing text with Image */}
                 <motion.div
-                    className="flex justify-center items-center mt-6"
+                    className="flex justify-center items-center mt-5"
                     animate={{ backgroundPosition: ["0% 50%", "300% 50%", "0% 50%"] }}
                     transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
                     style={{ backgroundSize: "200% 200%" }}
