@@ -68,7 +68,7 @@ export default function Hero() {
                     <img
                         src="/hackdays_horizontalfull.png"
                         alt="HackDays 3.0"
-                        className="w-auto max-w-[500px] h-auto"
+                        className="w-auto max-w-[400px] h-auto"
                     />
                 </motion.div>
 
