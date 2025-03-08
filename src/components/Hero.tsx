@@ -52,55 +52,63 @@ export default function Hero() {
                 transition={{ duration: 1 }}
                 className="text-center z-10 px-4"
             >
-                <motion.p className="text-xl md:text-3xl text-blue-200 font-semibold">Department of Information Technology</motion.p>
+                <motion.p className="text-xl pt-14 md:text-3xl text-blue-200 font-semibold">
+                    Department of Information Technology
+                </motion.p>
                 <motion.p className="text-lg md:text-2xl text-blue-300">Gauhati University</motion.p>
                 <motion.p className="text-lg md:text-2xl text-blue-400">Presents</motion.p>
-                <motion.h1
-                    className="text-3xl md:text-8xl pt-4 font-brick bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600 mb-7 leading-[1.2]"
+
+                {/* Replacing text with Image */}
+                <motion.div
+                    className="flex justify-center items-center mt-6"
                     animate={{ backgroundPosition: ["0% 50%", "300% 50%", "0% 50%"] }}
                     transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
-                    style={{ backgroundSize: "200% 200%", paddingBottom: "0.2em" }}
+                    style={{ backgroundSize: "200% 200%" }}
                 >
-                    Hackdays 3.0
-                </motion.h1>
-
-                <motion.div className="flex flex-col items-center gap-6 mt-6">
-                    {/* <div className="flex items-center gap-2 text-yellow-400 text-2xl md:text-4xl font-bold">
-                        <Trophy className="w-8 h-8 md:w-12 md:h-10" />
-                        <span className="animate-pulse">Prize Pool: ???</span>
-                        </div> */}
-                        <motion.h1 className="text-lg font-brick md:text-2xl pt-0 text-red-300">19th March - 21st March</motion.h1>
-                    <div className="flex items-center pt-0 gap-0 text-yellow-400 text-1xl md:text-1xl">
-                        <span className="animate-pulse font-brick ">Registrations are Live!</span>
-                    </div> 
-                    <div className="flex items-center pt-0 gap-0 text-red-300 text-1xl md:text-1xl">
-                        <span className="animate-pulse font-brick ">Event Starts In:</span>
-                    </div> 
-
-                    <div className="text-blue-300 text-4xl space-x-4 font-lilita">
-                    <span>{timeLeft.days}d </span>
-                    <span>{timeLeft.hours}h </span>
-                    <span>{timeLeft.minutes}m </span>
-                    <span>{timeLeft.seconds}s</span>
-                </div>
-                    <p className="text-blue-200 font-lilita text-lg md:text-xl max-w-2xl py-4">
-                        Join us for an epic 3-day adventure including hackathons, thrilling coding challenges, and innovative tech competitions!
-                    </p>
-                    <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="bg-gradient-to-r flex from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-xl font-bold shadow-lg hover:shadow-2xl transition-all duration-300 hover:from-blue-700 hover:to-purple-700"
-                        onClick={() => navigate("/register")}
-                    >
-                        <span className="animate-pulse-slow flex items-center gap-2">
-                            Register Now <Zap size={20} className="animate-bounce" />
-                        </span>
-                    </motion.button>
-                    <div className="absolute bottom-10 transform -translate-x-1/2 animate-bounce">
-                        <ChevronDown size={32} className="text-gray-500" />
-                    </div>
+                    <img
+                        src="/hackdays_horizontalfull.png"
+                        alt="HackDays 3.0"
+                        className="w-auto max-w-[500px] h-auto"
+                    />
                 </motion.div>
-            </motion.div>
+
+
+                    <motion.div className="flex flex-col items-center gap-6 mt-6">
+                        <motion.h1 className="text-lg font-brick md:text-1xl pt-4 text-red-300">
+                            19th March - 21st March
+                        </motion.h1>
+                        <div className="flex items-center pt-0 gap-0 text-blue-200 text-1xl md:text-1xl">
+                            <span className="animate-pulse font-brick">Registrations are Live!</span>
+                        </div>
+                        <div className="flex items-center pt-0 gap-0 text-red-300 text-1xl md:text-1xl">
+                            <span className="animate-pulse font-brick">Event Starts In:</span>
+                        </div>
+
+                        <div className="text-blue-300 text-2xl space-x-1 font-lilita">
+                            <span>{timeLeft.days}d </span>
+                            <span>{timeLeft.hours}h </span>
+                            <span>{timeLeft.minutes}m </span>
+                            <span>{timeLeft.seconds}s</span>
+                        </div>
+
+                        <p className="text-blue-200 font-lilita text-lg md:text-xl max-w-2xl py-4">
+                            Join us for an epic 3-day adventure including hackathons, thrilling coding challenges, and innovative tech competitions!
+                        </p>
+                        <motion.button
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="bg-gradient-to-r flex from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full text-xl font-bold shadow-lg hover:shadow-2xl transition-all duration-300 hover:from-blue-700 hover:to-purple-700"
+                            onClick={() => navigate("/register")}
+                        >
+                            <span className="animate-pulse-slow flex items-center gap-2">
+                                Register Now <Zap size={20} className="animate-bounce" />
+                            </span>
+                        </motion.button>
+                        <div className="absolute bottom-10 transform -translate-x-1/2 animate-bounce">
+                            <ChevronDown size={32} className="text-gray-500" />
+                        </div>
+                    </motion.div>
+                </motion.div>
         </div>
     );
 }

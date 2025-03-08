@@ -46,7 +46,7 @@ const events = [
     icon: ChessKnight,
     description: "Strategic battles on the chessboard be the IT chess GM",
     color: "from-blue-600 to-cyan-600",
-    link: "/events/chess",
+    link: "/events/chess-tournament",
   },
   {
     title: "Valorant Tournament",
