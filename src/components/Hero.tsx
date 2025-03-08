@@ -9,7 +9,7 @@ const BackgroundAnimation = () => (
         {[...Array(20)].map((_, i) => (
             <motion.div
                 key={i}
-                className="absolute text-blue-500/5 text-6xl font-mono"
+                className="absolute text-green-600 text-5xl font-silkscreenregular"
                 initial={{ y: -100, x: Math.random() * window.innerWidth, opacity: 0 }}
                 animate={{ 
                     y: window.innerHeight + 100, 
@@ -18,11 +18,12 @@ const BackgroundAnimation = () => (
                 }}
                 transition={{ duration: Math.random() * 10 + 15, repeat: Infinity, ease: "linear" }}
             >
-                0
+                {Math.random() < 0.5 ? "0" : "1"} 
             </motion.div>
         ))}
     </div>
 );
+
 
 
 const calculateTimeLeft = (targetDate: string) => {

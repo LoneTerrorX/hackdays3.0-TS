@@ -67,7 +67,7 @@ export const eventsData = {
     title: "BGMI",
     icon: <Smartphone className="h-8 w-8" />,
     description: "Battle Royale mobile gaming tournament. Survive and become the last team standing.",
-    formLink: "https://forms.gle/C9bxSbhj3bEzTvWY8",
+    formLink: "https://forms.google.com/bgmi",
     prizePool: "TBA"
   },
   "Chess": {
