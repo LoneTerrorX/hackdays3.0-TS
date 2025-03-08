@@ -57,7 +57,7 @@ export default function Hero() {
                 transition={{ duration: 1 }}
                 className="text-center z-10 px-4"
             >
-                <motion.p className="text-xl pt-14 md:text-3xl text-blue-200 font-semibold">
+                <motion.p className="text-xl pt-16 md:text-3xl text-blue-200 font-semibold">
                     Department of Information Technology
                 </motion.p>
                 <motion.p className="text-lg md:text-2xl text-blue-300">Gauhati University</motion.p>

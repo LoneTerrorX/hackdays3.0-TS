@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Code2, Trophy, Gamepad2, Smartphone, ChevronRight, PenTool, Keyboard, BugPlay, Lightbulb, Glasses, Palette} from 'lucide-react';
-
+import CricketIcon from "/icons/cricket.png";
 interface EventCardProps {
   eventType: keyof typeof eventsData;
 }
@@ -19,6 +19,34 @@ export const eventsData = {
     icon: <Trophy className="h-8 w-8" />,
     description: "Competitive programming contest to solve complex algorithmic challenges within time constraints.",
     formLink: "https://forms.google.com/codegem",
+    prizePool: "TBA"
+  },
+  "Bug Bounty": {
+    title: "Bug Bounty",
+    icon: <BugPlay className="h-8 w-8" />,
+    description: "Find The Bugs, Debug it & claim the bounty.",
+    formLink: "https://forms.google.com/graphics",
+    prizePool: "TBA"
+  },
+  "Typing Speed": {
+    title: "Typing Speed",
+    icon: <Keyboard className="h-8 w-8" />,
+    description: "Can you type with keyboard as a Stenographer, if yes then this is the perfect oppurtunity for you!",
+    formLink: "https://forms.google.com/graphics",
+    prizePool: "TBA"
+  },
+  "Cypher": {
+    title: "Cypher",
+    icon: <Glasses className="h-8 w-8" />,
+    description: "Decrypt the puzzles to become modern age Mr. Robot, f-society :)",
+    formLink: "https://forms.google.com/graphics",
+    prizePool: "TBA"
+  },
+  "Quiz": {
+  title: "Quiz",
+  icon: <Lightbulb className="h-8 w-8" />,
+    description: "Revv up your Nervous Engine to outperform & win amazing knowledge with prizes!",
+    formLink: "https://forms.google.com/graphics",
     prizePool: "TBA"
   },
   "FIFA": {
@@ -49,17 +77,17 @@ export const eventsData = {
     formLink: "https://forms.google.com/chess",
     prizePool: "TBA"
   },
+  "IPL Auction": {
+    title: "IPL Auction",
+    icon: <img src={CricketIcon} alt="Cricket Icon" className="h-8 w-8" />,
+    description: "Strategic board game tournament to test your tactical thinking and planning.",
+    formLink: "https://forms.google.com/chess",
+    prizePool: "TBA"
+  },
   "Graphics Designing": {
     title: "Graphics Designing",
     icon: <PenTool className="h-8 w-8" />,
     description: "Showcase your creative design skills and artistic vision in this design competition.",
-    formLink: "https://forms.google.com/graphics",
-    prizePool: "TBA"
-  },
-  "Bug Bounty": {
-    title: "Bug Bounty",
-    icon: <BugPlay className="h-8 w-8" />,
-    description: "Find The Bugs, Debug it & claim the bounty.",
     formLink: "https://forms.google.com/graphics",
     prizePool: "TBA"
   },
@@ -69,29 +97,9 @@ export const eventsData = {
     description: "Do you have the artist in you? Combine it with your creativity skills & build something new!",
     formLink: "https://forms.google.com/graphics",
     prizePool: "TBA"
-  },
-  "Cypher": {
-    title: "Cypher",
-    icon: <Glasses className="h-8 w-8" />,
-    description: "Decrypt the puzzles to become modern age Mr. Robot, f-society :)",
-    formLink: "https://forms.google.com/graphics",
-    prizePool: "TBA"
-  },
-  "Quiz": {
-    title: "Quiz",
-    icon: <Lightbulb className="h-8 w-8" />,
-    description: "Revv up your Nervous Engine to outperform & win amazing knowledge with prizes!",
-    formLink: "https://forms.google.com/graphics",
-    prizePool: "TBA"
-  },
-  "Typing Speed": {
-    title: "Typing Speed",
-    icon: <Keyboard className="h-8 w-8" />,
-    description: "Can you type with keyboard as a Stenographer, if yes then this is the perfect oppurtunity for you!",
-    formLink: "https://forms.google.com/graphics",
-    prizePool: "TBA"
   }
 };
+
 
 // List of event types
 export const eventTypes = Object.keys(eventsData) as (keyof typeof eventsData)[];
