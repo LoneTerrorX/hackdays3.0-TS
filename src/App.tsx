@@ -13,7 +13,8 @@ import Gallery from "./components/Gallery";
 import AboutUs from "./components/AboutUs";
 import Merch from "./components/Merch";
 import ContactUs from "./components/ContactUs";
-import ChessTournament from "./components/chess";
+import ChessTournament from "./components/ChessTournament";
+
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/events/bgmi-tournament" element={<BGMITournament />} />
         <Route path="/events/fifa-tournament" element={<FIFATournament />} />
         <Route path="/events/chess-tournament" element={<ChessTournament />} />
+
       </Routes>
     </BrowserRouter>
   );
