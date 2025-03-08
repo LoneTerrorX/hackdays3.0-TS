@@ -21,14 +21,14 @@ const merchandise = [
 //   },
   {
     name: "HackDays 3.0 Official T-Shirt",
-    price: "₹399",
+    price: "₹299",
     image: "/front .png",
     backImage: "/back.png",
     description: "Limited edition event t-shirt with custom design"
   },
   {
         name: "Limited Oversized T-Shirt",
-        price: "₹449",
+        price: "₹399",
         image: "/Oversizedf.png",
         backImage: "/Oversizedb.png",
         description: "Limited edition Hedge's 3.0 t-shirt with event logo"

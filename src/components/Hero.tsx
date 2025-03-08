@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ChevronDown, Zap } from "lucide-react";
+import { Zap } from "lucide-react";
 import { NavigateFunction, useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
 import { useEffect, useState } from "react";
@@ -110,9 +110,6 @@ export default function Hero() {
                                 Register Now <Zap size={20} className="animate-bounce" />
                             </span>
                         </motion.button>
-                        <div className="absolute bottom-10 transform -translate-x-1/2 animate-bounce">
-                            <ChevronDown size={32} className="text-gray-500" />
-                        </div>
                     </motion.div>
                 </motion.div>
         </div>
