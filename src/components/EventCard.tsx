@@ -82,7 +82,7 @@ export const eventsData = {
     icon: <img src={CricketIcon} alt="Cricket Icon" className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
     formLink: "https://forms.gle/6y14LYkQec6ijTf66",
-    prizePool: "TBA"
+    prizePool: "5,000 INR"
   },
   "Graphics Designing": {
     title: "Graphics Designing",
