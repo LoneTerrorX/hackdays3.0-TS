@@ -78,22 +78,6 @@ const TeamMember: React.FC<TeamMemberProps> = ({
 const AboutUs: React.FC = () => {
     const teamMembers = [
         {
-            name: "Shubrajit Deb",
-            role: "Event Management Lead",
-            image: "https://i.postimg.cc/Mp3PvqtH/SHUBRA-1.png",
-            github: "https://github.com/Shubrajit22",
-            linkedin: "https://www.linkedin.com/in/shubrajit-deb-034467272/",
-            email: "shubrajit@example.com",
-        },
-        {
-            name: "Arijit Banik",
-            role: "Event Management Co-Lead",
-            image: "https://i.postimg.cc/fTDBCBbx/Arijit-Banik.jpg",
-            github: "https://github.com/arijitb17",
-            linkedin: "https://www.linkedin.com/in/arijit-banik-485610246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-            email: "arijitb017@gmail.com",
-        },
-        {
             name: "Abhijit Kumar Baishya ",
             role: "Public Relations & Marketing Head",
             image: "https://i.postimg.cc/vTmbLQRj/IMG-20-3.jpg",
@@ -284,6 +268,22 @@ const AboutUs: React.FC = () => {
             github: "https://github.com/debo-220102022",
             linkedin: "https://www.linkedin.com/in/debobrata-das-b51059265/",
             email: "debobrata2000das@gmail.com",
+        },
+        {
+            name: "Shubrajit Deb",
+            role: "Event Management Lead",
+            image: "https://i.postimg.cc/Mp3PvqtH/SHUBRA-1.png",
+            github: "https://github.com/Shubrajit22",
+            linkedin: "https://www.linkedin.com/in/shubrajit-deb-034467272/",
+            email: "shubrajit@example.com",
+        },
+        {
+            name: "Arijit Banik",
+            role: "Event Management Co-Lead",
+            image: "https://i.postimg.cc/fTDBCBbx/Arijit-Banik.jpg",
+            github: "https://github.com/arijitb17",
+            linkedin: "https://www.linkedin.com/in/arijit-banik-485610246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+            email: "arijitb017@gmail.com",
         },
     
     ];
