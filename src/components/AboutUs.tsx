@@ -79,7 +79,7 @@ const AboutUs: React.FC = () => {
     const teamMembers = [
         {
             name: "Shubrajit Deb",
-            role: "Event Management Head",
+            role: "Event Management Lead",
             image: "https://i.postimg.cc/Mp3PvqtH/SHUBRA-1.png",
             github: "https://github.com/Shubrajit22",
             linkedin: "https://www.linkedin.com/in/shubrajit-deb-034467272/",
@@ -94,19 +94,19 @@ const AboutUs: React.FC = () => {
             email: "arijitb017@gmail.com",
         },
         {
-            name: "Pragyan Paul ",
-            role: "Public Relations & Marketing Lead",
-            image: "https://i.postimg.cc/C1SF5Gcw/IMG-93-2.jpg",
-            github: "https://github.com/Pragyan5782",
-            linkedin: "https://www.linkedin.com/in/pragyan-paul-7190b8262",
-            email: "abhibaishya07@gmail.com",
-        },
-        {
             name: "Abhijit Kumar Baishya ",
             role: "Public Relations & Marketing Head",
             image: "https://i.postimg.cc/vTmbLQRj/IMG-20-3.jpg",
             github: "https://github.com/abhibaishya07",
             linkedin: "https://www.linkedin.com/in/abhijit-baishya-978a28253/",
+            email: "abhibaishya07@gmail.com",
+        },
+        {
+            name: "Pragyan Paul ",
+            role: "Public Relations & Marketing Lead",
+            image: "https://i.postimg.cc/C1SF5Gcw/IMG-93-2.jpg",
+            github: "https://github.com/Pragyan5782",
+            linkedin: "https://www.linkedin.com/in/pragyan-paul-7190b8262",
             email: "abhibaishya07@gmail.com",
         },
         {
@@ -126,20 +126,20 @@ const AboutUs: React.FC = () => {
             email: "ashmitkarmakar5@gmail.com",
         },
         {
-            name: "Subarna Saikia",
-            role: "Event Coordinator Lead",
-            image: "https://i.postimg.cc/zXBGTk8B/BLACK-1.png",
-            github: "https://github.com/subarnasaikia",
-            linkedin: "https://www.linkedin.com/in/subarna-saikia/",
-                email: "subarnasaikia2@gmail.com",
-        },
-        {
             name: "Monaswi Kumar Bharadwaj",
             role: "Event Coordinator Head",
             image: "https://i.postimg.cc/7LvP887G/IMG-20-1.jpg",
             github: "https://github.com/Monaswi0104",
             linkedin: "https://www.linkedin.com/in/monaswi-kumar-bharadwaj-051713296/",
             email: "bharadwajmonaswi@gmail.com",
+        },
+        {
+            name: "Subarna Saikia",
+            role: "Event Coordinator Lead",
+            image: "https://i.postimg.cc/zXBGTk8B/BLACK-1.png",
+            github: "https://github.com/subarnasaikia",
+            linkedin: "https://www.linkedin.com/in/subarna-saikia/",
+                email: "subarnasaikia2@gmail.com",
         },
         {
             name: "Abhisekh Roy",
@@ -151,7 +151,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Jurin Deep Das",
-            role: "Event Coordinator Contributor",
+            role: "Event Coordinator Co-Lead",
             image: "https://i.postimg.cc/pdLdBNwg/Jurin-Deep.jpg",
             github: "https://github.com/Jurindeepdb",
             linkedin: "www.linkedin.com/in/jurin-deep-das",
@@ -159,7 +159,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Prasun Chakraborty",
-            role: "E-Sports Coordinator Lead",
+            role: "E-Sports Coordinator Head",
             image: "https://media.licdn.com/dms/image/v2/D5603AQHxWxuz-GZKBQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680690377994?e=1746662400&v=beta&t=znrXCPzXSjLXZoHG1EZ2LUeNqfj1j4D6g-9ZTYxs0w4",
             github: "https://github.com/LoneTerror",
             linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
@@ -167,7 +167,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Midanka Lahon",
-            role: "E-Sports Coordinator Head",
+            role: "E-Sports Coordinator Lead",
             image: "https://media.licdn.com/dms/image/v2/D5603AQGR77LdVksyxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726764793093?e=1746662400&v=beta&t=rnqVe-oNvG7FSmmXwdGLaPHXG0eb9UeXrB5IzpgIRpA",
             github: "https://github.com/midankalahon786",
             linkedin: "https://www.linkedin.com/in/midanka-lahon-1946b8255/",
@@ -183,7 +183,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Bhargav Shivam",
-            role: "E-Sports Coordinator Contributor",
+            role: "E-Sports Coordinator Co-Lead",
             image: "https://i.postimg.cc/hPfKXP1Q/WHATSA-2.jpg",
             github: "https://github.com/BhargavShivam7",
             linkedin: "https://www.linkedin.com/in/bhargav-shivam-54bab1256/",
@@ -215,7 +215,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Bikash Bora",
-            role: "Design & Creatives Contributor",
+            role: "Design & Creatives Co-Lead",
             image: "https://i.postimg.cc/Wb5zFHZt/Bikash-Bora.jpg",
             github: "https://github.com/Bikash62521",
             linkedin: "https://www.linkedin.com/in/bikash-bora-b67690256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -255,7 +255,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Manwinder Singh",
-            role: "Attendee Engagement Contributer",
+            role: "Attendee Engagement Co-Lead",
             image: "https://i.postimg.cc/wTq3Bp7S/Manwinder-Singh.jpg",
             github: "https://github.com",
             linkedin: "https://www.linkedin.com/in/manwinder-singh-86353a215",
@@ -263,7 +263,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Debobrata Das",
-            role: "Attendee Engagement Contributer",
+            role: "Attendee Engagement Co-Lead",
             image: "https://i.postimg.cc/W4MNsW69/202503-1.jpg",
             github: "https://github.com/debo-220102022",
             linkedin: "https://www.linkedin.com/in/debobrata-das-b51059265/",

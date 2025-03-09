@@ -74,7 +74,7 @@ export const eventsData = {
     title: "Chess",
     icon: <ChevronRight className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
-    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
+    formLink: "https://forms.gle/4hs4Dq5KUJJdi5UK8",
     prizePool: "2,000 INR"
   },
   "IPL Auction": {
@@ -95,7 +95,7 @@ export const eventsData = {
     title: "Kala-Kriti",
     icon: <Palette className="h-8 w-8" />,
     description: "Do you have the artist in you? Combine it with your creativity skills & build something new!",
-    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
+    formLink: "https://forms.gle/xF8dMT8SFjVPPoUL7",
     prizePool: "2,000 INR"
   }
 };
