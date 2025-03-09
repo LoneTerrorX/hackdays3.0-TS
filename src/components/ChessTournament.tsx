@@ -32,10 +32,10 @@ export default function ChessTournament() {
             </p>
 
             <ul className="space-y-4 text-gray-300">
-              <li>♜ Swiss System, 5 Rounds</li>
+              <li></li>
               <li>👥 1v1 Matches</li>
-              <li>🏆 Trophy, Medals & Cash Rewards</li>
-              <li>📅 April 5th - 6th, 2025</li>
+              <li>🏆 Cash Rewards, Certificates & Schwagzz!</li>
+              <li>📅 March 19th - 21st, 2025</li>
             </ul>
 
             <div className="mt-10 flex flex-col sm:flex-row gap-6">
