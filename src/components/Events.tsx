@@ -44,7 +44,7 @@ const events = [
   {
     title: "Chess Masters",
     icon: ChessKnight,
-    description: "Strategic battles on the chessboard be the IT chess GM",
+    description: "Strategic board game tournament to test your tactical thinking and planning.",
     color: "from-blue-600 to-cyan-600",
     link: "/events/chess-tournament",
   },
