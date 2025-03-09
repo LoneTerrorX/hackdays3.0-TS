@@ -6,7 +6,7 @@ const posters = [
   {
     title: "Hackathon Challenge",
     image: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800",
-    description: "24 hours of intense coding, innovation, and problem-solving. Join us for the ultimate hackathon experience!"
+    description: "3-day cumulative marathon of coding, innovation, and problem-solving. Join us for the ultimate hackathon experience!"
   },
   {
     title: "Gaming Tournament",
