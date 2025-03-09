@@ -159,7 +159,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Prasun Chakraborty",
-            role: "Esports Coordinator Lead",
+            role: "E-Sports Coordinator Lead",
             image: "https://media.licdn.com/dms/image/v2/D5603AQHxWxuz-GZKBQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680690377994?e=1746662400&v=beta&t=znrXCPzXSjLXZoHG1EZ2LUeNqfj1j4D6g-9ZTYxs0w4",
             github: "https://github.com/LoneTerror",
             linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
@@ -167,7 +167,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Midanka Lahon",
-            role: "Esports Coordinator Head",
+            role: "E-Sports Coordinator Head",
             image: "https://media.licdn.com/dms/image/v2/D5603AQGR77LdVksyxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726764793093?e=1746662400&v=beta&t=rnqVe-oNvG7FSmmXwdGLaPHXG0eb9UeXrB5IzpgIRpA",
             github: "https://github.com/midankalahon786",
             linkedin: "https://www.linkedin.com/in/midanka-lahon-1946b8255/",
@@ -175,7 +175,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Anilabh Barua",
-            role: "Esports Coordinator Co-Lead",
+            role: "E-Sports Coordinator Co-Lead",
             image: "https://i.postimg.cc/x1vhCWhb/IMG202-1.png",
             github: "https://github.com/AnilabhBarua",
             linkedin: "https://www.linkedin.com/in/barua24/",
@@ -183,7 +183,7 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Bhargav Shivam",
-            role: "Esports Coordinator Contributor",
+            role: "E-Sports Coordinator Contributor",
             image: "https://i.postimg.cc/hPfKXP1Q/WHATSA-2.jpg",
             github: "https://github.com/BhargavShivam7",
             linkedin: "https://www.linkedin.com/in/bhargav-shivam-54bab1256/",
