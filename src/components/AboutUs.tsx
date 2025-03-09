@@ -152,7 +152,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Jurin Deep Das",
             role: "Event Coordinator Contributor",
-            image: "https://i.postimg.cc/Gh8Z0MC6/Abhisekh-Roy.jpg",
+            image: "https://i.postimg.cc/pdLdBNwg/Jurin-Deep.jpg",
             github: "https://github.com/Jurindeepdb",
             linkedin: "www.linkedin.com/in/jurin-deep-das",
             email: "jurindeepdas@gmail.com",
@@ -230,7 +230,7 @@ const AboutUs: React.FC = () => {
             email: "gautamhazarika01@gmail.com",
         },
         {
-            name: "Neelim Shikar Borah",
+            name: "Neelim Sikhar Borah",
             role: "Technology Team Co-Lead",
             image: "https://i.postimg.cc/NMDQHKnm/PIC-NE-1.jpg",
             github: "https://github.com/Neil-9352",
