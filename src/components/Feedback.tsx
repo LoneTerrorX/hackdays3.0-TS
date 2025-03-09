@@ -4,31 +4,31 @@ import { MessageSquare, Star } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "Shubrajit Deb",
+    name: "Samannaya Adhikari",
     year: "2023-24",
     message: "An amazing experience that helped me grow as a developer!",
     rating: 5
   },
   {
-    name: "Midanka Lahon",
+    name: "Rajdeep Das",
     year: "2023-24",
     message: "The challenges were tough but incredibly rewarding.",
     rating: 4
   },
   {
-    name: "Prasun Chakraborty",
+    name: "Swarup Das",
     year: "2023-24",
     message: "Great organization and learning opportunities.",
     rating: 4
   },
   {
-    name: "Arijit Banik",
+    name: "Binit Krishna Goswami",
     year: "2023-24",
     message: "Made great connections and learned new technologies.",
     rating: 5
   },
   {
-    name: "Subarna Saikia",
+    name: "Sanchit Kumar",
     year: "2023-24",
     message: "Made great connections and learned new technologies.",
     rating: 4
