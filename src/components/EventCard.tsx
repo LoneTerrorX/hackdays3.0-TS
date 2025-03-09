@@ -39,7 +39,7 @@ export const eventsData = {
     title: "Cypher",
     icon: <Glasses className="h-8 w-8" />,
     description: "Decrypt the puzzles to become modern age Mr. Robot, f-society :)",
-    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
+    formLink: "https://forms.gle/hh8TeC8YYhimYDKH9",
     prizePool: "2,000 INR"
   },
   "Quiz": {
