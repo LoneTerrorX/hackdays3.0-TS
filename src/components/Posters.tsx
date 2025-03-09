@@ -11,7 +11,7 @@ const posters = [
   {
     title: "Gaming Tournament",
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800",
-    description: "Compete in BGMI, FIFA, and Forza. Show your gaming skills and win big prizes!"
+    description: "Compete in Valorant, BGMI & FIFA. Show your gaming skills and win big prizes!"
   },
   {
     title: "Chess Championship",
@@ -21,7 +21,7 @@ const posters = [
   {
     title: "Bug Bounty Hunt",
     image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800",
-    description: "Find vulnerabilities, solve puzzles, and earn rewards in our security challenge!"
+    description: "Find vulnerabilities, solve puzzles & earn rewards in our security challenge!"
   }
 ];
 

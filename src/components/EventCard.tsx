@@ -12,70 +12,70 @@ export const eventsData = {
     icon: <Code2 className="h-8 w-8" />,
     description: "48-hour coding marathon to build innovative solutions. Showcase your coding skills and creativity.",
     formLink: "https://forms.gle/g7bqPKJiuT2XXCw16",
-    prizePool: "TBA"
+    prizePool: "15,000 INR"
   },
   "CodeGem": {
     title: "CodeGem",
     icon: <Trophy className="h-8 w-8" />,
     description: "Competitive programming contest to solve complex algorithmic challenges within time constraints.",
     formLink: "https://forms.gle/k1YKxDydY6BGTdJm6",
-    prizePool: "TBA"
+    prizePool: "7,000 INR"
   },
   "Bug Bounty": {
     title: "Bug Bounty",
     icon: <BugPlay className="h-8 w-8" />,
     description: "Find The Bugs, Debug it & claim the bounty.",
     formLink: "https://forms.gle/6y14LYkQec6ijTf66",
-    prizePool: "TBA"
+    prizePool: "2,000 INR"
   },
   "Typing Speed": {
     title: "Typing Speed",
     icon: <Keyboard className="h-8 w-8" />,
     description: "Can you type with keyboard as a Stenographer, if yes then this is the perfect oppurtunity for you!",
     formLink: "https://forms.gle/QmrPXVfSmdd29hkE9",
-    prizePool: "TBA"
+    prizePool: "1,000 INR"
   },
   "Cypher": {
     title: "Cypher",
     icon: <Glasses className="h-8 w-8" />,
     description: "Decrypt the puzzles to become modern age Mr. Robot, f-society :)",
     formLink: "https://forms.gle/6y14LYkQec6ijTf66",
-    prizePool: "TBA"
+    prizePool: "2,000 INR"
   },
   "Quiz": {
   title: "Quiz",
   icon: <Lightbulb className="h-8 w-8" />,
     description: "Revv up your Nervous Engine to outperform & win amazing knowledge with prizes!",
     formLink: "https://forms.gle/6y14LYkQec6ijTf66",
-    prizePool: "TBA"
+    prizePool: "2,000 INR"
   },
   "FIFA": {
     title: "FIFA",
     icon: <Gamepad2 className="h-8 w-8" />,
     description: "Show off your virtual football skills in this exciting FIFA tournament.",
     formLink: "https://forms.gle/C9bxSbhj3bEzTvWY8",
-    prizePool: "TBA"
+    prizePool: "2,000 INR"
   },
   "Valorant": {
     title: "Valorant",
     icon: <Gamepad2 className="h-8 w-8" />,
     description: "Team-based tactical FPS competition. Coordinate with your squad and outplay opponents.",
     formLink: "https://forms.gle/5MHTurZcq9ygUjfZ9",
-    prizePool: "TBA"
+    prizePool: "5,000 INR"
   },
   "BGMI": {
     title: "BGMI",
     icon: <Smartphone className="h-8 w-8" />,
     description: "Battle Royale mobile gaming tournament. Survive and become the last team standing.",
     formLink: "https://forms.gle/TannSJ55phKMy2h29",
-    prizePool: "TBA"
+    prizePool: "4,000 INR"
   },
   "Chess": {
     title: "Chess",
     icon: <ChevronRight className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
     formLink: "https://forms.gle/6y14LYkQec6ijTf66",
-    prizePool: "TBA"
+    prizePool: "2,000 INR"
   },
   "IPL Auction": {
     title: "IPL Auction",
@@ -89,14 +89,14 @@ export const eventsData = {
     icon: <PenTool className="h-8 w-8" />,
     description: "Showcase your creative design skills and artistic vision in this design competition.",
     formLink: "https://forms.gle/RVoPFvuJRSFStpb4A",
-    prizePool: "TBA"
+    prizePool: "2,000 INR"
   },
   "Kala-Kriti": {
     title: "Kala-Kriti",
     icon: <Palette className="h-8 w-8" />,
     description: "Do you have the artist in you? Combine it with your creativity skills & build something new!",
     formLink: "https://forms.gle/6y14LYkQec6ijTf66",
-    prizePool: "TBA"
+    prizePool: "2,000 INR"
   }
 };
 
@@ -136,7 +136,7 @@ const EventCard: React.FC<EventCardProps> = ({ eventType }) => {
         <div className={`absolute top-3 right-3 px-3 py-1 rounded-full bg-gradient-to-r from-purple-500 to-indigo-600 text-white text-sm font-semibold transition-all duration-500 ${
           isHovered ? 'opacity-100 transform scale-110' : 'opacity-80'
         }`}>
-          Prize: {eventData.prizePool}
+          PrizePool: {eventData.prizePool}
         </div>
 
         {/* Icon container */}
