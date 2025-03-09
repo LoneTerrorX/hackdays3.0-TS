@@ -42,7 +42,7 @@ export default function Messages() {
               </blockquote>
               <div>
                 <h3 className="text-white font-bold text-xl">Prof. Shikhar Kumar Sarma</h3>
-                <p className="text-purple-300">Head of Dept.</p>
+                <p className="text-purple-300">Dean of Technology <br /> Head of Department <br /> Dept. of Information Technology </p>
               </div>
             </div>
           </motion.div>
@@ -65,7 +65,7 @@ export default function Messages() {
               </blockquote>
               <div>
                 <h3 className="text-white font-bold text-xl"><br />Dr. Rupam Bhattacharyya</h3>
-                <p className="text-blue-300">Faculty Advisor</p>
+                <p className="text-blue-300">Faculty Advisor <br /> Assistant Professor <br /> Dept. of Information Technology </p>
               </div>
             </div>
           </motion.div>

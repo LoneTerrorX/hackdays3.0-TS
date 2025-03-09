@@ -81,7 +81,7 @@ export default function Feedback() {
 
         <div className="text-center">
           <motion.a
-            href="https://forms.google.com/your-form-url"
+            href="https://forms.gle/6y14LYkQec6ijTf66"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

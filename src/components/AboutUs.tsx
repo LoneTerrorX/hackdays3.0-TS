@@ -75,19 +75,199 @@ const TeamMember: React.FC<TeamMemberProps> = ({
     );
 };
 
+const fullteam = [
+    {
+        name: "Shubrajit Deb",
+        role: "Event Management Lead",
+        image: "https://i.postimg.cc/Mp3PvqtH/SHUBRA-1.png",
+        github: "https://github.com/Shubrajit22",
+        linkedin: "https://www.linkedin.com/in/shubrajit-deb-034467272/",
+        email: "shubrajit@example.com",
+    },
+    {
+        name: "Arijit Banik",
+        role: "Event Management Co-Lead",
+        image: "https://i.postimg.cc/Rh9hKrGJ/Arijit-Banik.jpg",
+        github: "https://github.com/arijitb17",
+        linkedin: "https://www.linkedin.com/in/arijit-banik-485610246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "arijitb017@gmail.com",
+    },
+    {
+        name: "Pragyan Paul ",
+        role: "Public Relations & Marketing Lead",
+        image: "https://i.postimg.cc/C1SF5Gcw/IMG-93-2.jpg",
+        github: "https://github.com/Pragyan5782",
+        linkedin: "https://www.linkedin.com/in/pragyan-paul-7190b8262",
+        email: "abhibaishya07@gmail.com",
+    },
+    {
+        name: "Abhijit Kumar Baishya ",
+        role: "Public Relations & Marketing Head",
+        image: "https://i.postimg.cc/vTmbLQRj/IMG-20-3.jpg",
+        github: "https://github.com/abhibaishya07",
+        linkedin: "https://www.linkedin.com/in/abhijit-baishya-978a28253/",
+        email: "abhibaishya07@gmail.com",
+    },
+    {
+        name: "Rishikesh Verma",
+        role: "Public Relations & Marketing Contributor",
+        image: "https://i.postimg.cc/htXw8XXT/RVERMA-1.jpg",
+        github: "https://github.com/Rishikesh-Verma69",
+        linkedin: "https://www.linkedin.com/in/rishikesh-verma-aab4a1256/",
+        email: "rishiv903@gmail.com",
+    },
+    {
+        name: "Ashmit Karmakar ",
+        role: "Marketing Co-Lead",
+        image: "https://i.postimg.cc/t4nRMC1G/IMG-20-2.jpg",
+        github: "https://github.com/Ashmitkarmakar",
+        linkedin: "https://www.linkedin.com/in/ashmit-karmakar-1885b5238/",
+        email: "ashmitkarmakar5@gmail.com",
+    },
+    {
+        name: "Subarna Saikia",
+        role: "Event Coordinator Lead",
+        image: "https://i.postimg.cc/zXBGTk8B/BLACK-1.png",
+        github: "https://github.com/subarnasaikia",
+        linkedin: "https://www.linkedin.com/in/subarna-saikia/",
+            email: "subarnasaikia2@gmail.com",
+    },
+    {
+        name: "Monaswi Kumar Bharadwaj",
+        role: "Event Coordinator Head",
+        image: "https://i.postimg.cc/7LvP887G/IMG-20-1.jpg",
+        github: "https://github.com/Monaswi0104",
+        linkedin: "https://www.linkedin.com/in/monaswi-kumar-bharadwaj-051713296/",
+        email: "bharadwajmonaswi@gmail.com",
+    },
+    {
+        name: "Geetartha Bordoloi",
+        role: "Finance Lead",
+        image: "https://i.postimg.cc/3JcJ1DxZ/IMG-20-1.jpg",
+        github: "https://github.com/Geet2002",
+        linkedin: "https://www.linkedin.com/in/geetartha-bordoloi",
+        email: "geetarthabordoloi936@gmail.com",
+    },
+    {
+        name: "Snehal Kalita",
+        role: "Finance Co-Lead",
+        image: "https://i.postimg.cc/v8Xm1KRk/IMG-19-1.jpg",
+        github: "https://github.com/SnehalKalita",
+        linkedin: "http://linkedin.com/in/snehal-kalita-1bb274301",
+        email: "snehalkalita@gmail.com",
+    },
+    {
+        name: "Purab Jyoti Kashyap",
+        role: "Design & Creatives Lead",
+        image: "https://i.postimg.cc/MZsWZjV8/WHATSA-1.jpg",
+        github: "https://github.com/PurabR",
+        linkedin: "https://www.linkedin.com/in/purabkashyap/",
+        email: "purab2013@gmail.com",
+    },
+    {
+        name: "Bikash Bora",
+        role: "Design & Creatives Contributor",
+        image: "https://i.postimg.cc/Wb5zFHZt/Bikash-Bora.jpg",
+        github: "https://github.com/Bikash62521",
+        linkedin: "https://www.linkedin.com/in/bikash-bora-b67690256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "borab796@gmail.com",
+    },
+    {
+        name: "Prasun Chakraborty",
+        role: "Esports Lead",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQHxWxuz-GZKBQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680690377994?e=1746662400&v=beta&t=znrXCPzXSjLXZoHG1EZ2LUeNqfj1j4D6g-9ZTYxs0w4",
+        github: "https://github.com/LoneTerror",
+        linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
+        email: "nothingshere21@gmail.com",
+    },
+    {
+        name: "Midanka Lahon",
+        role: "Esports Head",
+        image: "https://media.licdn.com/dms/image/v2/D5603AQGR77LdVksyxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726764793093?e=1746662400&v=beta&t=rnqVe-oNvG7FSmmXwdGLaPHXG0eb9UeXrB5IzpgIRpA",
+        github: "https://github.com/midankalahon786",
+        linkedin: "https://www.linkedin.com/in/midanka-lahon-1946b8255/",
+        email: "midankalahon@gmail.com",
+    },
+    {
+        name: "Anilabh Barua",
+        role: "Esports Co-Lead",
+        image: "https://i.postimg.cc/x1vhCWhb/IMG202-1.png",
+        github: "https://github.com/AnilabhBarua",
+        linkedin: "https://www.linkedin.com/in/barua24/",
+        email: "anilabh.barua@gmail.com",
+    },
+    {
+        name: "Bhargav Shivam",
+        role: "Esports Co-Lead",
+        image: "https://i.postimg.cc/hPfKXP1Q/WHATSA-2.jpg",
+        github: "https://github.com/BhargavShivam7",
+        linkedin: "https://www.linkedin.com/in/bhargav-shivam-54bab1256/",
+        email: "bhargavshivamcr7@gmail.com",
+    },
+    {
+        name: "Gautam Hazarika",
+        role: "Technology Team Lead",
+        image: "https://i.postimg.cc/J0qnQTd6/Gautam-Hazarika.png",
+        github: "https://www.github.com/gautam84",
+        linkedin: "https://www.linkedin.com/in/gautamhazarika",
+        email: "gautamhazarika01@gmail.com",
+    },
+    {
+        name: "Neelim Shikar Borah",
+        role: "Technology Team Co-Lead",
+        image: "https://i.postimg.cc/NMDQHKnm/PIC-NE-1.jpg",
+        github: "https://github.com/Neil-9352",
+        linkedin: "https://www.linkedin.com/in/neelim-s-borah-40481126a/",
+        email: "borahneelims@gmail.com",
+    },
+    {
+        name: "Kaushik Sarma",
+        role: "Attendee Engagement Lead ",
+        image: "https://i.postimg.cc/MHsZhnbq/1-KAUS-1.jpg",
+        github: "https://github.com/Student-KaushikSarma",
+        linkedin: "https://www.linkedin.com/in/kaushik-sarma-318525329",
+        email: "kaushiksarma972@gmail.com",
+    },
+    {
+        name: "Manwinder Singh",
+        role: "Attendee Engagement Contributer",
+        image: "https://i.postimg.cc/wTq3Bp7S/Manwinder-Singh.jpg",
+        github: "https://github.com",
+        linkedin: "https://www.linkedin.com/in/manwinder-singh-86353a215",
+        email: "risingsingh440@gmail.com",
+    },
+    {
+        name: "Debobrata Das",
+        role: "Attendee Engagement Contributer",
+        image: "https://i.postimg.cc/W4MNsW69/202503-1.jpg",
+        github: "https://github.com/debo-220102022",
+        linkedin: "https://www.linkedin.com/in/debobrata-das-b51059265/",
+        email: "debobrata2000das@gmail.com",
+    },
+    {
+        name: "Dikshita Dutta",
+        role: "Attendee Engagement Member",
+        image: "https://i.postimg.cc/44bmZdN6/Dikshita-22-Dutta-3029.jpg",
+        github: "https://github.com/dikshitadutta",
+        linkedin: "https://www.linkedin.com/in/dikshita-dutta-9a6194296",
+        email: "dikshitadutta888@gmail.com",
+    },
+
+
+];
 const AboutUs: React.FC = () => {
     const teamMembers = [
         {
             name: "Shubrajit Deb",
-            role: "Event Management Lead",
-            image: "https://media.licdn.com/dms/image/v2/D5603AQFY0wmmngFH7g/profile-displayphoto-shrink_200_200/B56ZVc0ZzVGQAc-/0/1741018996588?e=1746662400&v=beta&t=tUfYbZuCimEVYUm2mgoibsetd1ODx-kwbR8bVMalLMY",
+            role: "",
+            image: "https://i.postimg.cc/Mp3PvqtH/SHUBRA-1.png",
             github: "https://github.com/Shubrajit22",
             linkedin: "https://www.linkedin.com/in/shubrajit-deb-034467272/",
             email: "shubrajit@example.com",
         },
         {
             name: "Midanka Lahon",
-            role: "Frontend Developer",
+            role: "",
             image: "https://media.licdn.com/dms/image/v2/D5603AQGR77LdVksyxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726764793093?e=1746662400&v=beta&t=rnqVe-oNvG7FSmmXwdGLaPHXG0eb9UeXrB5IzpgIRpA",
             github: "https://github.com/midankalahon786",
             linkedin: "https://www.linkedin.com/in/midanka-lahon-1946b8255/",
@@ -95,11 +275,19 @@ const AboutUs: React.FC = () => {
         },
         {
             name: "Prasun Chakraborty",
-            role: "Backend Developer",
+            role: "",
             image: "https://media.licdn.com/dms/image/v2/D5603AQHxWxuz-GZKBQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680690377994?e=1746662400&v=beta&t=znrXCPzXSjLXZoHG1EZ2LUeNqfj1j4D6g-9ZTYxs0w4",
             github: "https://github.com/LoneTerror",
             linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
             email: "nothingshere21@gmail.com",
+        },
+        {
+            name: "Snehal Kalita",
+            role: "",
+            image: "https://i.postimg.cc/v8Xm1KRk/IMG-19-1.jpg",
+            github: "https://github.com/SnehalKalita",
+            linkedin: "http://linkedin.com/in/snehal-kalita-1bb274301",
+            email: "snehalkalita@gmail.com",
         },
     ];
 
@@ -156,8 +344,21 @@ const AboutUs: React.FC = () => {
                             Founded in 2022, our mission is to foster creativity, collaboration,
                             and technical excellence among participants while creating a platform
                             for networking and knowledge sharing.
-                        </p> */}
+                            </p> */}
                     </div>
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }}
+                        viewport={{ once: true }}
+                        className="bg-gradient-to-r from-indigo-900/30 to-purple-900/30 rounded-xl p-8 mb-16"
+                    >
+                        <h2 className="text-3xl font-bold bg-gradient-to-b from-indigo-300 to-red-300 text-transparent bg-clip-text mb-6 text-center">Our Vision</h2>
+                        <p className="text-xl text-gray-300 text-center">
+                            To create an inclusive tech community that empowers individuals to push their boundaries,
+                            learn new skills & build innovative solutions to real-world problems.
+                        </p>
+                    </motion.div>
                 </motion.div>
 
                 <div className="mb-20">
@@ -168,7 +369,23 @@ const AboutUs: React.FC = () => {
                         viewport={{ once: true }}
                         className="text-3xl font-bold text-center text-white mb-12"
                     >
-                        Our <span className="text-indigo-400">Web-Team</span>
+                        <span className="text-indigo-400">Core-Team Operators</span>
+                    </motion.h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {fullteam.map((member, index) => (
+                            <TeamMember key={index} {...member} />
+                        ))}
+                    </div>
+                </div>
+                <div className="mb-20">
+                    <motion.h2
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ duration: 0.5 }}
+                        viewport={{ once: true }}
+                        className="text-3xl font-bold text-center text-white mb-12"
+                    >
+                        <span className="text-indigo-400">Web-Operators</span>
                     </motion.h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {teamMembers.map((member, index) => (
@@ -177,19 +394,6 @@ const AboutUs: React.FC = () => {
                     </div>
                 </div>
 
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5 }}
-                    viewport={{ once: true }}
-                    className="bg-gradient-to-r from-indigo-900/30 to-purple-900/30 rounded-xl p-8 mb-16"
-                >
-                    <h2 className="text-3xl font-bold text-white mb-6 text-center">Our Vision</h2>
-                    <p className="text-xl text-gray-300 text-center">
-                        To create an inclusive tech community that empowers individuals to push their boundaries,
-                        learn new skills, and build innovative solutions to real-world problems.
-                    </p>
-                </motion.div>
 
                 <motion.div
                     initial={{ opacity: 0 }}

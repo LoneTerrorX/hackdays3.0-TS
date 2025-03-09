@@ -18,84 +18,84 @@ export const eventsData = {
     title: "CodeGem",
     icon: <Trophy className="h-8 w-8" />,
     description: "Competitive programming contest to solve complex algorithmic challenges within time constraints.",
-    formLink: "https://forms.google.com/codegem",
+    formLink: "https://forms.gle/k1YKxDydY6BGTdJm6",
     prizePool: "TBA"
   },
   "Bug Bounty": {
     title: "Bug Bounty",
     icon: <BugPlay className="h-8 w-8" />,
     description: "Find The Bugs, Debug it & claim the bounty.",
-    formLink: "https://forms.google.com/graphics",
+    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
     prizePool: "TBA"
   },
   "Typing Speed": {
     title: "Typing Speed",
     icon: <Keyboard className="h-8 w-8" />,
     description: "Can you type with keyboard as a Stenographer, if yes then this is the perfect oppurtunity for you!",
-    formLink: "https://forms.google.com/graphics",
+    formLink: "https://forms.gle/QmrPXVfSmdd29hkE9",
     prizePool: "TBA"
   },
   "Cypher": {
     title: "Cypher",
     icon: <Glasses className="h-8 w-8" />,
     description: "Decrypt the puzzles to become modern age Mr. Robot, f-society :)",
-    formLink: "https://forms.google.com/graphics",
+    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
     prizePool: "TBA"
   },
   "Quiz": {
   title: "Quiz",
   icon: <Lightbulb className="h-8 w-8" />,
     description: "Revv up your Nervous Engine to outperform & win amazing knowledge with prizes!",
-    formLink: "https://forms.google.com/graphics",
+    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
     prizePool: "TBA"
   },
   "FIFA": {
     title: "FIFA",
     icon: <Gamepad2 className="h-8 w-8" />,
     description: "Show off your virtual football skills in this exciting FIFA tournament.",
-    formLink: "https://forms.google.com/",
+    formLink: "https://forms.gle/C9bxSbhj3bEzTvWY8",
     prizePool: "TBA"
   },
   "Valorant": {
     title: "Valorant",
     icon: <Gamepad2 className="h-8 w-8" />,
     description: "Team-based tactical FPS competition. Coordinate with your squad and outplay opponents.",
-    formLink: "https://forms.gle/sJNidmKKYmwLauQs7",
+    formLink: "https://forms.gle/5MHTurZcq9ygUjfZ9",
     prizePool: "TBA"
   },
   "BGMI": {
     title: "BGMI",
     icon: <Smartphone className="h-8 w-8" />,
     description: "Battle Royale mobile gaming tournament. Survive and become the last team standing.",
-    formLink: "https://forms.google.com/bgmi",
+    formLink: "https://forms.gle/TannSJ55phKMy2h29",
     prizePool: "TBA"
   },
   "Chess": {
     title: "Chess",
     icon: <ChevronRight className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
-    formLink: "https://forms.google.com/chess",
+    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
     prizePool: "TBA"
   },
   "IPL Auction": {
     title: "IPL Auction",
     icon: <img src={CricketIcon} alt="Cricket Icon" className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
-    formLink: "https://forms.google.com/chess",
+    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
     prizePool: "TBA"
   },
   "Graphics Designing": {
     title: "Graphics Designing",
     icon: <PenTool className="h-8 w-8" />,
     description: "Showcase your creative design skills and artistic vision in this design competition.",
-    formLink: "https://forms.google.com/graphics",
+    formLink: "https://forms.gle/RVoPFvuJRSFStpb4A",
     prizePool: "TBA"
   },
   "Kala-Kriti": {
     title: "Kala-Kriti",
     icon: <Palette className="h-8 w-8" />,
     description: "Do you have the artist in you? Combine it with your creativity skills & build something new!",
-    formLink: "https://forms.google.com/graphics",
+    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
     prizePool: "TBA"
   }
 };

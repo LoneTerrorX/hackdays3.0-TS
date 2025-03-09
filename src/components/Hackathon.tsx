@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Timer } from "lucide-react";
 
+
 export default function Hackathon() {
   return (
     <div className="min-h-screen bg-gray-900 text-white py-16 px-8">
@@ -9,28 +10,36 @@ export default function Hackathon() {
         <div className="flex items-center gap-4 mb-8">
           <Timer className="w-12 h-12 text-purple-500" />
           <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-            24Hr Hackathon
+            3-Days Hackathon Event
           </h1>
         </div>
 
         {/* Description */}
-        <p className="text-lg mb-6 leading-relaxed">
-          Code your way to glory in this intense 24-hour coding marathon.
+        <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
+          Code your way to glory in this 3-day coding marathon.
           Collaborate, innovate, and push your limits to solve real-world
-          problems. Compete with the best and stand a chance to win exciting
+          problems. Compete among others, give your best and stand a chance to win exciting
           prizes!
         </p>
+      
+        <h1 className="text-2xl font-sans bg-clip-text pb-12 text-purple-200">
+          <img src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800" alt="Hackathon Image"
+          className="rounded-lg transform translate-x-12 scale-x-110 "
+          />
+        </h1>
+
 
         {/* Event Details */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
           <ul className="space-y-3">
             <li>
-              🕒 <strong>Duration:</strong> 24 Hours Non-Stop Coding
+              🕒 <strong>Duration:</strong> 3-Days Cumulative Coding
             </li>
-            <li>👥 <strong>Team Size:</strong> 2-4 Participants</li>
-            <li>🏆 <strong>Prizes:</strong> Exciting Cash Rewards & Swag</li>
-            <li>📅 <strong>Date:</strong> March 15th - 16th, 2025</li>
+            <li>👥 <strong>Team Size:</strong> 1-5 Participants</li>
+            <li>🏆 <strong>Prizes:</strong> Exciting Cash Rewards & Schwagzz!</li>
+            <li>📅 <strong>Date:</strong> March 19th - 21th, 2025</li>
+            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall - GUIST Building</a> </li>
           </ul>
         </div>
 
@@ -46,7 +55,7 @@ export default function Hackathon() {
             href="https://forms.gle/g7bqPKJiuT2XXCw16"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition"
+            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
           >
             Register Now 🚀
           </a>
