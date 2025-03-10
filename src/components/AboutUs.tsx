@@ -160,7 +160,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Prasun Chakraborty",
             role: "E-Sports Coordinator Head",
-            image: "https://media.licdn.com/dms/image/v2/D5603AQHxWxuz-GZKBQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1680690377994?e=1746662400&v=beta&t=znrXCPzXSjLXZoHG1EZ2LUeNqfj1j4D6g-9ZTYxs0w4",
+            image: "https://i.postimg.cc/HntPD41K/prasun.jpg",
             github: "https://github.com/LoneTerror",
             linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
             email: "nothingshere21@gmail.com",
@@ -168,7 +168,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Midanka Lahon",
             role: "E-Sports Coordinator Lead",
-            image: "https://media.licdn.com/dms/image/v2/D5603AQGR77LdVksyxg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726764793093?e=1746662400&v=beta&t=rnqVe-oNvG7FSmmXwdGLaPHXG0eb9UeXrB5IzpgIRpA",
+            image: "https://i.postimg.cc/pTz6kMGP/midanka.jpg",
             github: "https://github.com/midankalahon786",
             linkedin: "https://www.linkedin.com/in/midanka-lahon-1946b8255/",
             email: "midankalahon@gmail.com",
