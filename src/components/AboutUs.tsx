@@ -96,7 +96,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Rishikesh Verma",
             role: "Public Relations & Marketing Co-Lead",
-            image: "https://i.postimg.cc/htXw8XXT/RVERMA-1.jpg",
+            image: "https://i.postimg.cc/MHzdDMfY/rverma.jpg",
             github: "https://github.com/Rishikesh-Verma69",
             linkedin: "https://www.linkedin.com/in/rishikesh-verma-aab4a1256/",
             email: "rishiv903@gmail.com",
