@@ -10,7 +10,7 @@ export const eventsData = {
   "Hackathon": {
     title: "Hackathon",
     icon: <Code2 className="h-8 w-8" />,
-    description: "48-hour coding marathon to build innovative solutions. Showcase your coding skills and creativity.",
+    description: "Week Long hackathon to build innovative solutions. Showcase your coding skills and creativity.",
     formLink: "https://forms.gle/g7bqPKJiuT2XXCw16",
     prizePool: "15,000 INR"
   },
@@ -81,7 +81,7 @@ export const eventsData = {
     title: "IPL Auction",
     icon: <img src={CricketIcon} alt="Cricket Icon" className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
-    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
+    formLink: "https://forms.gle/oz4Sg9qgFNCWZzSs9",
     prizePool: "5,000 INR"
   },
   "Graphics Designing": {

@@ -10,13 +10,13 @@ export default function Hackathon() {
         <div className="flex items-center gap-4 mb-8">
           <Timer className="w-12 h-12 text-purple-500" />
           <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-            3-Days Hackathon Event
+            Hackathon Event
           </h1>
         </div>
 
         {/* Description */}
         <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
-          Code your way to glory in this 3-day coding marathon.
+          Code your way to glory in this hackathon.
           Collaborate, innovate, and push your limits to solve real-world
           problems. Compete among others, give your best and stand a chance to win exciting
           prizes!
@@ -34,14 +34,32 @@ export default function Hackathon() {
           <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
           <ul className="space-y-3">
             <li>
-              🕒 <strong>Duration:</strong> 3-Days Cumulative Coding
+              🕒 <strong>Duration:</strong> 7-Days of Coding Marathon
             </li>
             <li>👥 <strong>Team Size:</strong> 1-5 Participants</li>
             <li>🏆 <strong>Prizes:</strong> Exciting Cash Rewards & Schwagzz!</li>
-            <li>📅 <strong>Date:</strong> March 19th - 21th, 2025</li>
+            <li>📅 <strong>Date:</strong> March 21th, 2025</li>
             <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall - GUIST Building</a> </li>
           </ul>
         </div>
+        {/* <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Rules & Regulations</h2>
+          <ul className="space-y-3">
+            <li>
+               <strong>Rules:</strong> 
+            </li>
+            <li> <strong>Rules are meant to break</strong> </li>
+          </ul>
+        </div>
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Judging Criteria</h2>
+          <ul className="space-y-3">
+            <li>
+              🕒 <strong></strong> 
+            </li>
+            <li>👥 <strong>Judges:</strong> IDK</li>
+          </ul>
+        </div> */}
 
         {/* CTA (Call to Action) */}
         <div className="flex gap-4">
