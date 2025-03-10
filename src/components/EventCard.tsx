@@ -46,7 +46,7 @@ export const eventsData = {
   title: "Quiz",
   icon: <Lightbulb className="h-8 w-8" />,
     description: "Revv up your Nervous Engine to outperform & win amazing knowledge with prizes!",
-    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
+    formLink: "https://forms.gle/bXb7FZFiNA4WYie27",
     prizePool: "2,000 INR"
   },
   "FIFA": {

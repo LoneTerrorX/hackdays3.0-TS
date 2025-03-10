@@ -100,7 +100,7 @@ const Merch: React.FC = () => {
                 </div>
                 <p className="text-gray-400 mb-4">{item.description}</p>
                 <motion.a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScDY-kWldzG_o17gvyvojfgihdgMK69ksC6FMaXc64VZ-8y1w/viewform"
+                  href="https://forms.gle/hSZsd1RUVAYkMJJA8"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
