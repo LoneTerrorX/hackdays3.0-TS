@@ -25,7 +25,7 @@ export const eventsData = {
     title: "Bug Bounty",
     icon: <BugPlay className="h-8 w-8" />,
     description: "Find The Bugs, Debug it & claim the bounty.",
-    formLink: "https://forms.gle/6y14LYkQec6ijTf66",
+    formLink: "https://forms.gle/Nq4EXyCZhG35J3d9A",
     prizePool: "2,000 INR"
   },
   "Typing Speed": {
