@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Code2, Trophy, Gamepad2, Smartphone, ChevronRight, PenTool, Keyboard, BugPlay, Lightbulb, Glasses, Palette} from 'lucide-react';
+import { Code2, Trophy, Gamepad2, Smartphone, PenTool, Keyboard, BugPlay, Lightbulb, Glasses, Palette} from 'lucide-react';
 import CricketIcon from "/icons/cricket.png";
+import Chess from "/icons/chess-rook.png";
 interface EventCardProps {
   eventType: keyof typeof eventsData;
 }
@@ -72,14 +73,14 @@ export const eventsData = {
   },
   "Chess": {
     title: "Chess",
-    icon: <ChevronRight className="h-8 w-8" />,
+    icon: <img src = {Chess} alt="Waiting to load" className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
     formLink: "https://forms.gle/4hs4Dq5KUJJdi5UK8",
     prizePool: "2,000 INR"
   },
   "IPL Auction": {
     title: "IPL Auction",
-    icon: <img src={CricketIcon} alt="Cricket Icon" className="h-8 w-8" />,
+    icon: <img src={CricketIcon} alt="Waiting to load" className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
     formLink: "https://forms.gle/oz4Sg9qgFNCWZzSs9",
     prizePool: "5,000 INR"

@@ -2,10 +2,10 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useNavigate } from "react-router-dom";
+import Chess from "/icons/chess-rook.png";
 import {
   Gamepad2,
   Timer,
-  ChevronRight as ChessKnight,
   Trophy,
   Keyboard,
   Search,
@@ -43,7 +43,7 @@ const events = [
   },
   {
     title: "Chess Masters",
-    icon: ChessKnight,
+    icon: Chess,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
     color: "from-blue-600 to-cyan-600",
     link: "/events/chess-tournament",
@@ -92,6 +92,16 @@ export default function Events() {
     navigate(link);
   };
 
+  const renderIcon = (event: { icon: any; title: string }) => {
+    return typeof event.icon === "string" ? (
+      <img src={event.icon} alt={event.title} className="w-12 h-12 mb-4" />
+    ) : (
+      <event.icon className="w-12 h-12 text-white mb-4" />
+    );
+  };
+  
+  
+
   return (
     <div className="py-20 bg-gray-900" id="events">
       <div className="container mx-auto px-4">
@@ -122,7 +132,7 @@ export default function Events() {
                 <div
                   className={`p-6 bg-gradient-to-r ${event.color} transform transition-transform duration-300 group-hover:scale-105`}
                 >
-                  <event.icon className="w-12 h-12 text-white mb-4" />
+                   {renderIcon(event)}
                   <h3 className="text-xl font-bold text-white mb-2">
                     {event.title}
                   </h3>
