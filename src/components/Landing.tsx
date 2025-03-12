@@ -15,7 +15,7 @@ const Landing = () => {
       <Hero />
       <Events />
       <Sponsors />
-      <Posters />
+      {/* <Posters /> */}
       <Messages />
       <Feedback />
       <Footer />

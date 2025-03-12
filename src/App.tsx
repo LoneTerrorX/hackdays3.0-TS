@@ -6,14 +6,13 @@ import Hackathon from "./components/Hackathon";
 import BugBounty from "./components/BugBounty";
 import Quiz from "./components/Quiz";
 import TypingSpeed from "./components/TypingSpeed";
-import ValorantTournament from "./components/ValorantTournament";
-import BGMITournament from "./components/BGMITournament";
-import FIFATournament from "./components/FIFATournament";
+import IPLAuction from "./components/IPLAuction";
 import Gallery from "./components/Gallery";
 import AboutUs from "./components/AboutUs";
 import Merch from "./components/Merch";
 import ContactUs from "./components/ContactUs";
 import ChessTournament from "./components/ChessTournament";
+import Codegem from "./components/Codegem";
 
 
 
@@ -34,10 +33,11 @@ function App() {
         <Route path="/events/bug-bounty" element={<BugBounty />} />
         <Route path="/events/quiz" element={<Quiz/>} />
         <Route path="/events/typing-speed" element={<TypingSpeed />} />
-        <Route path="/events/valorant-tournament" element={<ValorantTournament />} />
-        <Route path="/events/bgmi-tournament" element={<BGMITournament />} />
-        <Route path="/events/fifa-tournament" element={<FIFATournament />} />
+        <Route path="/events/ipl-auction" element={<IPLAuction />} />
         <Route path="/events/chess-tournament" element={<ChessTournament />} />
+        {/* <Route path="/events/codegem" element={<Codegem />} /> */}
+
+
 
       </Routes>
     </BrowserRouter>

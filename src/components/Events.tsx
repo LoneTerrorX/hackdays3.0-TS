@@ -10,6 +10,7 @@ import {
   Keyboard,
   Search,
   Lightbulb,
+  Monitor,
 } from "lucide-react";
 
 const events = [
@@ -24,8 +25,15 @@ const events = [
     title: "Bug Bounty Hunt",
     icon: Search,
     description: "Find the bugs, solve the puzzles, claim the bounty",
-    color: "from-yellow-600 to-amber-600",
+    color: "from-yellow-600 to-red-400",
     link: "/events/bug-bounty",
+  },
+  {
+    title: "CodeGem",
+    icon: Gamepad2,
+    description: "In CodeGem, brilliance isn’t just written—it’s compiled into innovation.",
+    color: "from-purple-600 to-red-600",
+    link: "/events/codegem",
   },
   {
     title: "Quiz",
@@ -35,10 +43,17 @@ const events = [
     link: "/events/quiz",
   },
   {
+    title: "Esports",
+    icon: Monitor,
+    description: "Victory is not in never falling, but in rising every time you respawn.",
+    color: "from-red-600 to-rose-400",
+    link: "/events/esports",
+  },
+  {
     title: "Typing Speed",
     icon: Keyboard,
     description: "Test your typing speed and flex your accuracy",
-    color: "from-indigo-600 to-violet-600",
+    color: "from-indigo-600 to-purple-600",
     link: "/events/typing-speed",
   },
   {
@@ -49,27 +64,15 @@ const events = [
     link: "/events/chess-tournament",
   },
   {
-    title: "Valorant Tournament",
-    icon: Gamepad2,
-    description: "Are you really an e-sports champion? Let's Find Out!",
-    color: "from-red-600 to-rose-600",
-    link: "/events/valorant-tournament",
-  },
-  {
-    title: "BGMI Tournament",
+    title: "IPL Auction",
     icon: Trophy,
-    description: "Battle it out in BGMI for ultimate gaming supremacy",
-    color: "from-purple-600 to-pink-600",
-    link: "/events/bgmi-tournament",
+    description: "Champions aren’t just bought they’re built with every bid!",
+    color: "from-green-600 to-teal-900",
+    link: "/events/ipl-auction", 
   },
-  {
-    title: "FIFA Championship",
-    icon: Gamepad2,
-    description: "Show off your FIFA skills and win exciting prizes",
-    color: "from-yellow-600 to-amber-600",
-    link: "/events/fifa-tournament",
-  }
+  
 ];
+
 
 const cardVariants = {
   hidden: { opacity: 0, y: 20 },

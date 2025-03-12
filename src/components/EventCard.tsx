@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Code2, Trophy, Gamepad2, Smartphone, PenTool, Keyboard, BugPlay, Lightbulb, Glasses, Palette} from 'lucide-react';
+import { Code2, Trophy, Gamepad2, Smartphone, PenTool, Keyboard, BugPlay, Lightbulb, Glasses, Palette, Monitor} from 'lucide-react';
 import CricketIcon from "/icons/cricket.png";
 import Chess from "/icons/chess-rook.png";
 interface EventCardProps {
@@ -59,7 +59,7 @@ export const eventsData = {
   },
   "Valorant": {
     title: "Valorant",
-    icon: <Gamepad2 className="h-8 w-8" />,
+    icon: <Monitor className="h-8 w-8" />,
     description: "Team-based tactical FPS competition. Coordinate with your squad and outplay opponents.",
     formLink: "https://forms.gle/5MHTurZcq9ygUjfZ9",
     prizePool: "5,000 INR"
