@@ -81,7 +81,7 @@ export const eventsData = {
   "IPL Auction": {
     title: "IPL Auction",
     icon: <img src={CricketIcon} alt="Waiting to load" className="h-8 w-8" />,
-    description: "Strategic board game tournament to test your tactical thinking and planning.",
+    description: "Champions aren’t just bought they’re built with every bid!",
     formLink: "https://forms.gle/oz4Sg9qgFNCWZzSs9",
     prizePool: "5,000 INR"
   },
