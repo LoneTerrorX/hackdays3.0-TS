@@ -52,7 +52,7 @@ export default function Hackathon() {
               </li>
               <li>👥 <strong>Team Size:</strong> 1-5 Participants</li>
               <li>🏆 <strong>Prizes:</strong> Exciting Cash Rewards & Schwagzz!</li>
-              <li>📅 <strong>Date:</strong> March 19 - 21st, 2025 | Submission Date: On of before 21st March</li>
+              <li>📅 <strong>Date:</strong> March 19 - 21st, 2025 | Submission Date: On or before 21st March</li>
               <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall - GUIST Building</a> </li>
             </ul>
           </div>
