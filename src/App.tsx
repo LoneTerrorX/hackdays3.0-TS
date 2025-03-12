@@ -13,6 +13,7 @@ import Merch from "./components/Merch";
 import ContactUs from "./components/ContactUs";
 import ChessTournament from "./components/ChessTournament";
 import Codegem from "./components/Codegem";
+import Esports from "./components/Esports";
 
 
 
@@ -35,7 +36,8 @@ function App() {
         <Route path="/events/typing-speed" element={<TypingSpeed />} />
         <Route path="/events/ipl-auction" element={<IPLAuction />} />
         <Route path="/events/chess-tournament" element={<ChessTournament />} />
-        {/* <Route path="/events/codegem" element={<Codegem />} /> */}
+        <Route path="/events/codegem" element={<Codegem />} />
+        <Route path="/events/esports" element={<Esports />} />
 
 
 

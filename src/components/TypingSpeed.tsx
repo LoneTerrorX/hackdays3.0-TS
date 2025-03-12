@@ -1,62 +1,78 @@
-"use client";
-import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Keyboard } from "lucide-react";
 
+
 export default function TypingSpeed() {
-  const navigate = useNavigate();
-
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-20 px-4">
-      <div className="container mx-auto">
-        {/* Header */}
-        <motion.h1
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          className="text-5xl font-extrabold text-center mb-12 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-violet-500"
-        >
-          Typing Speed Challenge
-        </motion.h1>
+    <div className="min-h-screen bg-gray-900 text-white py-16 px-8">
+      <div className="max-w-4xl mx-auto">
+        {/* Header Section */}
+        <div className="flex items-center gap-4 mb-8">
+          <Keyboard className="w-12 h-12 text-purple-400" />
+          <h1 className="text-4xl font-bold bg-clip-text text-transparent pb-2 bg-gradient-to-r from-purple-600 to-blue-300">
+            Typing Speed
+          </h1>
+        </div>
 
-        <div className="flex flex-col items-center gap-8">
-          {/* Icon */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
+        {/* Description */}
+        <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
+          Do you have the fastest fingers and the sharpest accuracy? Put your typing skills to the test in the TechFest Typing Speed Challenge! <br /> Compete against fellow tech enthusiasts, programmers, and keyboard warriors to prove your speed and precision.
+        </p>
+
+        <div className="flex justify-center">
+          <img
+            src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2019/12/Typing-Speed-Test-Project-in-Python.gif"
+            alt="Quiz"
+            className="rounded-lg w-full pb-20 max-w-md md:max-w-lg lg:max-w-xl"
+          />
+        </div>
+
+
+
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Rules & Guidelines</h2>
+          <ul className="space-y-3">
+            <li>
+              <strong>Rules:</strong>
+            </li>
+            <li>-<strong> This event is open for all and registration can be done on-spot also</strong> </li>
+            <li>-<strong> Participants will complete a typing test using a pre-selected platform or tool (Platform will be revealed on the day of the event)</strong> </li>
+            <li>-<strong> There will be 3 rounds based on the number of participants</strong> </li>
+            <li>-<strong> Scoring System: Words Per Minute(WPM) * (Accuracy/100)</strong> </li>
+          </ul>
+        </div>
+        {/* Event Details */}
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
+          <ul className="space-y-3">
+            <li>👥 <strong>Team Size:</strong> Solo</li>
+            <li>📅 <strong>Date:</strong> March 21st, 2025</li>
+            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/3UDtCPMKk448PdTa6" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall, GUIST</a> </li>
+          </ul>
+        </div>
+
+        {/* CTA (Call to Action) */}
+        <div className="flex gap-4">
+          <Link
+            to="/"
+            className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
           >
-            <Keyboard className="w-32 h-32 text-indigo-400" />
-          </motion.div>
-
-          {/* Event Description */}
-          <div className="max-w-3xl text-center">
-            <p className="text-lg text-gray-300 leading-relaxed">
-              Test your typing speed and accuracy in this exhilarating Typing
-              Speed Challenge! Compete against the clock to see how fast you can
-              type without making mistakes. Whether you're a beginner or a
-              keyboard ninja, this challenge is the perfect opportunity to show
-              off your typing prowess.
-            </p>
-
-            <h2 className="text-3xl font-bold mt-8 bg-gradient-to-r from-teal-400 to-cyan-400 text-transparent bg-clip-text">
-              Event Highlights
-            </h2>
-            <ul className="mt-4 space-y-4 text-gray-300">
-              <li>🕒 Fast-paced typing competition with time limits.</li>
-              <li>🎯 Accuracy-based scoring – every keystroke counts!</li>
-              <li>🏆 Prizes for the fastest and most accurate typists.</li>
-              <li>🤝 Open to all skill levels – beginners and experts alike.</li>
-            </ul>
-          </div>
-
-          {/* Navigation Button */}
-          <button
-            onClick={() => navigate("/")}
-            className="mt-10 bg-gradient-to-r from-indigo-600 to-violet-600 text-white py-3 px-8 rounded-xl font-semibold hover:scale-105 transition-transform"
+            ← Back to Events
+          </Link>
+          <a
+            href="https://forms.gle/QmrPXVfSmdd29hkE9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
           >
-            Back to Events
-          </button>
+            Register Now 🚀
+          </a>
+          <Link
+            to="/register"
+            className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
+          >
+            More Events
+          </Link>
         </div>
       </div>
     </div>

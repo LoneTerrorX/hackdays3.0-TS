@@ -1,71 +1,86 @@
-"use client";
-import { motion } from "framer-motion";
-import { useNavigate } from "react-router-dom";
-import { FaChessKnight } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import Chess from "/icons/chess-rook.png";
 
-export default function ChessTournament() {
-  const navigate = useNavigate();
 
+export default function Quiz() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white py-20 px-4">
-      <div className="container mx-auto">
-        {/* Title Animation */}
-        <motion.h1
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7 }}
-          className="text-5xl font-extrabold text-center mb-14 leading-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-orange-500"
-        >
-          Chess Tournament
-        </motion.h1>
+    <div className="min-h-screen bg-gray-900 text-white py-16 px-8">
+      <div className="max-w-4xl mx-auto">
+        {/* Header Section */}
+        <div className="flex items-center gap-4 mb-8">
+          <img src = {Chess} alt="Chess" className="w-12 h-12 text-emerald-500" />
+          <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-indigo-300">
+            Chess
+          </h1>
+        </div>
 
-        <div className="flex flex-col lg:flex-row items-center gap-12">
-          {/* Left Section - Text Content */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="lg:w-1/2"
+        {/* Description */}
+        <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
+        Step into the arena of strategic battles and test your intellect in the TechFest Chess Tournament! <br /> Whether you're a upcoming grandmaster or a budding chess enthusiast, this is your chance to showcase your tactical brilliance, outmaneuver opponents, and claim victory on the 64 squares.
+        </p>
+
+        <div className="flex justify-center">
+          <img
+            src="https://i.postimg.cc/0N6Ycyqt/Chess.jpg"
+            alt="Chess"
+            className="rounded-lg w-full pb-20 max-w-md md:max-w-lg lg:max-w-xl"
+          />
+        </div>
+
+
+
+        {/* Event Details */}
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
+          <ul className="space-y-3">
+            <li>🕒 <strong>Timing:</strong> 2:00 PM Onwards</li>
+            <li>⏳ <strong>Time Control:</strong> 5+2</li>
+            <li>⚔️ <strong>Game Format:</strong> Knockout Tournament, Single-Game Elimination</li>
+            <li>📅 <strong>Date:</strong> March 19th, 2025</li>
+            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall - GUIST Building</a> </li>
+          </ul>
+        </div>
+        {/* <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Rules & Regulations</h2>
+          <ul className="space-y-3">
+            <li>
+               <strong>Rules:</strong> 
+            </li>
+            <li> <strong>Rules are meant to break</strong> </li>
+          </ul>
+        </div>
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Judging Criteria</h2>
+          <ul className="space-y-3">
+            <li>
+              🕒 <strong></strong> 
+            </li>
+            <li>👥 <strong>Judges:</strong> IDK</li>
+          </ul>
+        </div> */}
+
+        {/* CTA (Call to Action) */}
+        <div className="flex gap-4">
+          <Link
+            to="/"
+            className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
           >
-            <p className="text-lg leading-relaxed mb-8">
-              Test your strategic skills in this thrilling chess tournament. Compete against top players, plan your moves wisely, and checkmate your way to victory. Exciting prizes await the champions!
-            </p>
-
-            <ul className="space-y-4 text-gray-300">
-              <li></li>
-              <li>👥 1v1 Matches</li>
-              <li>🏆 Cash Rewards, Certificates & Schwagzz!</li>
-              <li>📅 March 19th - 21st, 2025</li>
-            </ul>
-
-            <div className="mt-10 flex flex-col sm:flex-row gap-6">
-              <button
-                onClick={() => navigate("/")}
-                className="bg-gradient-to-r from-yellow-600 to-orange-600 text-white py-3 px-8 rounded-xl font-semibold hover:scale-105 transition-transform"
-              >
-                Back to Events
-              </button>
-
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                onClick={() => navigate("/register")}
-                className="bg-gradient-to-r from-green-600 to-lime-500 text-white py-3 px-8 rounded-xl font-semibold shadow-lg"
-              >
-                Register Now
-              </motion.button>
-            </div>
-          </motion.div>
-
-          {/* Right Section - Animated Icon */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            className="lg:w-1/2 flex justify-center"
+            ← Back to Events
+          </Link>
+          <a
+            href="https://forms.gle/4hs4Dq5KUJJdi5UK8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
           >
-            <FaChessKnight className="w-64 h-64 text-yellow-500 animate-pulse" />
-          </motion.div>
+            Register Now 🚀
+          </a>
+          <Link
+            to="/register"
+            className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
+          >
+            More Events
+          </Link>
         </div>
       </div>
     </div>

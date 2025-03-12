@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import Events from "./Events";
 import Sponsors from "./Sponsors";
-import Posters from "./Posters";
+// import Posters from "./Posters";
 
 import Messages from "./Messages";
 import Feedback from "./Feedback";

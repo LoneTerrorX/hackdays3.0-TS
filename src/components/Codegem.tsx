@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Timer } from "lucide-react";
+import { Code2 } from "lucide-react";
 
 
 export default function Codegem() {
@@ -8,61 +8,50 @@ export default function Codegem() {
       <div className="max-w-4xl mx-auto">
         {/* Header Section */}
         <div className="flex items-center gap-4 mb-8">
-          <Timer className="w-12 h-12 text-purple-500" />
-          <h1 className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-            Hackathon Event
+          <Code2 className="w-12 h-12 text-rose-400" />
+          <h1 className="text-4xl font-bold bg-clip-text text-transparent pb-2 bg-gradient-to-r from-purple-700 to-red-400">
+            Codegem
           </h1>
         </div>
 
         {/* Description */}
         <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
-          Code your way to glory in this hackathon.
-          Collaborate, innovate, and push your limits to solve real-world
-          problems. Compete among others, give your best and stand a chance to win exciting
-          prizes!
+          Are you ready to crack the code and prove your programming prowess? <br />CodeGem is the ultimate coding competition at HackDays 3.0, designed to challenge your problem-solving skills, logical thinking, and algorithmic expertise. <br />Compete with the best minds, solve complex problems, and claim your place among the coding elite!
         </p>
 
         <div className="flex justify-center">
           <img
-            src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800"
-            alt="Hackathon Image"
-            className="rounded-lg w-full max-w-md md:max-w-lg lg:max-w-xl"
+            src="https://i.postimg.cc/8kLPKMcr/Codegem.avif"
+            alt="Quiz"
+            className="rounded-lg w-full pb-20 max-w-md md:max-w-lg lg:max-w-xl"
           />
         </div>
 
 
 
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Rules & Regulations</h2>
+          <ul className="space-y-3">
+            <li>
+              <strong>Rules:</strong>
+            </li>
+            <li>-<strong> The contest follows the ICPC format, where teams compete to solve algorithmic problems within a fixed time</strong> </li>
+            <li>-<strong> A 10-minute penalty is added to the total time for each incorrect submission on a problem</strong> </li>
+            <li>-<strong> Teams are ranked based on the number of problems solved</strong> </li>
+            <li>-<strong> Using AI-powered tools such as ChatGPT, GitHub Copilot, or any LLM-based assistance is strictly prohibited</strong> </li>
+          </ul>
+        </div>
         {/* Event Details */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
           <ul className="space-y-3">
-            <li>
-              🕒 <strong>Duration:</strong> 7-Days of Coding Marathon
-            </li>
-            <li>👥 <strong>Team Size:</strong> 1-5 Participants</li>
-            <li>🏆 <strong>Prizes:</strong> Exciting Cash Rewards & Schwagzz!</li>
-            <li>📅 <strong>Date:</strong> March 21th, 2025</li>
-            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall - GUIST Building</a> </li>
+            <li>🕒 <strong>Timing:</strong> 1:00 - 3:30 PM</li>
+            <li>👥 <strong>Team Size:</strong> 1-2 Members</li>
+            <li>🖥️ <strong>Languages Allowed:</strong> C++, Python, Java</li>
+            <li>📅 <strong>Date:</strong> March 20th, 2025</li>
+            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/QzerbfJXZrqr1Hw48" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; IT Dept, Gauhati University</a> </li>
           </ul>
         </div>
-        {/* <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Rules & Regulations</h2>
-          <ul className="space-y-3">
-            <li>
-               <strong>Rules:</strong> 
-            </li>
-            <li> <strong>Rules are meant to break</strong> </li>
-          </ul>
-        </div>
-        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Judging Criteria</h2>
-          <ul className="space-y-3">
-            <li>
-              🕒 <strong></strong> 
-            </li>
-            <li>👥 <strong>Judges:</strong> IDK</li>
-          </ul>
-        </div> */}
 
         {/* CTA (Call to Action) */}
         <div className="flex gap-4">
@@ -73,7 +62,7 @@ export default function Codegem() {
             ← Back to Events
           </Link>
           <a
-            href="https://forms.gle/g7bqPKJiuT2XXCw16"
+            href="https://forms.gle/k1YKxDydY6BGTdJm6"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
@@ -81,11 +70,11 @@ export default function Codegem() {
             Register Now 🚀
           </a>
           <Link
-                        to="/register"
-                        className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
-                    >
-                        More Events
-                    </Link>
+            to="/register"
+            className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
+          >
+            More Events
+          </Link>
         </div>
       </div>
     </div>
