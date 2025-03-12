@@ -21,12 +21,15 @@ export default function Hackathon() {
           problems. Compete among others, give your best and stand a chance to win exciting
           prizes!
         </p>
-      
-        <h1 className="text-2xl font-sans bg-clip-text pb-12 text-purple-200">
-          <img src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800" alt="Hackathon Image"
-          className="rounded-lg transform translate-x-12 scale-x-110 "
+
+        <div className="flex justify-center">
+          <img
+            src="https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800"
+            alt="Hackathon Image"
+            className="rounded-lg w-full max-w-md md:max-w-lg lg:max-w-xl"
           />
-        </h1>
+        </div>
+
 
 
         {/* Event Details */}
