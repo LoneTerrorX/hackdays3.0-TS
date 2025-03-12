@@ -34,12 +34,12 @@ export const eventsData = {
     icon: <Keyboard className="h-8 w-8" />,
     description: "Can you type with keyboard as a Stenographer, if yes then this is the perfect oppurtunity for you!",
     formLink: "https://forms.gle/QmrPXVfSmdd29hkE9",
-    prizePool: "1,000 INR"
+    prizePool: "2,000 INR"
   },
   "Cypher": {
     title: "Cypher",
     icon: <Glasses className="h-8 w-8" />,
-    description: "Decrypt the puzzles to become modern age Mr. Robot, f-society :)",
+    description: "Enter the world of Cypher, where logic meets innovation, and only the sharpest minds prevail. \u2003\u2003f-society :)",
     formLink: "https://forms.gle/hh8TeC8YYhimYDKH9",
     prizePool: "2,000 INR"
   },
@@ -48,7 +48,7 @@ export const eventsData = {
   icon: <Lightbulb className="h-8 w-8" />,
     description: "Revv up your Nervous Engine to outperform & win amazing knowledge with prizes!",
     formLink: "https://forms.gle/bXb7FZFiNA4WYie27",
-    prizePool: "2,000 INR"
+    prizePool: "3,000 INR"
   },
   "FIFA": {
     title: "FIFA",
@@ -76,28 +76,28 @@ export const eventsData = {
     icon: <img src = {Chess} alt="Waiting to load" className="h-8 w-8" />,
     description: "Strategic board game tournament to test your tactical thinking and planning.",
     formLink: "https://forms.gle/4hs4Dq5KUJJdi5UK8",
-    prizePool: "2,000 INR"
+    prizePool: "3,000 INR"
   },
   "IPL Auction": {
     title: "IPL Auction",
     icon: <img src={CricketIcon} alt="Waiting to load" className="h-8 w-8" />,
-    description: "Champions aren’t just bought they’re built with every bid!",
+    description: "Champions aren’t just bought they’re built with every bid! Who will be the next big steal?",
     formLink: "https://forms.gle/oz4Sg9qgFNCWZzSs9",
-    prizePool: "5,000 INR"
+    prizePool: "10,000 INR"
   },
   "Graphics Designing": {
     title: "Graphics Designing",
     icon: <PenTool className="h-8 w-8" />,
     description: "Showcase your creative design skills and artistic vision in this design competition.",
     formLink: "https://forms.gle/RVoPFvuJRSFStpb4A",
-    prizePool: "2,000 INR"
+    prizePool: "3,000 INR"
   },
   "Kala-Kriti": {
     title: "Kala-Kriti",
     icon: <Palette className="h-8 w-8" />,
     description: "Do you have the artist in you? Combine it with your creativity skills & build something new!",
     formLink: "https://forms.gle/xF8dMT8SFjVPPoUL7",
-    prizePool: "2,000 INR"
+    prizePool: "5,000 INR"
   }
 };
 

@@ -56,7 +56,7 @@ export default function Messages() {
             <Quote className="absolute text-white/10 w-24 h-24 -top-4 -left-4" />
             <div className="relative z-10">
               <img
-                src="https://i.postimg.cc/sgVpnwD1/rupam-sir.jpg"
+                src="https://i.postimg.cc/j53hJ1pG/rupam-sir.jpg"
                 alt="Faculty Advisor"
                 className="w-24 h-24 rounded-full object-cover border-4 border-blue-400 mb-6"
               />
