@@ -171,7 +171,7 @@ const EventCard: React.FC<EventCardProps> = ({ eventType }) => {
             }`}
           >
             <span className="relative z-10 flex items-center justify-center">
-              <span>Register Now</span>
+              <span>Register Here</span>
               <svg 
                 className={`ml-2 w-4 h-4 transition-transform duration-500 ${isHovered ? 'transform translate-x-1' : ''}`} 
                 fill="none" 
