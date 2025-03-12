@@ -42,7 +42,7 @@ export default function Messages() {
               </blockquote>
               <div>
                 <h3 className="text-white font-bold text-xl">Prof. Shikhar Kumar Sarma</h3>
-                <p className="text-purple-300">Dean of Technology <br /> Head of Department <br /> Dept. of Information Technology </p>
+                <p className="text-purple-300">Dean of Technology <br /> Head of Department <br /> Dept. of Information Technology, Gauhati University </p>
               </div>
             </div>
           </motion.div>
@@ -56,7 +56,7 @@ export default function Messages() {
             <Quote className="absolute text-white/10 w-24 h-24 -top-4 -left-4" />
             <div className="relative z-10">
               <img
-                src="https://gauhati.ac.in/media/people/1715582992.jpg"
+                src="https://i.postimg.cc/sgVpnwD1/rupam-sir.jpg"
                 alt="Faculty Advisor"
                 className="w-24 h-24 rounded-full object-cover border-4 border-blue-400 mb-6"
               />
@@ -65,7 +65,7 @@ export default function Messages() {
               </blockquote>
               <div>
                 <h3 className="text-white font-bold text-xl"><br />Dr. Rupam Bhattacharyya</h3>
-                <p className="text-blue-300">Faculty Advisor <br /> Assistant Professor <br /> Dept. of Information Technology </p>
+                <p className="text-blue-300">Faculty Advisor <br /> Assistant Professor <br /> Dept. of Information Technology, Gauhati University </p>
               </div>
             </div>
           </motion.div>
