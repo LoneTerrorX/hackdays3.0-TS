@@ -41,6 +41,8 @@ export default function Hackathon() {
             <li><strong> 3.</strong> Social Good & Sustainability</li>
             <li><strong> 4.</strong> Internal Workplace & Cultural Innovation</li>
             <li><strong> 5.</strong> Business Optimization</li>
+            <li><strong> 6.</strong> Entertainment & Gaming</li>
+            <li><strong> 7.</strong> Open Innovation</li>
           </ul>
           {/* PDF Download Button */}
           <div className="flex justify-center mt-8">
