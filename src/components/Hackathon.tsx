@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Timer } from "lucide-react";
 import PS from "/documents/Hackathon-PS.pdf";
-import JCR from "/documents/JC-Rules.pdf";
 
 
 export default function Hackathon() {
@@ -47,76 +46,77 @@ export default function Hackathon() {
           </ul>
           {/* PDF Download Button */}
           <div className="flex justify-center mt-8">
-          <a
-            href={PS}
-            download="Hackathon - Problem Statement.pdf"
-            className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl"
-          >
-            Download Problem Statements Here
-          </a>
+            <a
+              href={PS}
+              download="Hackathon - Problem Statement.pdf"
+              className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl"
+            >
+              Download Problem Statements Here
+            </a>
+          </div>
+
+        </div>
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Basic Rules & Judging Criteria</h2>
+          <ul className="space-y-3">
+            <li>   <strong>-</strong> Each team will consist of 1-5 participants</li>
+            <li>   <strong>-</strong> The hackathon is open to individuals or teams</li>
+            <li>   <strong>-</strong> It is not compulsory for the participating students to be present on each day of the event, Hack Days 3.0</li>
+            <li>   <strong>-</strong> Participants must register before the deadline of 21st March and provide accurate details</li>
+            <li>   <strong>- </strong> All the members in a team must be present on the day of hackathon</li>
+            <li>   <strong>- </strong> Projects must be open-sourced on GitHub on the day of hackathon</li>
+            <li> 🔷 <strong> </strong> For complete details about judging criteria and rules click below </li>
+          </ul>
+          <div className="flex justify-center mt-8">
+            <a
+              href="https://docs.google.com/document/d/1tj2xX-UcHoy3-C_xAxASdojkmCH1riQPpF05ecboqyY/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-indigo-400 to-rose-400 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl"
+            >
+              Judging Criteria & Rules
+            </a>
+          </div>
         </div>
 
-      </div>
-      <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Rules & Regulations</h2>
-        <ul className="space-y-3">
-          <li>   <strong>-</strong> Each team will consist of 1-5 participants</li>
-          <li>   <strong>-</strong> The hackathon is open to individuals or teams</li>
-          <li>   <strong>-</strong> It is not compulsory for the participating students to be present on each day of the event, Hack Days 3.0</li>
-          <li>   <strong>-</strong> Participants must register before the deadline of 21st March and provide accurate details</li>
-          <li>   <strong>- </strong> All the members in a team must be present on the day of hackathon</li>
-          <li>   <strong>- </strong> Projects must be open-sourced on GitHub on the day of hackathon</li>
-          <li> 🔷 <strong> </strong> For complete details about judging criteria and rules download the attached file </li>
-        </ul>
-        <div className="flex justify-center mt-8">
-          <a
-            href={JCR}
-            download="Judging Criteria & Rules.pdf"
-            className="bg-gradient-to-r from-indigo-400 to-rose-400 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl"
+        {/* Event Details */}
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
+          <ul className="space-y-3">
+            <li>
+              🕒 <strong>Timing:</strong> Over the period of 3 - days | Remote - Full Time | On-Site - 9am to 5pm
+            </li>
+            <li>👥 <strong>Team Size:</strong> 1-5 Participants</li>
+            <li>🏆 <strong>Prizes:</strong> Exciting Cash Rewards & Schwagzz!</li>
+            <li>📅 <strong>Date:</strong> March 19 - 21st, 2025 | Submission Date: On or before 21st March</li>
+            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall - GUIST Building</a> </li>
+          </ul>
+        </div>
+
+        {/* CTA (Call to Action) */}
+        <div className="flex flex-wrap gap-4">
+          <Link
+            to="/"
+            className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
           >
-            Judging Criteria & Rules
+            ← Back to Events
+          </Link>
+          <a
+            href="https://forms.gle/g7bqPKJiuT2XXCw16"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
+          >
+            Register Now 🚀
           </a>
+          <Link
+            to="/register"
+            className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
+          >
+            More Events
+          </Link>
         </div>
       </div>
-
-      {/* Event Details */}
-      <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
-        <ul className="space-y-3">
-          <li>
-            🕒 <strong>Timing:</strong> Over the period of 3 - days | Remote - Full Time | On-Site - 9am to 5pm
-          </li>
-          <li>👥 <strong>Team Size:</strong> 1-5 Participants</li>
-          <li>🏆 <strong>Prizes:</strong> Exciting Cash Rewards & Schwagzz!</li>
-          <li>📅 <strong>Date:</strong> March 19 - 21st, 2025 | Submission Date: On or before 21st March</li>
-          <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall - GUIST Building</a> </li>
-        </ul>
-      </div>
-
-      {/* CTA (Call to Action) */}
-      <div className="flex flex-wrap gap-4">
-        <Link
-          to="/"
-          className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
-        >
-          ← Back to Events
-        </Link>
-        <a
-          href="https://forms.gle/g7bqPKJiuT2XXCw16"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
-        >
-          Register Now 🚀
-        </a>
-        <Link
-          to="/register"
-          className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
-        >
-          More Events
-        </Link>
-      </div>
-    </div>
     </div >
   );
 }
