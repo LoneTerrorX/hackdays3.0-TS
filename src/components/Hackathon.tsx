@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Timer } from "lucide-react";
 import PS from "/documents/Hackathon-PS.pdf";
+import JCR from "/documents/JC-Rules.pdf";
 
 
 export default function Hackathon() {
@@ -65,7 +66,17 @@ export default function Hackathon() {
           <li>   <strong>-</strong> Participants must register before the deadline of 21st March and provide accurate details</li>
           <li>   <strong>- </strong> All the members in a team must be present on the day of hackathon</li>
           <li>   <strong>- </strong> Projects must be open-sourced on GitHub on the day of hackathon</li>
+          <li> 🔷 <strong> </strong> For complete details about judging criteria and rules download the attached file </li>
         </ul>
+        <div className="flex justify-center mt-8">
+          <a
+            href={JCR}
+            download="Judging Criteria & Rules.pdf"
+            className="bg-gradient-to-r from-indigo-400 to-rose-400 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl"
+          >
+            Judging Criteria & Rules
+          </a>
+        </div>
       </div>
 
       {/* Event Details */}
@@ -83,7 +94,7 @@ export default function Hackathon() {
       </div>
 
       {/* CTA (Call to Action) */}
-      <div className="flex gap-4">
+      <div className="flex flex-wrap gap-4">
         <Link
           to="/"
           className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"

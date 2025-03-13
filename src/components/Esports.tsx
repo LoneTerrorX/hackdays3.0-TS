@@ -16,7 +16,7 @@ export default function Esports() {
 
         {/* Description */}
         <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
-        Gear up for the ultimate showdown at HackDays 3.0! <br /> The Esports Tournament is here to test your gaming skills, strategy, and reflexes. <br />Whether you're a casual gamer or a competitive pro, this is your chance to showcase your dominance and claim victory!
+          Gear up for the ultimate showdown at HackDays 3.0! <br /> The Esports Tournament is here to test your gaming skills, strategy, and reflexes. <br />Whether you're a casual gamer or a competitive pro, this is your chance to showcase your dominance and claim victory!
         </p>
 
         <div className="flex justify-center">
@@ -32,11 +32,52 @@ export default function Esports() {
           <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
           <ul className="space-y-3">
             <li>🕒 <strong>Timing:</strong> Evening</li>
-            <li>🖥️ <strong>Games:</strong> FIFA, VALORANT, BGMI</li>
+            <li>🖥️ <strong>Games:</strong> FIFA, VALORANT, BGMI & Mobile Legends</li>
             <li>🏆 <strong>Prizes & Rewards:</strong> Cash Prizes, Certificates & Schwagzz! </li>
             <li>📅 <strong>Date:</strong> March 17th, 2025 onwards</li>
           </ul>
         </div>
+
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4 text-center">Register Here</h2>
+
+          {/* PDF Download Button */}
+          <div className="flex flex-wrap gap-4 justify-center mt-6">
+            <a
+              href="https://forms.gle/C9bxSbhj3bEzTvWY8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
+            >
+              FIFA 🚀
+            </a>
+            <a
+              href="https://forms.gle/5MHTurZcq9ygUjfZ9"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
+            >
+              Valorant 🚀
+            </a>
+            <a
+              href="https://forms.gle/TannSJ55phKMy2h29"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
+            >
+              BGMI 🚀
+            </a>
+            <a
+              href="https://forms.gle/mh1ADqZivKNP8H7x8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
+            >
+              MLBB 🚀
+            </a>
+          </div>
+        </div>
+
 
 
         {/* <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
@@ -53,37 +94,13 @@ export default function Esports() {
         </div> */}
 
         {/* CTA (Call to Action) */}
-        <div className="flex gap-4">
+        <div className="flex flex-wrap gap-4">
           <Link
             to="/"
             className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
           >
             ← Back to Events
           </Link>
-          <a
-            href="https://forms.gle/C9bxSbhj3bEzTvWY8"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
-          >
-            FIFA 🚀
-          </a>
-          <a
-            href="https://forms.gle/5MHTurZcq9ygUjfZ9"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
-          >
-            Valorant 🚀
-          </a>
-          <a
-            href="https://forms.gle/TannSJ55phKMy2h29"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
-          >
-            BGMI 🚀
-          </a>
           <Link
             to="/register"
             className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"

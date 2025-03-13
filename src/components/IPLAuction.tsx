@@ -51,7 +51,7 @@ export default function IPLAuction() {
                 </div>
 
                 {/* Call to Action */}
-                <div className="flex gap-4 mt-6">
+                <div className="flex flex-wrap gap-4 mt-6">
                     <Link
                         to="/"
                         className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
@@ -62,7 +62,7 @@ export default function IPLAuction() {
                         href="https://forms.gle/oz4Sg9qgFNCWZzSs9"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-yellow-600 text-white px-6 py-3 rounded-lg hover:bg-yellow-500 transition-transform transform hover:scale-105"
+                        className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-teal-400 transition-transform transform hover:scale-105"
                     >
                         Register Now 🚀
                     </a>

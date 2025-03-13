@@ -60,7 +60,7 @@ export default function BugBounty() {
         </div> */}
 
                 {/* CTA (Call to Action) */}
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-4">
                     <Link
                         to="/"
                         className="bg-gray-700 text-white px-6 py-3 rounded-lg hover:bg-gray-600 transition"
