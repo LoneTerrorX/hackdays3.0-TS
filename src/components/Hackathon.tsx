@@ -84,7 +84,7 @@ export default function Hackathon() {
           <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
           <ul className="space-y-3">
             <li>
-              🕒 <strong>Timing:</strong> Week Long Event | Problem Statement Locking will be On - Site
+              🕒 <strong>Timing:</strong> Week Long Event | Participants must be present for locking problem statement alongwith their ID - Cards
             </li>
             <li>👥 <strong>Team Size:</strong> 1-5 Participants</li>
             <li>🏆 <strong>Prizes:</strong> Exciting Cash Rewards & Schwagzz!</li>
