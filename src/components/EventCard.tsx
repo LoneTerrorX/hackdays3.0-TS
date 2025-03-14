@@ -32,7 +32,7 @@ export const eventsData = {
   "Typing Speed": {
     title: "Typing Speed",
     icon: <Keyboard className="h-8 w-8" />,
-    description: "Can you type with keyboard as a Stenographer, if yes then this is the perfect oppurtunity for you!",
+    description: "Can you type with keyboard as a Stenographer, if yes then this is the perfect opportunity for you!",
     formLink: "https://forms.gle/QmrPXVfSmdd29hkE9",
     prizePool: "2,000 INR"
   },
