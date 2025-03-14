@@ -1,34 +1,38 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { ExternalLink } from 'lucide-react';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { ExternalLink } from "lucide-react";
 
 const posters = [
   {
     title: "Hackathon Challenge",
     image: "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800",
-    description: "3-day cumulative marathon of coding, innovation, and problem-solving. Join us for the ultimate hackathon experience!"
+    description:
+      "3-day cumulative marathon of coding, innovation, and problem-solving. Join us for the ultimate hackathon experience!",
   },
   {
     title: "Gaming Tournament",
     image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800",
-    description: "Compete in Valorant, BGMI & FIFA. Show your gaming skills and win big prizes!"
+    description:
+      "Compete in Valorant, BGMI & FIFA. Show your gaming skills and win big prizes!",
   },
   {
     title: "Chess Championship",
     image: "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=800",
-    description: "Strategic minds battle it out in our digital chess tournament. Are you the next grandmaster?"
+    description:
+      "Strategic minds battle it out in our digital chess tournament. Are you the next grandmaster?",
   },
   {
     title: "Bug Bounty Hunt",
     image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800",
-    description: "Find vulnerabilities, solve puzzles & earn rewards in our security challenge!"
-  }
+    description:
+      "Find vulnerabilities, solve puzzles & earn rewards in our security challenge!",
+  },
 ];
 
 export default function Posters() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
+    threshold: 0.1,
   });
 
   return (
@@ -43,7 +47,6 @@ export default function Posters() {
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
             Event Posters
           </span>
-         
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -66,7 +69,9 @@ export default function Posters() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-2">{poster.title}</h3>
+                <h3 className="text-xl font-bold text-white mb-2">
+                  {poster.title}
+                </h3>
                 <p className="text-gray-400">{poster.description}</p>
               </div>
             </motion.div>

@@ -1,44 +1,44 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { MessageSquare, Star } from 'lucide-react';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { MessageSquare, Star } from "lucide-react";
 
 const testimonials = [
   {
     name: "Samannaya Adhikari",
     year: "2023-24",
     message: "An amazing experience that helped me grow as a developer!",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Rajdeep Das",
     year: "2023-24",
     message: "The challenges were tough but incredibly rewarding.",
-    rating: 4
+    rating: 4,
   },
   {
     name: "Swarup Das",
     year: "2023-24",
     message: "Great organization and learning opportunities.",
-    rating: 4
+    rating: 4,
   },
   {
     name: "Binit Krishna Goswami",
     year: "2023-24",
     message: "Made great connections and learned new technologies.",
-    rating: 5
+    rating: 5,
   },
   {
     name: "Sanchit Kumar",
     year: "2023-24",
     message: "Made great connections and learned new technologies.",
-    rating: 4
-  }
+    rating: 4,
+  },
 ];
 
 export default function Feedback() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
+    threshold: 0.1,
   });
 
   return (
@@ -66,7 +66,11 @@ export default function Feedback() {
                 {[...Array(5)].map((_, i) => (
                   <Star
                     key={i}
-                    className={`w-5 h-5 ${i < testimonial.rating ? "text-yellow-400 fill-current" : "text-gray-500"}`}
+                    className={`w-5 h-5 ${
+                      i < testimonial.rating
+                        ? "text-yellow-400 fill-current"
+                        : "text-gray-500"
+                    }`}
                   />
                 ))}
               </div>

@@ -73,7 +73,7 @@ const Footer = () => {
           className="text-blue-400 text-sm flex flex-wrap items-center justify-center gap-2 text-center max-w-full px-4"
           whileHover={{ scale: 1.05 }}
         >
-          Made with <Heart className="w-4 h-4 text-red-500" /> by  
+          Made with <Heart className="w-4 h-4 text-red-500" /> by
           <a href="https://github.com/Shubrajit22">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
               Shubrajit Deb,
@@ -84,7 +84,6 @@ const Footer = () => {
               Midanka Lahon,
             </span>
           </a>
-
           <a href="https://github.com/LoneTerror">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
               Prasun Chakraborty

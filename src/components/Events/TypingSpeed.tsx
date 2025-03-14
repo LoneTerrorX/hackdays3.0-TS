@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Keyboard } from "lucide-react";
 
-
 export default function TypingSpeed() {
   return (
     <div className="min-h-screen bg-gray-900 text-white py-16 px-8">
@@ -16,7 +15,10 @@ export default function TypingSpeed() {
 
         {/* Description */}
         <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
-          Do you have the fastest fingers and the sharpest accuracy? Put your typing skills to the test in the TechFest Typing Speed Challenge! <br /> Compete against fellow tech enthusiasts, programmers, and keyboard warriors to prove your speed and precision.
+          Do you have the fastest fingers and the sharpest accuracy? Put your
+          typing skills to the test in the TechFest Typing Speed Challenge!{" "}
+          <br /> Compete against fellow tech enthusiasts, programmers, and
+          keyboard warriors to prove your speed and precision.
         </p>
 
         <div className="flex justify-center">
@@ -27,27 +29,65 @@ export default function TypingSpeed() {
           />
         </div>
 
-
-
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Rules & Guidelines</h2>
           <ul className="space-y-3">
             <li>
               <strong>Rules:</strong>
             </li>
-            <li>-<strong> This event is open for all and registration can be done on-spot also</strong> </li>
-            <li>-<strong> Participants will complete a typing test using a pre-selected platform or tool (Platform will be revealed on the day of the event)</strong> </li>
-            <li>-<strong> There will be 3 rounds based on the number of participants</strong> </li>
-            <li>-<strong> Scoring System: Words Per Minute(WPM) * (Accuracy/100)</strong> </li>
+            <li>
+              -
+              <strong>
+                {" "}
+                This event is open for all and registration can be done on-spot
+                also
+              </strong>{" "}
+            </li>
+            <li>
+              -
+              <strong>
+                {" "}
+                Participants will complete a typing test using a pre-selected
+                platform or tool (Platform will be revealed on the day of the
+                event)
+              </strong>{" "}
+            </li>
+            <li>
+              -
+              <strong>
+                {" "}
+                There will be 3 rounds based on the number of participants
+              </strong>{" "}
+            </li>
+            <li>
+              -
+              <strong>
+                {" "}
+                Scoring System: Words Per Minute(WPM) * (Accuracy/100)
+              </strong>{" "}
+            </li>
           </ul>
         </div>
         {/* Event Details */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
           <ul className="space-y-3">
-            <li>👥 <strong>Team Size:</strong> Solo</li>
-            <li>📅 <strong>Date:</strong> March 21st, 2025</li>
-            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/3UDtCPMKk448PdTa6" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall, GUIST</a> </li>
+            <li>
+              👥 <strong>Team Size:</strong> Solo
+            </li>
+            <li>
+              📅 <strong>Date:</strong> March 21st, 2025
+            </li>
+            <li>
+              📍 <strong>Venue:</strong>{" "}
+              <a
+                href="https://maps.app.goo.gl/3UDtCPMKk448PdTa6"
+                target="_blank"
+                className="text-cyan-200 inline-block transition-transform transform hover:scale-105"
+              >
+                &nbsp; Seminar Hall, GUIST
+              </a>{" "}
+            </li>
           </ul>
         </div>
 

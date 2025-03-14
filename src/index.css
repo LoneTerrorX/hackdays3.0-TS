@@ -36,9 +36,9 @@ body {
 }
 
 @font-face {
-  font-family: 'NT Brick Sans';
-  src: url('../fonts/NTBrickSans.otf') format('opentype'),
-       url('../fonts/NTBrickSans.ttf') format('truetype');
+  font-family: "NT Brick Sans";
+  src: url("/fonts/NTBrickSans.otf") format("opentype"),
+    url("/fonts/NTBrickSans.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -46,7 +46,7 @@ body {
 @font-face {
   font-family: "NT Brick Sans";
   src: url("/fonts/NTBrickSans.otf") format("opentype"),
-       url("/fonts/NTBrickSans.ttf") format("truetype");
+    url("/fonts/NTBrickSans.ttf") format("truetype");
 }
 
 @font-face {
