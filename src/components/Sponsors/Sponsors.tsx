@@ -1,23 +1,23 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { useEffect, useRef, useState } from 'react';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect, useRef, useState } from "react";
 
 export default function Sponsors() {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const [containerWidth, setContainerWidth] = useState(0);
 
   const sponsors = [
-    'https://i.postimg.cc/RFwR3PdT/oil-india.jpg',
-    'https://i.postimg.cc/VkH4205X/iocl.png',
-    'https://i.postimg.cc/X7dBr88C/innovation.jpg',
-    'https://i.postimg.cc/0NTnygYQ/Gplus.png',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMrZoyifOevihovOxvJY-oF0meg0LC-oOtg&s',
-    'https://i.postimg.cc/vHbPndpx/meal-by-box.jpg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh0t_MVuJUkDmYRIHdFALAzd_spGi72DUmsQ&s',
-    'https://i.postimg.cc/8cPpYzyf/decathlon.webp',
-    'https://images.unsplash.com/vector-1741113755107-5fa5aa1b8da0?q=80&w=2440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    'https://i.postimg.cc/sx8xMBBK/raju-reyaz.jpg',
+    "https://i.postimg.cc/RFwR3PdT/oil-india.jpg",
+    "https://i.postimg.cc/VkH4205X/iocl.png",
+    "https://i.postimg.cc/X7dBr88C/innovation.jpg",
+    "https://i.postimg.cc/0NTnygYQ/Gplus.png",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdMrZoyifOevihovOxvJY-oF0meg0LC-oOtg&s",
+    "https://i.postimg.cc/vHbPndpx/meal-by-box.jpg",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh0t_MVuJUkDmYRIHdFALAzd_spGi72DUmsQ&s",
+    "https://i.postimg.cc/8cPpYzyf/decathlon.webp",
+    "https://images.unsplash.com/vector-1741113755107-5fa5aa1b8da0?q=80&w=2440&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://i.postimg.cc/sx8xMBBK/raju-reyaz.jpg",
   ];
 
   useEffect(() => {

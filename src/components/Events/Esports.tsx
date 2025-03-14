@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Gamepad2 } from "lucide-react";
 
-
 export default function Esports() {
   return (
     <div className="min-h-screen bg-gray-900 text-white py-16 px-8">
@@ -16,7 +15,11 @@ export default function Esports() {
 
         {/* Description */}
         <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
-          Gear up for the ultimate showdown at HackDays 3.0! <br /> The Esports Tournament is here to test your gaming skills, strategy, and reflexes. <br />Whether you're a casual gamer or a competitive pro, this is your chance to showcase your dominance and claim victory!
+          Gear up for the ultimate showdown at HackDays 3.0! <br /> The Esports
+          Tournament is here to test your gaming skills, strategy, and reflexes.{" "}
+          <br />
+          Whether you're a casual gamer or a competitive pro, this is your
+          chance to showcase your dominance and claim victory!
         </p>
 
         <div className="flex justify-center">
@@ -31,15 +34,26 @@ export default function Esports() {
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
           <ul className="space-y-3">
-            <li>🕒 <strong>Timing:</strong> Evening</li>
-            <li>🖥️ <strong>Games:</strong> FIFA, VALORANT, BGMI & Mobile Legends</li>
-            <li>🏆 <strong>Prizes & Rewards:</strong> Cash Prizes, Certificates & Schwagzz! </li>
-            <li>📅 <strong>Date:</strong> March 17th, 2025 onwards</li>
+            <li>
+              🕒 <strong>Timing:</strong> Evening
+            </li>
+            <li>
+              🖥️ <strong>Games:</strong> FIFA, VALORANT, BGMI & Mobile Legends
+            </li>
+            <li>
+              🏆 <strong>Prizes & Rewards:</strong> Cash Prizes, Certificates &
+              Schwagzz!{" "}
+            </li>
+            <li>
+              📅 <strong>Date:</strong> March 17th, 2025 onwards
+            </li>
           </ul>
         </div>
 
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-center">Register Here</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-center">
+            Register Here
+          </h2>
 
           {/* PDF Download Button */}
           <div className="flex flex-wrap gap-4 justify-center mt-6">
@@ -77,8 +91,6 @@ export default function Esports() {
             </a>
           </div>
         </div>
-
-
 
         {/* <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Rules & Regulations</h2>

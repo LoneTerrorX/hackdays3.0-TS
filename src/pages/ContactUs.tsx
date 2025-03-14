@@ -1,94 +1,92 @@
-
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react";
-import XLogo from "/icons/x.svg";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import { Mail, Phone, MapPin } from "lucide-react";
+// import { Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react";
+// import XLogo from "/icons/x.svg";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
-const socialLinks = [
-  {
-    name: "Instagram",
-    icon: Instagram,
-    url: "https://www.instagram.com/_hackdays_?igsh=MTFrdm5rb29lOWs5dg==",
-    color: "hover:text-pink-500",
-  },
-  {
-    name: "X",
-    icon: XLogo,
-    url: "https://x.com/_HackDays_?t=PTs5CHJUMF5BQtvVQP7VOA&s=09",
-    color: "hover:text-white",
-  },
-  {
-    name: "LinkedIn",
-    icon: Linkedin,
-    url: "https://www.linkedin.com/company/hack-days-2-0/",
-    color: "hover:text-blue-600",
-  },
-];
+// const socialLinks = [
+//   {
+//     name: "Instagram",
+//     icon: Instagram,
+//     url: "https://www.instagram.com/_hackdays_?igsh=MTFrdm5rb29lOWs5dg==",
+//     color: "hover:text-pink-500",
+//   },
+//   {
+//     name: "X",
+//     icon: XLogo,
+//     url: "https://x.com/_HackDays_?t=PTs5CHJUMF5BQtvVQP7VOA&s=09",
+//     color: "hover:text-white",
+//   },
+//   {
+//     name: "LinkedIn",
+//     icon: Linkedin,
+//     url: "https://www.linkedin.com/company/hack-days-2-0/",
+//     color: "hover:text-blue-600",
+//   },
+// ];
 
-const iconVariants = {
-  hover: {
-    scale: 1.2,
-    rotate: 5,
-    transition: {
-      type: "spring",
-      stiffness: 400,
-      damping: 10,
-    },
-  },
-};
+// const iconVariants = {
+//   hover: {
+//     scale: 1.2,
+//     rotate: 5,
+//     transition: {
+//       type: "spring",
+//       stiffness: 400,
+//       damping: 10,
+//     },
+//   },
+// };
 
 const ContactUs: React.FC = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<{
-    success: boolean;
-    message: string;
-  } | null>(null);
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   subject: "",
+  //   message: "",
+  // });
+  // const [isSubmitting, setIsSubmitting] = useState(false);
+  // const [submitStatus, setSubmitStatus] = useState<{
+  //   success: boolean;
+  //   message: string;
+  // } | null>(null);
 
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });
 
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
+  // const handleChange = (
+  //   e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  // ) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prev) => ({ ...prev, [name]: value }));
+  // };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+  //   // Simulate form submission
+  //   await new Promise((resolve) => setTimeout(resolve, 1500));
 
-    setSubmitStatus({
-      success: true,
-      message: "Thank you! Your message has been sent successfully.",
-    });
-    setFormData({ name: "", email: "", subject: "", message: "" });
-    setIsSubmitting(false);
+  //   setSubmitStatus({
+  //     success: true,
+  //     message: "Thank you! Your message has been sent successfully.",
+  //   });
+  //   setFormData({ name: "", email: "", subject: "", message: "" });
+  //   setIsSubmitting(false);
 
-    // Reset status after 5 seconds
-    setTimeout(() => setSubmitStatus(null), 5000);
-  };
+  //   // Reset status after 5 seconds
+  //   setTimeout(() => setSubmitStatus(null), 5000);
+  // };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c]">
       <Navbar />
       <div className="container mx-auto px-4 py-16">
-        
-        
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -108,7 +106,6 @@ const ContactUs: React.FC = () => {
         <div
           ref={ref}
           className="flex justify-center gap-10 max-w-6xl mx-auto "
-
         >
           {/* Contact Information */}
           <motion.div
@@ -128,7 +125,10 @@ const ContactUs: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-white">Email</h3>
-                  <a href="mailto:contact@hackdays.tech" className="text-blue-400 hover:underline">
+                  <a
+                    href="mailto:contact@hackdays.tech"
+                    className="text-blue-400 hover:underline"
+                  >
                     contact@hackdays.tech
                   </a>
                 </div>
@@ -156,14 +156,12 @@ const ContactUs: React.FC = () => {
                     rel="noopener noreferrer"
                     className="text-blue-400 hover:underline"
                   >
-                    Dept. Of Information Technology, Gauhati University, Jalukbari, Guwahati, Assam, India - 781014
+                    Dept. Of Information Technology, Gauhati University,
+                    Jalukbari, Guwahati, Assam, India - 781014
                   </a>
                 </div>
-
               </div>
             </div>
-
-
           </motion.div>
 
           {/* Contact Form */}

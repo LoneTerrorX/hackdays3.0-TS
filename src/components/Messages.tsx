@@ -1,11 +1,11 @@
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { Quote } from 'lucide-react';
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { Quote } from "lucide-react";
 
 export default function Messages() {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
+    threshold: 0.1,
   });
 
   return (
@@ -20,7 +20,6 @@ export default function Messages() {
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
             Messages from Leadership
           </span>
-          
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -38,11 +37,18 @@ export default function Messages() {
                 className="w-24 h-24 rounded-full object-cover border-4 border-purple-400 mb-6"
               />
               <blockquote className="text-white text-lg mb-6">
-                "Hackdays 3.0 represents our commitment to fostering innovation and technical excellence. This event brings together the brightest minds to create, compete, and collaborate."
+                "Hackdays 3.0 represents our commitment to fostering innovation
+                and technical excellence. This event brings together the
+                brightest minds to create, compete, and collaborate."
               </blockquote>
               <div>
-                <h3 className="text-white font-bold text-xl">Prof. Shikhar Kumar Sarma</h3>
-                <p className="text-purple-300">Dean of Technology <br /> Head of Department <br /> Dept. of Information Technology, Gauhati University </p>
+                <h3 className="text-white font-bold text-xl">
+                  Prof. Shikhar Kumar Sarma
+                </h3>
+                <p className="text-purple-300">
+                  Dean of Technology <br /> Head of Department <br /> Dept. of
+                  Information Technology, Gauhati University{" "}
+                </p>
               </div>
             </div>
           </motion.div>
@@ -61,11 +67,19 @@ export default function Messages() {
                 className="w-24 h-24 rounded-full object-cover border-4 border-blue-400 mb-6"
               />
               <blockquote className="text-white text-lg mb-6">
-                "Our goal is to provide a platform where students can showcase their skills, learn from peers, and push the boundaries of what's possible in technology."
+                "Our goal is to provide a platform where students can showcase
+                their skills, learn from peers, and push the boundaries of
+                what's possible in technology."
               </blockquote>
               <div>
-                <h3 className="text-white font-bold text-xl"><br />Dr. Rupam Bhattacharyya</h3>
-                <p className="text-blue-300">Faculty Advisor <br /> Assistant Professor <br /> Dept. of Information Technology, Gauhati University </p>
+                <h3 className="text-white font-bold text-xl">
+                  <br />
+                  Dr. Rupam Bhattacharyya
+                </h3>
+                <p className="text-blue-300">
+                  Faculty Advisor <br /> Assistant Professor <br /> Dept. of
+                  Information Technology, Gauhati University{" "}
+                </p>
               </div>
             </div>
           </motion.div>

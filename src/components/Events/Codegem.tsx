@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { Code2 } from "lucide-react";
 
-
 export default function Codegem() {
   return (
     <div className="min-h-screen bg-gray-900 text-white py-16 px-8">
@@ -16,7 +15,13 @@ export default function Codegem() {
 
         {/* Description */}
         <p className="text-2xl mb-6 text-justify leading-relaxed font-newamsterdam">
-          Are you ready to crack the code and prove your programming prowess? <br />CodeGem is the ultimate coding competition at HackDays 3.0, designed to challenge your problem-solving skills, logical thinking, and algorithmic expertise. <br />Compete with the best minds, solve complex problems, and claim your place among the coding elite!
+          Are you ready to crack the code and prove your programming prowess?{" "}
+          <br />
+          CodeGem is the ultimate coding competition at HackDays 3.0, designed
+          to challenge your problem-solving skills, logical thinking, and
+          algorithmic expertise. <br />
+          Compete with the best minds, solve complex problems, and claim your
+          place among the coding elite!
         </p>
 
         <div className="flex justify-center">
@@ -27,29 +32,71 @@ export default function Codegem() {
           />
         </div>
 
-
-
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Rules & Regulations</h2>
           <ul className="space-y-3">
             <li>
               <strong>Rules:</strong>
             </li>
-            <li>-<strong> The contest follows the ICPC format, where teams compete to solve algorithmic problems within a fixed time</strong> </li>
-            <li>-<strong> A 10-minute penalty is added to the total time for each incorrect submission on a problem</strong> </li>
-            <li>-<strong> Teams are ranked based on the number of problems solved</strong> </li>
-            <li>-<strong> Using AI-powered tools such as ChatGPT, GitHub Copilot, or any LLM-based assistance is strictly prohibited</strong> </li>
+            <li>
+              -
+              <strong>
+                {" "}
+                The contest follows the ICPC format, where teams compete to
+                solve algorithmic problems within a fixed time
+              </strong>{" "}
+            </li>
+            <li>
+              -
+              <strong>
+                {" "}
+                A 10-minute penalty is added to the total time for each
+                incorrect submission on a problem
+              </strong>{" "}
+            </li>
+            <li>
+              -
+              <strong>
+                {" "}
+                Teams are ranked based on the number of problems solved
+              </strong>{" "}
+            </li>
+            <li>
+              -
+              <strong>
+                {" "}
+                Using AI-powered tools such as ChatGPT, GitHub Copilot, or any
+                LLM-based assistance is strictly prohibited
+              </strong>{" "}
+            </li>
           </ul>
         </div>
         {/* Event Details */}
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Event Details</h2>
           <ul className="space-y-3">
-            <li>🕒 <strong>Timing:</strong> 1:00 - 3:30 PM</li>
-            <li>👥 <strong>Team Size:</strong> 1-2 Members</li>
-            <li>🖥️ <strong>Languages Allowed:</strong> C++, Python, Java</li>
-            <li>📅 <strong>Date:</strong> March 20th, 2025</li>
-            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/QzerbfJXZrqr1Hw48" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; IT Dept, Gauhati University</a> </li>
+            <li>
+              🕒 <strong>Timing:</strong> 1:00 - 3:30 PM
+            </li>
+            <li>
+              👥 <strong>Team Size:</strong> 1-2 Members
+            </li>
+            <li>
+              🖥️ <strong>Languages Allowed:</strong> C++, Python, Java
+            </li>
+            <li>
+              📅 <strong>Date:</strong> March 20th, 2025
+            </li>
+            <li>
+              📍 <strong>Venue:</strong>{" "}
+              <a
+                href="https://maps.app.goo.gl/QzerbfJXZrqr1Hw48"
+                target="_blank"
+                className="text-cyan-200 inline-block transition-transform transform hover:scale-105"
+              >
+                &nbsp; IT Dept, Gauhati University
+              </a>{" "}
+            </li>
           </ul>
         </div>
 

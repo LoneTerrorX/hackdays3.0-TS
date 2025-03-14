@@ -1,44 +1,43 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const merchandise = [
-//   
-//   {
-//     name: "Developer Hoodie",
-//     price: "₹999",
-//     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
-//     description: "Comfortable hoodie perfect for those long coding sessions"
-//   },
-//   {
-//     name: "Sticker Pack and Goodies",
-//     price: "₹199",
-//     image: "https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?w=800",
-//     description: "Collection of cool tech, goodies and gaming stickers"
-//   },
+  //
+  //   {
+  //     name: "Developer Hoodie",
+  //     price: "₹999",
+  //     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+  //     description: "Comfortable hoodie perfect for those long coding sessions"
+  //   },
+  //   {
+  //     name: "Sticker Pack and Goodies",
+  //     price: "₹199",
+  //     image: "https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?w=800",
+  //     description: "Collection of cool tech, goodies and gaming stickers"
+  //   },
   {
     name: "HackDays 3.0 Official T-Shirt",
     price: "₹299",
     image: "/front .png",
     backImage: "/back.png",
-    description: "Limited edition event t-shirt with custom design"
+    description: "Limited edition event t-shirt with custom design",
   },
   {
-        name: "Limited Oversized T-Shirt",
-        price: "₹399",
-        image: "/Oversizedf.png",
-        backImage: "/Oversizedb.png",
-        description: "Limited edition Hedge's 3.0 t-shirt with event logo"
-      },
+    name: "Limited Oversized T-Shirt",
+    price: "₹399",
+    image: "/Oversizedf.png",
+    backImage: "/Oversizedb.png",
+    description: "Limited edition Hedge's 3.0 t-shirt with event logo",
+  },
 ];
 
 const Merch: React.FC = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
-    threshold: 0.1
+    threshold: 0.1,
   });
 
   return (
@@ -56,12 +55,16 @@ const Merch: React.FC = () => {
           </h1>
           <div className="max-w-3xl mx-auto">
             <p className="text-xl text-gray-300 mb-6">
-              Rep HackDays with our exclusive merchandise collection. High-quality products designed for tech enthusiasts.
+              Rep HackDays with our exclusive merchandise collection.
+              High-quality products designed for tech enthusiasts.
             </p>
           </div>
         </motion.div>
 
-        <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+          ref={ref}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
           {merchandise.map((item, index) => (
             <motion.div
               key={item.name}
@@ -96,7 +99,9 @@ const Merch: React.FC = () => {
               <div className="p-6">
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-bold text-white">{item.name}</h3>
-                  <span className="text-purple-400 font-bold">{item.price}</span>
+                  <span className="text-purple-400 font-bold">
+                    {item.price}
+                  </span>
                 </div>
                 <p className="text-gray-400 mb-4">{item.description}</p>
                 <motion.a
@@ -121,7 +126,9 @@ const Merch: React.FC = () => {
           viewport={{ once: true }}
           className="mt-16 p-8 bg-gradient-to-r from-indigo-900/30 to-purple-900/30 rounded-xl"
         >
-          <h2 className="text-2xl font-bold text-white mb-4 text-center">How to Order</h2>
+          <h2 className="text-2xl font-bold text-white mb-4 text-center">
+            How to Order
+          </h2>
           <ol className="list-decimal list-inside text-gray-300 space-y-2 max-w-2xl mx-auto">
             <li>Select your preferred merchandise</li>
             <li>Fill out the order form with your details</li>

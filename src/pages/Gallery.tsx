@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { X } from 'lucide-react';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { X } from "lucide-react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 // Sample gallery images - replace with your actual images
 const galleryImages = [
-  { id: 1, src: '/P1.jpg', alt: 'Gallery Image 1' },
-  { id: 2, src: '/P2.jpg', alt: 'Gallery Image 2' },
-  { id: 3, src: '/P3.jpg', alt: 'Gallery Image 3' },
-  { id: 4, src: '/P4.jpg', alt: 'Gallery Image 4' },
-  { id: 5, src: '/P5.jpg', alt: 'Gallery Image 5' },
-  { id: 6, src: '/P6.jpg', alt: 'Gallery Image 6' },
+  { id: 1, src: "/P1.jpg", alt: "Gallery Image 1" },
+  { id: 2, src: "/P2.jpg", alt: "Gallery Image 2" },
+  { id: 3, src: "/P3.jpg", alt: "Gallery Image 3" },
+  { id: 4, src: "/P4.jpg", alt: "Gallery Image 4" },
+  { id: 5, src: "/P5.jpg", alt: "Gallery Image 5" },
+  { id: 6, src: "/P6.jpg", alt: "Gallery Image 6" },
 ];
 
 const Gallery: React.FC = () => {
@@ -28,7 +28,7 @@ const Gallery: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-[#0e0f2a] via-[#202020] to-[#0a0f2c]">
       <Navbar />
-      
+
       {/* Main Content Wrapper */}
       <div className="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center mb-16">
@@ -59,7 +59,9 @@ const Gallery: React.FC = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end">
                 <div className="p-4">
-                  <h3 className="text-white text-lg font-semibold">Event Photo {image.id}</h3>
+                  <h3 className="text-white text-lg font-semibold">
+                    Event Photo {image.id}
+                  </h3>
                 </div>
               </div>
             </motion.div>
@@ -84,7 +86,7 @@ const Gallery: React.FC = () => {
               <X size={24} />
             </motion.button>
             <img
-              src={galleryImages.find(img => img.id === selectedImage)?.src}
+              src={galleryImages.find((img) => img.id === selectedImage)?.src}
               alt={`Full size image ${selectedImage}`}
               className="max-h-[80vh] max-w-full"
             />
