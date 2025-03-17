@@ -47,6 +47,7 @@ export default function IPLAuction() {
                         <li>💰 <strong>Budget:</strong> Each team gets 100 Crore INR to build their squad for the auction</li>
                         <li>📅 <strong>Date:</strong> March 20th, 2025</li>
                         <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/3kBMkYPpdAU5AoCj8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">Gallery, GUIST Building</a></li>
+                        <li>☑️ <strong>Update:</strong> Registrations Are Full, Thank You For participating!</li>
                     </ul>
                 </div>
 
