@@ -40,7 +40,7 @@ export default function Esports() {
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4">Updates</h2>
           <ul className="space-y-3">
-            <li>☑️ <strong>Valorant:</strong> Registrations are Closed, Matches Starting From Today Evening!</li>
+            <li>☑️ <strong>Valorant:</strong> Registrations Are Full, Thank You for Participating!</li>
           </ul>
         </div>
 
