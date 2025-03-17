@@ -37,6 +37,12 @@ export default function Esports() {
             <li>📅 <strong>Date:</strong> March 17th, 2025 onwards</li>
           </ul>
         </div>
+        <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
+          <h2 className="text-2xl font-semibold mb-4">Updates</h2>
+          <ul className="space-y-3">
+            <li>☑️ <strong>Valorant:</strong> Registrations are Closed, Matches Starting From Today Evening!</li>
+          </ul>
+        </div>
 
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-center">Register Here</h2>
@@ -51,14 +57,14 @@ export default function Esports() {
             >
               FIFA 🚀
             </a>
-            <a
+            {/* <a
               href="https://forms.gle/5MHTurZcq9ygUjfZ9"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
             >
               Valorant 🚀
-            </a>
+            </a> */}
             <a
               href="https://forms.gle/TannSJ55phKMy2h29"
               target="_blank"

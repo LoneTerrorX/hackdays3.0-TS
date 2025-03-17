@@ -39,10 +39,10 @@ const calculateTimeLeft = (targetDate: string) => {
 
 export default function Hero() {
     const navigate: NavigateFunction = useNavigate();
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft("2025-03-19T00:00:00"));
+    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft("2025-03-19T09:00:00"));
 
     useEffect(() => {
-        const timer = setInterval(() => setTimeLeft(calculateTimeLeft("2025-03-19T00:00:00")), 1000);
+        const timer = setInterval(() => setTimeLeft(calculateTimeLeft("2025-03-19T09:00:00")), 1000);
         return () => clearInterval(timer);
     }, []);
 
