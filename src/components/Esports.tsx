@@ -67,7 +67,7 @@ export default function Esports() {
             >
               Valorant 🚀
             </a> */}
-            {/* <a
+            <a
               href="https://forms.gle/TannSJ55phKMy2h29"
               target="_blank"
               rel="noopener noreferrer"
@@ -75,7 +75,7 @@ export default function Esports() {
             >
               BGMI 🚀
             </a>
-            <a
+            {/* <a
               href="https://forms.gle/mh1ADqZivKNP8H7x8"
               target="_blank"
               rel="noopener noreferrer"
