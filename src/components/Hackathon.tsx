@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { Timer } from "lucide-react";
 import PS from "/documents/Hackathon-PS.pdf";
+import Rules from "/documents/Rules.jpg";
+import JC from "/documents/JC.jpg";
 
 
 export default function Hackathon() {
@@ -45,7 +47,7 @@ export default function Hackathon() {
             <li><strong> 7.</strong> Open Innovation</li>
           </ul>
           {/* PDF Download Button */}
-          <div className="flex justify-center mt-8">
+          <div className="flex flex flex-wrap justify-center mt-8">
             <a
               href={PS}
               download="Hackathon - Problem Statement.pdf"
@@ -67,14 +69,22 @@ export default function Hackathon() {
             <li>   <strong>- </strong> Projects must be open-sourced on GitHub on the day of hackathon</li>
             <li> 🔷 <strong> </strong> For complete details about judging criteria and rules click below </li>
           </ul>
-          <div className="flex justify-center mt-8">
+          <div className="flex flex-wrap gap-10 justify-center mt-8">
             <a
-              href="https://docs.google.com/document/d/1tj2xX-UcHoy3-C_xAxASdojkmCH1riQPpF05ecboqyY/edit?usp=sharing"
+            href={Rules}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-indigo-400 to-rose-400 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl"
             >
-              Judging Criteria & Rules
+              Rules
+            </a>
+            <a
+            href={JC}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-indigo-400 to-rose-400 text-white font-semibold py-2 px-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:shadow-xl"
+            >
+              Judging Criteria
             </a>
           </div>
         </div>
