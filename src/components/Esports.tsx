@@ -67,14 +67,14 @@ export default function Esports() {
             >
               Valorant 🚀
             </a> */}
-            <a
+            {/* <a
               href="https://forms.gle/TannSJ55phKMy2h29"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
             >
               BGMI 🚀
-            </a>
+            </a> */}
             {/* <a
               href="https://forms.gle/mh1ADqZivKNP8H7x8"
               target="_blank"
