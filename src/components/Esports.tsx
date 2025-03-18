@@ -41,6 +41,8 @@ export default function Esports() {
           <h2 className="text-2xl font-semibold mb-4">Updates</h2>
           <ul className="space-y-3">
             <li>☑️ <strong>Valorant:</strong> Registrations Are Full, Thank You for Participating!</li>
+            <li>☑️ <strong>BGMI:</strong> Registrations Are Full, Thank You for Participating!</li>
+            <li>☑️ <strong>MLBB:</strong> Registrations Are Full, Thank You for Participating!</li>
           </ul>
         </div>
 
@@ -65,7 +67,7 @@ export default function Esports() {
             >
               Valorant 🚀
             </a> */}
-            <a
+            {/* <a
               href="https://forms.gle/TannSJ55phKMy2h29"
               target="_blank"
               rel="noopener noreferrer"
@@ -80,7 +82,7 @@ export default function Esports() {
               className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
             >
               MLBB 🚀
-            </a>
+            </a> */}
           </div>
         </div>
 
