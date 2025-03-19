@@ -37,7 +37,7 @@ export default function Quiz() {
             <li>👥 <strong>Team Size:</strong> Solo or Duo (Max of 2 members)</li>
             <li>🦅 <strong>Theme:</strong> General + Science and Technology [Special Round]</li>
             <li>📅 <strong>Date:</strong> March 20th, 2025</li>
-            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Seminar Hall - GUIST Building</a> </li>
+            <li>📍 <strong>Venue:</strong> <a href="https://maps.app.goo.gl/UoMm5VkgxqdFA5LV8" target="_blank" className="text-cyan-200 inline-block transition-transform transform hover:scale-105">&nbsp; Classroom V, IT Dept.</a> </li>
           </ul>
         </div>
         {/* <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
