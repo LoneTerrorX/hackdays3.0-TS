@@ -160,7 +160,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Prasun Chakraborty",
             role: "E-Sports Coordinator Head",
-            image: "https://i.postimg.cc/HntPD41K/prasun.jpg",
+            image: "https://i.postimg.cc/0jSYsTHW/Prasun-Img.jpg",
             github: "https://github.com/LoneTerror",
             linkedin: "https://www.linkedin.com/in/prasun-chakraborty-287246257/",
             email: "nothingshere21@gmail.com",
@@ -176,7 +176,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Anilabh Barua",
             role: "E-Sports Coordinator Co-Lead",
-            image: "https://i.postimg.cc/x1vhCWhb/IMG202-1.png",
+            image: "https://i.postimg.cc/9F3Ppfrv/anilabh.png",
             github: "https://github.com/AnilabhBarua",
             linkedin: "https://www.linkedin.com/in/barua24/",
             email: "anilabh.barua@gmail.com",
@@ -184,7 +184,7 @@ const AboutUs: React.FC = () => {
         {
             name: "Bhargav Shivam",
             role: "E-Sports Coordinator Co-Lead",
-            image: "https://i.postimg.cc/hPfKXP1Q/WHATSA-2.jpg",
+            image: "https://i.postimg.cc/pV5YzjXf/bhargav-removebg-preview.png",
             github: "https://github.com/BhargavShivam7",
             linkedin: "https://www.linkedin.com/in/bhargav-shivam-54bab1256/",
             email: "bhargavshivamcr7@gmail.com",
