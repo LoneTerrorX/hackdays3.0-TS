@@ -84,18 +84,22 @@ export default function Hero() {
                             19th March - 21st March
                         </motion.h1>
                         <div className="flex items-center pt-0 gap-0 text-blue-200 text-1xl md:text-1xl">
-                            <span className="animate-pulse font-brick">Registrations are Live!</span>
+                            <span className="animate-pulse font-brick">Event Happening Now!</span>
                         </div>
-                        <div className="flex items-center pt-0 gap-0 text-red-300 text-1xl md:text-1xl">
+                        <div className="flex items-center pt-0 gap-0 text-blue-300 text-1xl md:text-1xl">
+                            <a href="https://maps.app.goo.gl/YZUwLzD6RHpiag5a8" target="_blank" 
+                            className="font-sigmar flex items-center pt-0 gap-0 text-blue-300 text-1xl md:text-1xl inline-block transition-transform transform hover:scale-105">📍Seminar Hall, GUIST Building</a>
+                        </div>
+                        {/* <div className="flex items-center pt-0 gap-0 text-red-300 text-1xl md:text-1xl">
                             <span className="animate-pulse font-brick">Event Starts In:</span>
-                        </div>
+                        </div> */}
 
-                        <div className="text-blue-300 text-2xl space-x-1 font-lilita">
+                        {/* <div className="text-blue-300 text-2xl space-x-1 font-lilita">
                             <span>{timeLeft.days}d </span>
                             <span>{timeLeft.hours}h </span>
                             <span>{timeLeft.minutes}m </span>
                             <span>{timeLeft.seconds}s</span>
-                        </div>
+                        </div> */}
 
                         <p className="text-blue-200 font-lilita text-lg md:text-xl max-w-2xl py-4">
                             Join us for an epic 3-day adventure including hackathons, thrilling coding challenges, and innovative tech competitions!
@@ -107,7 +111,7 @@ export default function Hero() {
                             onClick={() => navigate("/register")}
                         >
                             <span className="animate-pulse-slow flex items-center gap-2">
-                                Register Now <Zap size={20} className="animate-bounce" />
+                                Registrations Closed <Zap size={20} className="animate-bounce" />
                             </span>
                         </motion.button>
                     </motion.div>
