@@ -73,7 +73,7 @@ export default function Quiz() {
             rel="noopener noreferrer"
             className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105"
           >
-            Register Now 🚀
+            Registrations Closed
           </a>
           <Link
             to="/register"

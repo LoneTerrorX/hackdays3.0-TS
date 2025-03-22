@@ -71,7 +71,7 @@ export default function Merchandise() {
                   className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded-lg flex items-center justify-center gap-2 transition-colors duration-300"
                 >
                   <ShoppingCart className="w-4 h-4" />
-                  Buy Now
+                  Out of Stock
                 </motion.button>
               </div>
             </motion.div>

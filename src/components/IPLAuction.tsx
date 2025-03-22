@@ -65,7 +65,7 @@ export default function IPLAuction() {
                         rel="noopener noreferrer"
                         className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-teal-400 transition-transform transform hover:scale-105"
                     >
-                        Register Now 🚀
+                        Registrations Closed 
                     </a>
                     <Link
                         to="/register"

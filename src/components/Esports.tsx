@@ -41,31 +41,32 @@ export default function Esports() {
           <h2 className="text-2xl font-semibold mb-4">Updates</h2>
           <ul className="space-y-3">
             <li>☑️ <strong>Valorant:</strong> Registrations Are Full, Thank You For Registering!</li>
-            <li>☑️ <strong>BGMI:</strong> Registrations Are Full, Thank You For Registering!</li>
-            <li>☑️ <strong>MLBB:</strong> Registrations Are Full, Thank You For Registering!</li>
+            <li>☑️ <strong>BGMI:</strong> Registrations Closed, Thank You For Registering!</li>
+            <li>☑️ <strong>MLBB:</strong> Registrations Closed, Thank You For Registering!</li>
+            <li>☑️ <strong>FIFA:</strong> Registrations Closed, Thank You For Registering!</li>
           </ul>
         </div>
 
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-center">Register Here</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-center">Registrations Closed</h2>
 
           {/* PDF Download Button */}
           <div className="flex flex-wrap gap-4 justify-center mt-6">
-            <a
+            {/* <a
               href="https://forms.gle/C9bxSbhj3bEzTvWY8"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
             >
-              FIFA 🚀
-            </a>
+              FIFA 
+            </a> */}
             {/* <a
               href="https://forms.gle/5MHTurZcq9ygUjfZ9"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
             >
-              Valorant 🚀
+              Valorant 
             </a> */}
             {/* <a
               href="https://forms.gle/TannSJ55phKMy2h29"
@@ -73,7 +74,7 @@ export default function Esports() {
               rel="noopener noreferrer"
               className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
             >
-              BGMI 🚀
+              BGMI 
             </a> */}
             {/* <a
               href="https://forms.gle/mh1ADqZivKNP8H7x8"
@@ -81,7 +82,7 @@ export default function Esports() {
               rel="noopener noreferrer"
               className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-500 transition-transform transform hover:scale-105 text-center w-full sm:w-auto"
             >
-              MLBB 🚀
+              MLBB 
             </a> */}
           </div>
         </div>

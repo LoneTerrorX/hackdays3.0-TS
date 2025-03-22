@@ -6,19 +6,19 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const merchandise = [
-//   
-//   {
-//     name: "Developer Hoodie",
-//     price: "₹999",
-//     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
-//     description: "Comfortable hoodie perfect for those long coding sessions"
-//   },
-//   {
-//     name: "Sticker Pack and Goodies",
-//     price: "₹199",
-//     image: "https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?w=800",
-//     description: "Collection of cool tech, goodies and gaming stickers"
-//   },
+  //   
+  //   {
+  //     name: "Developer Hoodie",
+  //     price: "₹999",
+  //     image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+  //     description: "Comfortable hoodie perfect for those long coding sessions"
+  //   },
+  //   {
+  //     name: "Sticker Pack and Goodies",
+  //     price: "₹199",
+  //     image: "https://images.unsplash.com/photo-1534670007418-fbb7f6cf32c3?w=800",
+  //     description: "Collection of cool tech, goodies and gaming stickers"
+  //   },
   {
     name: "HackDays 3.0 Official T-Shirt",
     price: "₹299",
@@ -27,12 +27,12 @@ const merchandise = [
     description: "Limited edition event t-shirt with custom design"
   },
   {
-        name: "Limited Oversized T-Shirt",
-        price: "₹399",
-        image: "/Oversizedf.png",
-        backImage: "/Oversizedb.png",
-        description: "Limited edition Hedge's 3.0 t-shirt with event logo"
-      },
+    name: "Limited Oversized T-Shirt",
+    price: "₹399",
+    image: "/Oversizedf.png",
+    backImage: "/Oversizedb.png",
+    description: "Limited edition Hedge's 3.0 t-shirt with event logo"
+  },
 ];
 
 const Merch: React.FC = () => {
@@ -107,7 +107,7 @@ const Merch: React.FC = () => {
                   whileTap={{ scale: 0.95 }}
                   className="w-full block text-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 hover:from-indigo-700 hover:to-purple-700"
                 >
-                  Order Now
+                  Out of Stock
                 </motion.a>
               </div>
             </motion.div>
