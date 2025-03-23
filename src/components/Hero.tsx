@@ -101,9 +101,9 @@ export default function Hero() {
                             <span>{timeLeft.seconds}s</span>
                         </div> */}
 
-                        <p className="text-blue-200 font-lilita text-lg md:text-xl max-w-2xl py-4">
+                        {/* <p className="text-blue-200 font-lilita text-lg md:text-xl max-w-2xl py-4">
                             Join us for an epic 3-day adventure including hackathons, thrilling coding challenges, and innovative tech competitions!
-                        </p>
+                        </p> */}
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
