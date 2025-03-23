@@ -33,8 +33,10 @@ export default function Esports() {
           <ul className="space-y-3">
             <li>🕒 <strong>Timing:</strong> Evening</li>
             <li>🖥️ <strong>Games:</strong> FIFA, VALORANT, BGMI & Mobile Legends</li>
-            <li>🏆 <strong>Prizes & Rewards:</strong> Cash Prizes, Certificates & Schwagzz! (Only the winners get the prize money!) </li>
+            <li>🏆 <strong>Prizes & Rewards:</strong> Cash Prizes, Certificates & Schwagzz!</li>
             <li>📅 <strong>Date:</strong> March 17th, 2025 onwards</li>
+            <li>📍 <strong>Note:</strong> In our tournament, only the winners receive the prize money, while all other participants are awarded certificates of participation.</li>
+
           </ul>
         </div>
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8">
